@@ -19,11 +19,9 @@ html[data-theme] .navbar {
 html[data-theme] .nav-link {
     font-size: var(--navbar-link-text-height);
     font-weight: var(--navbar-link-thickness);
+    position: relative;
+    margin-right: 5px;
 }
 
-html[data-theme] .nav-link:hover {
-    text-decoration-line: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 0.1px;
-}
+
 
