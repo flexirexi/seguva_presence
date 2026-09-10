@@ -1,0 +1,516 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" as="font" type="font/woff2" href="/_astro/inter-latin-wght-normal.Dx4kXJAl.woff2"
+        crossorigin="">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="canonical" href="https://seguva.example/en/">
+    <title>Seguva AI Platform — Seguva</title>
+    <meta name="description"
+        content="An enterprise platform that turns any image into a production-ready commercial asset, and validates every output with our own neural network. 97% of all input passed is guaranteed to get a ready-to-use output.">
+    <link rel="alternate" hreflang="en" href="https://seguva.example/en/">
+    <link rel="alternate" hreflang="x-default" href="https://seguva.example/en/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Seguva">
+    <meta property="og:title" content="Seguva AI Platform — Seguva">
+    <meta property="og:description"
+        content="An enterprise platform that turns any image into a production-ready commercial asset, and validates every output with our own neural network. 97% of all input passed is guaranteed to get a ready-to-use output.">
+    <meta property="og:url" content="https://seguva.example/en/">
+    <meta property="og:locale" content="en">
+    <meta name="twitter:card" content="summary_large_image">
+    <script>
+        (() => {
+            try {
+                const asked = new URLSearchParams(location.search).get("band");
+                if (asked) sessionStorage.setItem("band-preview", asked);
+                const band = asked || sessionStorage.getItem("band-preview");
+                if (band === "grey") document.documentElement.dataset.band = "grey";
+            } catch {
+                /* Storage blocked (private mode) — the blue default stands. */
+            }
+        })();
+    </script>
+    <script>
+        (() => {
+            try {
+                const params = new URLSearchParams(location.search);
+
+                const look = params.get("look");
+                if (look === "cool") localStorage.setItem("look-preview", "cool");
+                if (look === "navy") localStorage.removeItem("look-preview");
+                if (localStorage.getItem("look-preview") === "cool") {
+                    document.documentElement.dataset.look = "cool";
+                }
+
+                const palette = params.get("palette");
+                if (palette === "legacy")
+                    localStorage.setItem("palette-preview", "legacy");
+                if (palette === "new") localStorage.removeItem("palette-preview");
+                if (localStorage.getItem("palette-preview") === "legacy") {
+                    document.documentElement.dataset.palette = "legacy";
+                }
+            } catch {
+                /* Storage blocked (private mode) — the navy default stands. */
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="/_astro/contact.BeNMUhzm.css">
+</head>
+
+<body>
+    <a href="#main"
+        class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-primary-ink focus:px-5 focus:py-3 focus:text-sm focus:text-primary focus:ring-2 focus:ring-primary">
+        Skip to content
+    </a>
+    <header
+        class="site-header sticky top-0 z-40 border-b border-[var(--header-border)] bg-[var(--header-bg)] text-[var(--header-ink)]">
+        <div class="container-page flex h-20 items-center justify-between gap-6">
+            <a href="/en/" class="shrink-0 transition-opacity hover:opacity-85" aria-label="Seguva">
+                <img src="/_astro/seguva-logo-light.BkGbBk3u_Zy0YAx.webp" srcset="
+              /_astro/seguva-logo-light.BkGbBk3u_Zy0YAx.webp 1x,
+              /_astro/seguva-logo-light.BkGbBk3u_edvfP.webp  2x
+            " alt="Seguva — Verified AI" loading="eager" data-logo="reversed" decoding="async" fetchpriority="auto"
+                    width="240" height="56" class="h-11 w-auto sm:h-12">
+                <img src="/_astro/seguva-logo-dark.C_EU268n_1NhBpN.webp" srcset="
+              /_astro/seguva-logo-dark.C_EU268n_1NhBpN.webp  1x,
+              /_astro/seguva-logo-dark.C_EU268n_Z1fhVMX.webp 2x
+            " alt="" loading="eager" data-logo="colour" aria-hidden="true" decoding="async" fetchpriority="auto"
+                    width="240" height="56" class="h-11 w-auto sm:h-12">
+            </a>
+            <nav class="hidden items-center gap-7 lg:flex" aria-label="Seguva">
+                <a href="/en/" aria-current="page"
+                    class="relative py-5 text-sm transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:rounded-full after:transition-transform after:duration-200 after:bg-[var(--header-ink)] hover:text-[var(--header-ink)] font-medium text-[var(--header-ink)]">
+                    Home </a><a href="/en/who-we-are/"
+                    class="relative py-5 text-sm transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:rounded-full after:transition-transform after:duration-200 after:bg-[var(--header-ink)] hover:text-[var(--header-ink)] text-[var(--header-ink-dim)] after:scale-x-0 hover:after:scale-x-100 focus-visible:after:scale-x-100">
+                    Who we are </a><a href="/en/what-we-offer/"
+                    class="relative py-5 text-sm transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:rounded-full after:transition-transform after:duration-200 after:bg-[var(--header-ink)] hover:text-[var(--header-ink)] text-[var(--header-ink-dim)] after:scale-x-0 hover:after:scale-x-100 focus-visible:after:scale-x-100">
+                    What we offer </a><a href="/en/products/"
+                    class="relative py-5 text-sm transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:rounded-full after:transition-transform after:duration-200 after:bg-[var(--header-ink)] hover:text-[var(--header-ink)] text-[var(--header-ink-dim)] after:scale-x-0 hover:after:scale-x-100 focus-visible:after:scale-x-100">
+                    Products </a><a href="/en/contact/"
+                    class="relative py-5 text-sm transition-colors after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:rounded-full after:transition-transform after:duration-200 after:bg-[var(--header-ink)] hover:text-[var(--header-ink)] text-[var(--header-ink-dim)] after:scale-x-0 hover:after:scale-x-100 focus-visible:after:scale-x-100">
+                    Contact
+                </a>
+            </nav>
+            <div class="hidden items-center gap-3 lg:flex">
+                <button type="button" data-look-toggle="" aria-pressed="false"
+                    class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--header-line)] text-[var(--header-ink)] transition-colors hover:border-[var(--header-ink)]">
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                        aria-hidden="true">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"></path>
+                    </svg>
+                    <span class="sr-only" data-look-label="">Switch to the cool look</span>
+                </button>
+                <script type="module">
+                    const o = "cool",
+                        c = "look-preview";
+                    function a(e) {
+                        (e
+                            ? (document.documentElement.dataset.look = o)
+                            : delete document.documentElement.dataset.look,
+                            document.querySelectorAll("[data-look-toggle]").forEach((t) => {
+                                t.setAttribute("aria-pressed", String(e));
+                                const l = t.querySelector("[data-look-label]");
+                                l &&
+                                    (l.textContent = e
+                                        ? "Switch to the navy look"
+                                        : "Switch to the cool look");
+                            }));
+                    }
+                    a(document.documentElement.dataset.look === o);
+                    document.querySelectorAll("[data-look-toggle]").forEach((e) => {
+                        e.addEventListener("click", () => {
+                            const t = document.documentElement.dataset.look !== o;
+                            a(t);
+                            try {
+                                t ? localStorage.setItem(c, o) : localStorage.removeItem(c);
+                            } catch { }
+                        });
+                    });
+                </script>
+                <a href="/en/contact/"
+                    class="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors active:translate-y-px bg-[var(--header-cta-bg)] text-[var(--header-cta-ink)] hover:opacity-85 px-5 py-2">Book
+                    a demo</a>
+            </div>
+            <button type="button" data-look-toggle="" aria-pressed="false"
+                class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--header-line)] text-[var(--header-ink)] transition-colors hover:border-[var(--header-ink)] ml-auto mr-1 lg:hidden">
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                    aria-hidden="true">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"></path>
+                </svg>
+                <span class="sr-only" data-look-label="">Switch to the cool look</span>
+            </button>
+            <button type="button" data-menu-toggle="" aria-expanded="false" aria-controls="mobile-menu"
+                aria-label="Open menu"
+                class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--header-line)] transition-colors hover:border-[var(--header-ink)] lg:hidden">
+                <svg class="menu-icon h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M4 7h16"></path>
+                    <path d="M4 12h16"></path>
+                    <path d="M4 17h16"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" hidden=""
+            class="menu-panel border-t border-[var(--header-line)] bg-[var(--header-bg)] lg:hidden">
+            <nav class="container-page flex flex-col py-2" aria-label="Seguva">
+                <a href="/en/" data-menu-link="" aria-current="page"
+                    class="flex min-h-11 items-center border-b border-[var(--header-line)] text-base last:border-b-0 font-medium text-[var(--header-ink)]">
+                    Home </a><a href="/en/who-we-are/" data-menu-link=""
+                    class="flex min-h-11 items-center border-b border-[var(--header-line)] text-base last:border-b-0 text-[var(--header-ink-dim)]">
+                    Who we are </a><a href="/en/what-we-offer/" data-menu-link=""
+                    class="flex min-h-11 items-center border-b border-[var(--header-line)] text-base last:border-b-0 text-[var(--header-ink-dim)]">
+                    What we offer </a><a href="/en/products/" data-menu-link=""
+                    class="flex min-h-11 items-center border-b border-[var(--header-line)] text-base last:border-b-0 text-[var(--header-ink-dim)]">
+                    Products </a><a href="/en/contact/" data-menu-link=""
+                    class="flex min-h-11 items-center border-b border-[var(--header-line)] text-base last:border-b-0 text-[var(--header-ink-dim)]">
+                    Contact
+                </a>
+                <a href="/en/contact/"
+                    class="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors active:translate-y-px bg-[var(--header-cta-bg)] text-[var(--header-cta-ink)] hover:opacity-85 my-5 w-full">Book
+                    a demo</a>
+            </nav>
+        </div>
+    </header>
+    <script type="module">
+        const d = document.querySelector("[data-menu-toggle]"),
+            t = document.getElementById("mobile-menu");
+        if (d && t) {
+            const n = (e) => {
+                ((t.hidden = !e), d.setAttribute("aria-expanded", String(e)));
+            };
+            (d.addEventListener("click", () => n(t.hidden)),
+                t.querySelectorAll("a").forEach((e) => {
+                    e.addEventListener("click", () => n(!1));
+                }),
+                window
+                    .matchMedia("(min-width: 1024px)")
+                    .addEventListener("change", (e) => {
+                        e.matches && n(!1);
+                    }));
+        }
+    </script>
+    <main id="main">
+        <section class="relative overflow-hidden border-b border-line bg-surface-alt">
+            <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-[32rem] opacity-[0.07]" style="
+            background: radial-gradient(
+              60% 50% at 20% 0%,
+              var(--color-primary),
+              transparent 70%
+            );
+          "></div>
+            <div class="hero-ambient" aria-hidden="true">
+                <i class="hero-ambient-layer"></i>
+                <i class="hero-ambient-layer hero-ambient-b"></i>
+                <span class="hero-sweep"></span>
+            </div>
+            <div class="container-page relative py-20 md:py-28">
+                <div class="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+                    <div>
+                        <p class="hero-line hero-line-1 kicker">Enterprise AI platform</p>
+                        <h1 class="mt-6">
+                            <span
+                                class="hero-line hero-line-1 block text-balance text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
+                                Scalable &amp; Reliable Automation
+                            </span>
+                            <span
+                                class="hero-line hero-line-2 mt-3 block text-xl font-medium tracking-tight text-muted sm:text-2xl md:text-3xl">
+                                Powered by GenAI
+                            </span>
+                            <span
+                                class="hero-line hero-line-3 mt-1 block text-xl font-medium tracking-tight text-primary sm:text-2xl md:text-3xl">
+                                Validated by our Engine
+                            </span>
+                        </h1>
+                        <p class="hero-line hero-line-lead mt-8 max-w-xl text-lg leading-relaxed text-muted md:text-xl">
+                            Turn any image into a production-ready commercial asset. Every
+                            output is scored by our own AI validation engine before it
+                            reaches you, and 97% of all input passed is guaranteed to get a
+                            ready-to-use output.
+                        </p>
+                        <div class="hero-line hero-line-cta mt-10 flex flex-wrap gap-4">
+                            <a href="/en/contact/"
+                                class="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors active:translate-y-px bg-primary text-primary-ink hover:bg-ink">Book
+                                a demo</a>
+                            <a href="/en/what-we-offer/"
+                                class="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors active:translate-y-px border border-line bg-surface text-ink hover:border-primary hover:text-primary">See
+                                what we offer</a>
+                        </div>
+                    </div>
+                    <figure class="lg:pl-4">
+                        <div
+                            class="relative aspect-[4/3] overflow-hidden rounded-2xl border border-primary/25 bg-primary-soft shadow-xl shadow-primary/5">
+                            <div class="hero-slot hero-scene-1 hero-slot-first" style="--slot: 0s" aria-hidden="true">
+                            </div>
+                            <div class="hero-slot hero-scene-2" style="--slot: 5s" aria-hidden="true"></div>
+                            <div class="hero-slot hero-scene-3" style="--slot: 10s" aria-hidden="true"></div>
+                            <div class="hero-slot hero-scene-4" style="--slot: 15s" aria-hidden="true"></div>
+                            <div class="hero-slot hero-scene-5" style="--slot: 20s" aria-hidden="true"></div>
+                            <div aria-hidden="true" class="hero-scan">
+                                <span class="hero-scan-line"></span>
+                            </div>
+                            <span
+                                class="hero-input-chip absolute left-4 top-4 inline-flex items-center rounded-full bg-surface/80 px-3 py-1.5 text-xs font-medium uppercase tracking-[0.15em] text-primary"
+                                aria-hidden="true">
+                                Input
+                            </span>
+                            <span
+                                class="hero-chip absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1.5 text-xs font-medium text-accent ring-1 ring-accent/25">
+                                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                    aria-hidden="true">
+                                    <path d="m5 12 5 5L20 7"></path>
+                                </svg>
+                                Validated
+                            </span>
+                        </div>
+                        <figcaption class="mt-4 text-sm text-muted">
+                            Every output passes our validator automatically before it
+                            reaches you.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="border-t border-line">
+            <div class="container-page py-20 md:py-28">
+                <div class="fade-up grid gap-12 md:grid-cols-[0.9fr_1.1fr] md:gap-20">
+                    <div>
+                        <p class="kicker">Our main goal</p>
+                        <h2 class="mt-4 text-balance text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+                            Enabling clients to overcome the manual verification trap
+                        </h2>
+                    </div>
+                    <div class="space-y-6 text-lg leading-relaxed text-muted">
+                        <p>
+                            Foundational models are probabilistic, hence entire teams are
+                            required to ensure enterprise quality standards are met.
+                        </p>
+                        <blockquote
+                            class="mt-10 border-l-2 border-primary pl-6 text-balance text-xl font-semibold leading-relaxed text-ink md:text-2xl">
+                            With our automated high-accuracy gatekeeper, AI implementations
+                            move swiftly to production, delivering a faster return on
+                            investment.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border-t border-line">
+            <div class="container-page py-20 md:py-28">
+                <div class="max-w-2xl fade-up">
+                    <p class="kicker">Where to go next</p>
+                    <h2 class="mt-4 text-balance text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+                        Three insights worth two minutes
+                    </h2>
+                </div>
+                <div class="mt-12 grid gap-6 md:grid-cols-3">
+                    <a href="/en/who-we-are/"
+                        class="fx-card fx-enter group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-surface p-8 transition duration-200 hover:-translate-y-1 active:translate-y-0 hover:border-primary hover:bg-primary hover:shadow-xl hover:shadow-primary/25">
+                        <span class="fx-sheen" aria-hidden="true"></span>
+                        <span
+                            class="fx-icon relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary-soft text-primary transition-colors duration-200 group-hover:bg-primary-ink group-hover:text-primary">
+                            <svg class="h-5 w-5 transition-transform duration-200 group-hover:scale-110"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" pathLength="1"></path>
+                                <path d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" pathLength="1"></path>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" pathLength="1"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" pathLength="1"></path>
+                            </svg>
+                        </span>
+                        <h3
+                            class="relative mt-6 text-xl font-semibold tracking-tight transition-colors duration-200 group-hover:text-primary-ink">
+                            Who we are
+                        </h3>
+                        <p
+                            class="relative mt-3 grow leading-relaxed text-muted transition-colors duration-200 group-hover:text-primary-ink/80">
+                            Applied neural-network and AI academic research 15+ years before
+                            the hype, paired with financial and commercial exectuion
+                            experience.
+                        </p>
+                        <span
+                            class="relative mt-6 inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors duration-200 group-hover:text-primary-ink">
+                            Learn more
+                            <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14M13 6l6 6-6 6"></path>
+                            </svg>
+                        </span>
+                    </a><a href="/en/what-we-offer/"
+                        class="fx-card fx-enter group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-surface p-8 transition duration-200 hover:-translate-y-1 active:translate-y-0 hover:border-primary hover:bg-primary hover:shadow-xl hover:shadow-primary/25">
+                        <span class="fx-sheen" aria-hidden="true"></span>
+                        <span
+                            class="fx-icon relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary-soft text-primary transition-colors duration-200 group-hover:bg-primary-ink group-hover:text-primary">
+                            <svg class="h-5 w-5 transition-transform duration-200 group-hover:scale-110"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="m12 2 9 5-9 5-9-5 9-5Z" pathLength="1"></path>
+                                <path d="m3 12 9 5 9-5" pathLength="1"></path>
+                                <path d="m3 17 9 5 9-5" pathLength="1"></path>
+                            </svg>
+                        </span>
+                        <h3
+                            class="relative mt-6 text-xl font-semibold tracking-tight transition-colors duration-200 group-hover:text-primary-ink">
+                            What we offer
+                        </h3>
+                        <p
+                            class="relative mt-3 grow leading-relaxed text-muted transition-colors duration-200 group-hover:text-primary-ink/80">
+                            A tailored platform your own team runs independently, with
+                            dynamic model routing and our proprietary validator scoring
+                            every single output.
+                        </p>
+                        <span
+                            class="relative mt-6 inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors duration-200 group-hover:text-primary-ink">
+                            Learn more
+                            <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14M13 6l6 6-6 6"></path>
+                            </svg>
+                        </span>
+                    </a><a href="/en/products/"
+                        class="fx-card fx-enter group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-surface p-8 transition duration-200 hover:-translate-y-1 active:translate-y-0 hover:border-primary hover:bg-primary hover:shadow-xl hover:shadow-primary/25">
+                        <span class="fx-sheen" aria-hidden="true"></span>
+                        <span
+                            class="fx-icon relative inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary-soft text-primary transition-colors duration-200 group-hover:bg-primary-ink group-hover:text-primary">
+                            <svg class="h-5 w-5 transition-transform duration-200 group-hover:scale-110"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M3 3h7v7H3z" pathLength="1"></path>
+                                <path d="M14 3h7v7h-7z" pathLength="1"></path>
+                                <path d="M14 14h7v7h-7z" pathLength="1"></path>
+                                <path d="M3 14h7v7H3z" pathLength="1"></path>
+                            </svg>
+                        </span>
+                        <h3
+                            class="relative mt-6 text-xl font-semibold tracking-tight transition-colors duration-200 group-hover:text-primary-ink">
+                            Products
+                        </h3>
+                        <p
+                            class="relative mt-3 grow leading-relaxed text-muted transition-colors duration-200 group-hover:text-primary-ink/80">
+                            Industry configurations for medicine, fashion and e-commerce —
+                            and for every business that depends on image quality and
+                            processing.
+                        </p>
+                        <span
+                            class="relative mt-6 inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors duration-200 group-hover:text-primary-ink">
+                            Learn more
+                            <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14M13 6l6 6-6 6"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="border-t border-line bg-cta-panel">
+            <div class="container-page py-16 md:py-20">
+                <div class="fade-up flex flex-col gap-8 md:flex-row md:items-center md:justify-between md:gap-12">
+                    <div>
+                        <h2 class="text-balance text-2xl font-semibold tracking-tight sm:text-3xl md:text-4xl">
+                            See it in action
+                        </h2>
+                        <p class="mt-3 max-w-xl text-pretty leading-relaxed text-muted">
+                            Explore our platform's capabilities with a personalized
+                            walkthrough
+                        </p>
+                    </div>
+                    <a href="/en/contact/"
+                        class="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors active:translate-y-px bg-primary text-primary-ink hover:bg-ink shrink-0">Book
+                        a demo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-[var(--footer-border)] bg-[var(--footer-bg)] text-[var(--footer-text)]">
+        <div class="container-page py-16">
+            <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+                <div class="lg:col-span-2">
+                    <img src="/_astro/seguva-logo-light.BkGbBk3u_Z1hM3XN.webp" srcset="
+                /_astro/seguva-logo-light.BkGbBk3u_Z1hM3XN.webp 1x,
+                /_astro/seguva-logo-light.BkGbBk3u_1QtCfX.webp  2x
+              " alt="Seguva — Verified AI" data-logo="reversed" loading="lazy" decoding="async" fetchpriority="auto"
+                        width="360" height="84" class="h-16 w-auto sm:h-20">
+                    <img src="/_astro/seguva-logo-dark.C_EU268n_4KRO9.webp" srcset="
+                /_astro/seguva-logo-dark.C_EU268n_4KRO9.webp 1x,
+                /_astro/seguva-logo-dark.C_EU268n_aVc8w.webp 2x
+              " alt="" data-logo="colour" aria-hidden="true" loading="lazy" decoding="async" fetchpriority="auto"
+                        width="360" height="84" class="h-16 w-auto sm:h-20">
+                </div>
+                <nav aria-label="Site">
+                    <p class="kicker text-[var(--footer-dim)]">Site</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li>
+                            <a href="/en/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/who-we-are/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Who we are
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/what-we-offer/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                What we offer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/products/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/contact/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav aria-label="Legal">
+                    <p class="kicker text-[var(--footer-dim)]">Legal</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li>
+                            <a href="/en/imprint/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Imprint
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/privacy/"
+                                class="text-[var(--footer-text)] transition-colors hover:text-[var(--footer-text-strong)]">
+                                Privacy
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <p class="kicker text-[var(--footer-dim)]">Contact</p>
+                    <a href="mailto:info@seguva.com"
+                        class="mt-4 inline-block text-sm underline-offset-4 hover:underline">
+                        info@seguva.com
+                    </a>
+                </div>
+            </div>
+            <p class="mt-14 border-t border-[var(--footer-rule)] pt-6 text-xs text-[var(--footer-dim)]">
+                © 2026 Seguva. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
