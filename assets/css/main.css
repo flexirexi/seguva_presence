@@ -8,6 +8,50 @@ Bootstrap is used here -> in order to overwrite, use:
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700');
 @import url("themes.css");
+@import url("layout.css");
 @import url("site_index.css");
 
+/* 01 Generic STYLES that apply for all html pages --------------------------- */
+html[data-theme] * {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--text);
+    box-sizing: border-box;
+}
 
+html[data-theme] #btnContactMobile {
+    display: inline;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+html[data-theme] #btContactDesktop {
+    display: none;
+}
+
+/* MEDIA QUERIES ------------------------------------------------------------ */
+@media (min-width: 768px) {
+    html[data-theme] .nav-contact-btn {
+        width: auto;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 992px) {
+    html[data-theme] #btnContactMobile {
+        margin: 0;
+        display: none;
+    }
+
+    html[data-theme] #btContactDesktop {
+        display: flex;
+        margin: auto 20px auto;
+    }
+
+    html[data-theme] #language-toggle,
+    html[data-theme] #theme-toggle {
+        margin-top: unset;
+        margin-left: unset;
+    }
+}

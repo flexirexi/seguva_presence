@@ -1,0 +1,29 @@
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    <selector>[data-theme]           for elements in all themes, 
+    <selector>[data-theme="dark"]    for elements only in dark mode,
+    <selector>[data-theme=light"]    for elements only in light mode
+*/
+
+html[data-theme] {
+    --navbar-height: 65px;
+    --navbar-link-text-height: 20px;
+    --navbar-link-thickness: 200;
+}
+
+html[data-theme] .navbar {
+    height: var(--navbar-height);
+}
+
+html[data-theme] .nav-link {
+    font-size: var(--navbar-link-text-height);
+    font-weight: var(--navbar-link-thickness);
+}
+
+html[data-theme] .nav-link:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.1px;
+}
+
