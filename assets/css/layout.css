@@ -10,10 +10,17 @@ html[data-theme] {
     --navbar-height: 65px;
     --navbar-link-text-height: 20px;
     --navbar-link-thickness: 200;
+    --toggle-height: 35px;
+    --toggle-width: 50px;
 }
 
-html[data-theme] .navbar {
-    height: var(--navbar-height);
+html[data-theme] nav {
+    /* height: var(--navbar-height); */
+}
+
+html[data-theme] .nav-container {
+    padding: 0;
+    width: 120vw;
 }
 
 html[data-theme] .nav-link {
@@ -22,6 +29,24 @@ html[data-theme] .nav-link {
     position: relative;
     margin-right: 5px;
 }
+
+/* Buttons */
+html[data-theme] .toggle {
+    height: var(--toggle-height);
+    width: var(--toggle-width);
+    align-items: center;
+    padding: 0;
+    margin: 3px;
+}
+
+html[data-theme] .btn-primary {
+    border-radius: 1px;
+    padding: 6px 25px;
+    height: 40px;
+    align-items: center;
+    font-size: 14px;
+}
+
 
 
 

@@ -19,16 +19,11 @@ html[data-theme] * {
     box-sizing: border-box;
 }
 
-html[data-theme] #btnContactMobile {
-    display: inline;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: 20px;
+html[data-theme] .nav-inner-container {
+    width: 100%;
 }
 
-html[data-theme] #btContactDesktop {
-    display: none;
-}
+
 
 /* MEDIA QUERIES ------------------------------------------------------------ */
 @media (min-width: 768px) {
@@ -45,14 +40,13 @@ html[data-theme] #btContactDesktop {
         display: none;
     }
 
+    html[data-theme] .nav-inner-container {
+        width: unset;
+    }
+
     html[data-theme] #btContactDesktop {
         display: flex;
         margin: auto 20px auto;
     }
 
-    html[data-theme] #language-toggle,
-    html[data-theme] #theme-toggle {
-        margin-top: unset;
-        margin-left: unset;
-    }
 }

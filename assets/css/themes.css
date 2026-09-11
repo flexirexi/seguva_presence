@@ -10,10 +10,10 @@ html[data-theme="dark"] {
     --text: #494949;
     --accent: #02D893;
 
-    --title: #171717;   /*or: 1abc9c*/
+    --title: #101010;   /*or: 1abc9c*/
     --title-shadow: #000000d8;
 
-    --bg1: #FBFBF9;
+    --bg1: #d5d5d5;
     --bg2: #DCE3F3;
 
     --nav-link-text: #dedede;
@@ -27,6 +27,9 @@ html[data-theme="dark"] {
     
     --act-text: #FBFBF9; 
     --act-text-hover: #FBFBF9;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #bababadc;
 
     --act-bg: #142A5E;  
     --act-bg-hover: #171717;  
@@ -94,8 +97,13 @@ html[data-theme] h6 {
     text-shadow: 1px 2px 4px var(--title-shadow);
 }
 
-html[data-theme] .navbar {
+html[data-theme] nav,
+html[data-theme] .navbar-collapse {
     color: var(--nav-link-text);
+    background-color: var(--nav-bg);
+}
+
+html[data-theme] .navbar {
     background-color: var(--nav-bg);
 }
 
@@ -107,4 +115,22 @@ html[data-theme] .nav-link {
 html[data-theme] .nav-link:hover {
     color: var(--nav-link-text-hover);
     text-decoration-color: var(--nav-link-decoration-hover);
+}
+
+/* Buttons */
+html[data-theme] .toggle {
+    color: var(--toggle-color);
+    border-color: var(--toggle-color);
+}
+
+html[data-theme] .btn-primary {
+    color: var(--title);
+    border-color: var(--act-border);
+    background-color: white;
+}
+
+html[data-theme] .btn-primary:hover {
+    color: var(--title);
+    border-color: var(--act-border-hover);
+    background-color: var(--bg1);
 }
