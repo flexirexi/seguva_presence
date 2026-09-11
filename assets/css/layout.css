@@ -8,7 +8,7 @@ Bootstrap is used here -> in order to overwrite, use:
 
 html[data-theme] {
     --navbar-height: 65px;
-    --navbar-link-text-height: 20px;
+    --navbar-link-text-height: 19px;
     --navbar-link-thickness: 200;
     --toggle-height: 35px;
     --toggle-width: 50px;
