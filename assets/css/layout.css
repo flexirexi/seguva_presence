@@ -13,7 +13,7 @@ html[data-theme] {
     --toggle-height:            40px;
     --toggle-height-desktop:    35px;
     --toggle-width:             80px;
-    --toggle-width-desktop:     50px;
+    --toggle-width-desktop:     60px;
 }
 
 html[data-theme] nav {
@@ -39,7 +39,7 @@ html[data-theme] .toggle {
     width: var(--toggle-width);
     align-items: center;
     padding: 0;
-    margin: 3px;
+    margin: 5px;
 }
 
 html[data-theme] .btn-primary {
@@ -60,5 +60,14 @@ html[data-theme] .btn-primary {
         height: var(--toggle-height-desktop);
         width: var(--toggle-width-desktop);
     }
+
+    html[data-theme] .btn-primary {
+        padding: 6px 20px;
+    }
 }
 
+@media (min-width:1200px) {
+    html[data-theme] .btn-primary {
+        padding: 6px 25px;
+    }
+}

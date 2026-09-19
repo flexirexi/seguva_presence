@@ -38,11 +38,7 @@ html[data-theme] ul li:last-child {
 
 
 
-
-
 /* MEDIA QUERIES ------------------------------------------------------------ */
-
-
 @media (min-width: 992px) {
     html[data-theme] #btnContactMobile {
         margin: 0;
@@ -66,7 +62,3 @@ html[data-theme] ul li:last-child {
     html[data-theme] ul li:last-child {
         margin-bottom: unset;
     }
-
-
-
-}

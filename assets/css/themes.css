@@ -49,29 +49,33 @@ html[data-theme="light"] {
     --text: #494949;
     --accent: #02D893;
 
-    --title: #171717;   /*or: 1abc9c*/
+    --title: #101010;   /*or: 1abc9c*/
     --title-shadow: #000000d8;
 
-    --bg1: #FBFBF9;
+    --bg1: #d5d5d5;
     --bg2: #DCE3F3;
 
-    --nav-link-text: #c0c0c0;
+    --nav-link-text: #dedede;
     --nav-link-text-hover: #ffffff;
     --nav-link-decoration-hover: #c0c0c0;
     --nav-bg: #142A5E; 
 
-    --link-text: #52ceb5;
+    --link-text: #48C9B0;
     --link-text-hover: #48C9B0; 
     --link-bg-hover: #00000000; 
     
     --act-text: #FBFBF9; 
     --act-text-hover: #FBFBF9;
 
+    --toggle-bg: #00000020;
+    --toggle-color: #bababadc;
+    --toggle-color-hover: #ffffff;
+
     --act-bg: #ffffff;  
-    --act-bg-hover: #171717;  
+    --act-bg-hover: #d5d5d5;  
 
     --act-border: #ffffff;
-    --act-border-hover: #171717;
+    --act-border-hover: #d5d5d5;
 
 
     --dis-text: #889E9C; 
