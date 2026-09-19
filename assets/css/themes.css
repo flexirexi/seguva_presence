@@ -30,12 +30,13 @@ html[data-theme="dark"] {
 
     --toggle-bg: #00000020;
     --toggle-color: #bababadc;
+    --toggle-color-hover: #ffffff;
 
-    --act-bg: #142A5E;  
-    --act-bg-hover: #171717;  
+    --act-bg: #ffffff;  
+    --act-bg-hover: #d5d5d5;  
 
-    --act-border: #142A5E;
-    --act-border-hover: #171717;
+    --act-border: #ffffff;
+    --act-border-hover: #d5d5d5;
 
 
     --dis-text: #889E9C; 
@@ -66,10 +67,10 @@ html[data-theme="light"] {
     --act-text: #FBFBF9; 
     --act-text-hover: #FBFBF9;
 
-    --act-bg: #142A5E;  
+    --act-bg: #ffffff;  
     --act-bg-hover: #171717;  
 
-    --act-border: #142A5E;
+    --act-border: #ffffff;
     --act-border-hover: #171717;
 
 
@@ -123,14 +124,24 @@ html[data-theme] .toggle {
     border-color: var(--toggle-color);
 }
 
+html[data-theme] .navbar-toggler {
+    border-color: var(--toggle-color);
+    box-shadow: none;
+}
+
+html[data-theme] .navbar-toggler:hover {
+    border-color: var(--toggle-color-hover);
+    box-shadow: none;
+}
+
 html[data-theme] .btn-primary {
     color: var(--title);
     border-color: var(--act-border);
-    background-color: white;
+    background-color: var(--act-bg);
 }
 
 html[data-theme] .btn-primary:hover {
     color: var(--title);
     border-color: var(--act-border-hover);
-    background-color: var(--bg1);
+    background-color: var(--act-bg-hover);
 }

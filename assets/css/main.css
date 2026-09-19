@@ -23,16 +23,25 @@ html[data-theme] .nav-inner-container {
     width: 100%;
 }
 
+html[data-theme] .navbar-toggler {
+    height:         55px;
+    width:          55px;
+    border-radius:  50px;
+    margin-top:     5px;
+    margin-bottom:  5px;
+
+}
+
+html[data-theme] ul li:last-child {
+    margin-bottom: 20px;
+}
+
+
+
 
 
 /* MEDIA QUERIES ------------------------------------------------------------ */
-@media (min-width: 768px) {
-    html[data-theme] .nav-contact-btn {
-        width: auto;
-        text-align: left;
-    }
 
-}
 
 @media (min-width: 992px) {
     html[data-theme] #btnContactMobile {
@@ -48,5 +57,16 @@ html[data-theme] .nav-inner-container {
         display: flex;
         margin: auto 20px auto;
     }
+
+    html[data-theme] .navbar-toggler {
+        margin-top:     unset;
+        margin-bottom:  unset;
+    }
+
+    html[data-theme] ul li:last-child {
+        margin-bottom: unset;
+    }
+
+
 
 }

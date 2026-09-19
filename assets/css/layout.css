@@ -7,15 +7,18 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --navbar-height: 65px;
-    --navbar-link-text-height: 19px;
-    --navbar-link-thickness: 200;
-    --toggle-height: 35px;
-    --toggle-width: 50px;
+    --navbar-height:            65px;
+    --navbar-link-text-height:  19px;
+    --navbar-link-thickness:    200;
+    --toggle-height:            40px;
+    --toggle-height-desktop:    35px;
+    --toggle-width:             80px;
+    --toggle-width-desktop:     50px;
 }
 
 html[data-theme] nav {
     /* height: var(--navbar-height); */
+    padding: 0;
 }
 
 html[data-theme] .nav-container {
@@ -48,5 +51,14 @@ html[data-theme] .btn-primary {
 }
 
 
+@media (min-width: 992px) {
+    html[data-theme] nav {
+        padding: 8px;
+    }
 
+    html[data-theme] .toggle {
+        height: var(--toggle-height-desktop);
+        width: var(--toggle-width-desktop);
+    }
+}
 
