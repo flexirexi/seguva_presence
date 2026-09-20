@@ -10,16 +10,26 @@ html[data-theme] {
     --navbar-height: 70px;
     --navbar-link-text-height: 19px;
     --navbar-link-thickness: 200;
+    
     --toggle-height: 40px;
     --toggle-height-desktop: 35px;
     --toggle-width: 80px;
     --toggle-width-desktop: 60px;
+    
     --container-margin-mobile: 0px;
+    
     --padding-horizontal-mobile: 30px;
     --padding-horizontal-desktop: 0px;
+
     --section-padding-vertical: 40px;
+    
     --card-border-radius: 1px;
+
     --btn-border-radius: 1px;
+
+    --icon-container-radius: 8px;
+    --icon-container-width: 45px;
+    --icon-container-padding: 9px;
 }
 
 
@@ -95,6 +105,13 @@ html[data-theme] main {
 
 html[data-theme] .card {
     border-radius: var(--card-border-radius);
+}
+
+html[data-theme] .icon-container {
+    height: var(--icon-container-width);
+    width: var(--icon-container-width);
+    padding: var(--icon-container-padding);
+    border-radius: var(--icon-container-radius);
 }
 
 

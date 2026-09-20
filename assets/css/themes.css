@@ -48,6 +48,8 @@ html[data-theme="dark"] {
     --card-shadow: darkgray;
     --card-shadow-hover: gray;
 
+    --icon-container-bg: #c1cef0;
+
     --toggle-bg: #00000020;
     --toggle-color: #bababadc;
     --toggle-color-hover: #ffffff;
@@ -212,6 +214,10 @@ html[data-theme] .card:hover {
     background-color: var(--card-bg-hover);
     box-shadow: 3px 3px 11px var(--card-shadow-hover);
     translate: 0 -2px;
+}
+
+html[data-theme] .icon-container {
+    background-color: var(--icon-container-bg);
 }
 
 @media (min-width: 768px) {
