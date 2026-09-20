@@ -5,3 +5,74 @@ Bootstrap is used here -> in order to overwrite, use:
     <selector>[data-theme="dark"]    for elements only in dark mode,
     <selector>[data-theme=light"]    for elements only in light mode
 */
+
+html[data-theme] .hero {
+    border-bottom: 1px solid #00000000;
+}
+
+html[data-theme] .two-column {
+    display: grid;
+    gap: 3rem;
+}
+
+html[data-theme] .eyebrow {
+    margin-bottom: 1rem;
+    color: var(--dis-text);
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+html[data-theme] .accent-text {}
+
+html[data-theme] .lead {
+    max-width: 42rem;
+    margin-bottom: 2rem;
+    font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+}
+
+html[data-theme] .button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+
+html[data-theme] .hero-visual figcaption {
+    margin-top: .75rem;
+    color: gray;
+    font-size: .9rem;
+    text-align: center;
+}
+
+html[data-theme] .media-placeholder {
+    aspect-ratio: 4 / 3;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    border: 1px dashed #98a2b3;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, #edf3ff, #fff);
+    color: gray;
+    text-align: center;
+    max-width: 576px;
+    margin-top: 20px;
+
+}
+
+@media (min-width: 576px) {
+    html[data-theme] .media-placeholder {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    html[data-theme] .two-column {
+        grid-template-columns: 1.05fr .95fr;
+        gap: 4rem;
+        align-items: center;
+    }
+}

@@ -17,12 +17,14 @@ html[data-theme] {
     --container-margin-mobile:      0px;
     --padding-horizontal-mobile:    30px;
     --padding-horizontal-desktop:   0px;
-    --section-padding-vertical:     20px;
+    --section-padding-vertical:     30px;
 }
 
 html[data-theme] section {
     padding-top: var(--section-padding-vertical);
     padding-bottom: var(--section-padding-vertical);
+    padding-left: var(--padding-horizontal-mobile);
+    padding-right: var(--padding-horizontal-mobile);
 }
 
 html[data-theme] .container {

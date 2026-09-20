@@ -11,7 +11,8 @@ html[data-theme="dark"] {
     --accent: #02D893;
 
     --title: #101010;   /*or: 1abc9c*/
-    --title-shadow: #000000d8;
+    --title-shadow: #535353d8;
+    --title2: #6c6c6c;
 
     --bg1: #d5d5d5;
     --bg2: #E3E8F4;
@@ -43,7 +44,7 @@ html[data-theme="dark"] {
     --toggle-color: #bababadc;
     --toggle-color-hover: #ffffff;
 
-    --dis-text: #889E9C; 
+    --dis-text: #8e8e8e; 
     --dis-bg: #A4B7B6; 
     --dis-border: #A4B7B6;
 
@@ -96,6 +97,11 @@ html[data-theme] .bg2 {
     background-color: var(--bg2);
 }
 
+html[data-theme] .text-color-accent {
+    color: var(--act2-text);
+}
+
+/* GENERAL THEMES --------------------------------------- */
 html[data-theme] main {
     padding: 0;
 }
@@ -105,14 +111,18 @@ html[data-theme] body {
     background-color: var(--bg1);
 }
 
-html[data-theme] h1,
+html[data-theme] h1 {
+    color: var(--title);
+    text-shadow: 1px 1px 1px var(--title-shadow);
+    font-size: 3rem;
+}
+
 html[data-theme] h2,
 html[data-theme] h3,
 html[data-theme] h4,
 html[data-theme] h5,
 html[data-theme] h6 {
-    color: var(--title);
-    text-shadow: 1px 2px 4px var(--title-shadow);
+    color: var(--title2);
 }
 
 html[data-theme] nav,
