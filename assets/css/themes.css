@@ -14,7 +14,7 @@ html[data-theme="dark"] {
     --title-shadow: #000000d8;
 
     --bg1: #d5d5d5;
-    --bg2: #DCE3F3;
+    --bg2: #E3E8F4;
 
     --nav-link-text: #dedede;
     --nav-link-text-hover: #ffffff;
@@ -81,6 +81,15 @@ html[data-theme="light"] {
     --dis-text: #889E9C; 
     --dis-bg: #A4B7B6; 
     --dis-border: #A4B7B6;
+}
+
+/* VARIABLES AS CLASSES --------------------------------- */
+html[data-theme] .bg1 {
+    background-color: var(--bg1);
+}
+
+html[data-theme] .bg2 {
+    background-color: var(--bg2);
 }
 
 html[data-theme] main {
