@@ -6,8 +6,18 @@ Bootstrap is used here -> in order to overwrite, use:
     <selector>[data-theme=light"]    for elements only in light mode
 */
 
+html[data-theme] #homeSection {
+    min-height: calc(100vh - var(--navbar-height));
+}
+
 html[data-theme] .hero {
     border-bottom: 1px solid #00000000;
+}
+
+html[data-theme] .hero-copy {
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html[data-theme] .two-column {
@@ -24,12 +34,10 @@ html[data-theme] .eyebrow {
     text-transform: uppercase;
 }
 
-html[data-theme] .accent-text {}
-
 html[data-theme] .lead {
     max-width: 42rem;
     margin-bottom: 2rem;
-    font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+    font-size: clamp(1.05rem, 2.5vw, 1.5rem);
 }
 
 html[data-theme] .button-row {
@@ -61,6 +69,84 @@ html[data-theme] .media-placeholder {
 
 }
 
+html[data-theme] .section-grid {
+    align-items: start;
+}
+
+html[data-theme] .prose {
+    color: var(--dis-text);
+    font-size: 1.05rem;
+}
+
+html[data-theme] .prose blockquote {
+    margin: 2rem 0 0;
+    padding-left: 1.25rem;
+    border-left: 3px solid var(--nav-bg);
+    color: var(--title);
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+
+html[data-theme] #homeGoalLeft {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[data-theme] #homeGoalRight {
+    width: 70%;
+    margin-right: auto;
+}
+
+
+html[data-theme] .section-heading {
+    max-width: 44rem;
+    margin-bottom: 2.5rem;
+}
+
+html[data-theme] .card-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+html[data-theme] .card {
+    height: 100%;
+}
+
+html[data-theme] .card > a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+html[data-theme] .card p {
+    color: var(--muted);
+}
+
+html[data-theme] .card-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    border-radius: .7rem;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+html[data-theme] .card-link {
+    margin-top: auto;
+    padding-top: 1rem;
+    color: var(--link-text);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
 @media (min-width: 576px) {
     html[data-theme] .media-placeholder {
         margin-left: auto;
@@ -72,7 +158,16 @@ html[data-theme] .media-placeholder {
 @media (min-width: 992px) {
     html[data-theme] .two-column {
         grid-template-columns: 1.05fr .95fr;
-        gap: 4rem;
+        gap: 3rem;
         align-items: center;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-grid {
+        grid-template-columns: .9fr 1.1fr;
+        align-items: start;
     }
 }

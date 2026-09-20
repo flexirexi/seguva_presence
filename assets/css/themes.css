@@ -12,9 +12,9 @@ html[data-theme="dark"] {
 
     --title: #101010;   /*or: 1abc9c*/
     --title-shadow: #535353d8;
-    --title2: #6c6c6c;
+    --title2: #464646;
 
-    --bg1: #d5d5d5;
+    --bg1: #efefef;
     --bg2: #E3E8F4;
 
     --nav-link-text: #dedede;
@@ -22,8 +22,8 @@ html[data-theme="dark"] {
     --nav-link-decoration-hover: #c0c0c0;
     --nav-bg: #142A5E; 
 
-    --link-text: #48C9B0;
-    --link-text-hover: #48C9B0; 
+    --link-text: #142A5E;
+    --link-text-hover: #142A5E; 
     --link-bg-hover: #00000000; 
     
     --act-text: #f7f7f7; 
@@ -39,6 +39,14 @@ html[data-theme="dark"] {
     --act2-bg-hover: #efefef;  
     --act2-border: #ffffff;
     --act2-border-hover: #142A5E;
+
+    --card-text: #494949;
+    --card-bg: #E3E8F4;
+    --card-bg-hover: #E3E8F4;
+    --card-border: #E3E8F4;
+    --card-border-hover: #E3E8F4;
+    --card-shadow: darkgray;
+    --card-shadow-hover: gray;
 
     --toggle-bg: #00000020;
     --toggle-color: #bababadc;
@@ -114,7 +122,11 @@ html[data-theme] body {
 html[data-theme] h1 {
     color: var(--title);
     text-shadow: 1px 1px 1px var(--title-shadow);
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+html[data-theme] h2 {
+    font-size: 2.5rem;
 }
 
 html[data-theme] h2,
@@ -186,4 +198,30 @@ html[data-theme] .btn-secondary:hover {
     color: var(--act2-text-hover);
     border-color: var(--act2-border-hover);
     background-color: var(--act2-bg-hover);
+}
+
+html[data-theme] .card {
+    border: none;
+    background-color: var(--card-bg);
+    box-shadow: 3px 3px 10px var(--card-shadow);
+    transition: translate 0.2s ease;
+}
+
+html[data-theme] .card:hover {
+    border: none;
+    background-color: var(--card-bg-hover);
+    box-shadow: 3px 3px 11px var(--card-shadow-hover);
+    translate: 0 -2px;
+}
+
+@media (min-width: 768px) {
+    html[data-theme] h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    html[data-theme] h1 {
+        font-size: 3.5rem;
+    }
 }

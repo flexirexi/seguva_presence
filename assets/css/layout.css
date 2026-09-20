@@ -7,24 +7,39 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --navbar-height:                70px;
-    --navbar-link-text-height:      19px;
-    --navbar-link-thickness:        200;
-    --toggle-height:                40px;
-    --toggle-height-desktop:        35px;
-    --toggle-width:                 80px;
-    --toggle-width-desktop:         60px;
-    --container-margin-mobile:      0px;
-    --padding-horizontal-mobile:    30px;
-    --padding-horizontal-desktop:   0px;
-    --section-padding-vertical:     30px;
+    --navbar-height: 70px;
+    --navbar-link-text-height: 19px;
+    --navbar-link-thickness: 200;
+    --toggle-height: 40px;
+    --toggle-height-desktop: 35px;
+    --toggle-width: 80px;
+    --toggle-width-desktop: 60px;
+    --container-margin-mobile: 0px;
+    --padding-horizontal-mobile: 30px;
+    --padding-horizontal-desktop: 0px;
+    --section-padding-vertical: 40px;
+    --card-border-radius: 1px;
+    --btn-border-radius: 1px;
 }
+
 
 html[data-theme] section {
     padding-top: var(--section-padding-vertical);
     padding-bottom: var(--section-padding-vertical);
     padding-left: var(--padding-horizontal-mobile);
     padding-right: var(--padding-horizontal-mobile);
+    align-content: center;
+}
+
+html[data-theme] ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html[data-theme] nav {
+    height: var(--navbar-height);
+    padding: 0;
 }
 
 html[data-theme] .container {
@@ -33,11 +48,6 @@ html[data-theme] .container {
     max-width: 992px;
     padding-left: 0;
     padding-right: 0;
-}
-
-html[data-theme] nav {
-    height: var(--navbar-height);
-    padding: 0;
 }
 
 html[data-theme] .nav-inner-container {
@@ -68,7 +78,7 @@ html[data-theme] .toggle {
 
 html[data-theme] .btn-primary,
 html[data-theme] .btn-secondary {
-    border-radius: 1px;
+    border-radius: var(--btn-border-radius);
     padding: 6px 25px;
     height: 40px;
     align-content: center;
@@ -83,11 +93,15 @@ html[data-theme] main {
     margin-top: var(--navbar-height);
 }
 
+html[data-theme] .card {
+    border-radius: var(--card-border-radius);
+}
+
 
 /* MEDIA QUERIES ------------------------------------------------------------ */
-@media (min-width: 576px) { }
+@media (min-width: 576px) {}
 
-@media (min-width: 768px) { }
+@media (min-width: 768px) {}
 
 @media (min-width: 992px) {
     html[data-theme] .container {
@@ -140,7 +154,7 @@ html[data-theme] main {
     html[data-theme] .container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 1400px;
+        max-width: 1250px;
         padding-left: 12px;
         padding-right: 12px;
     }
