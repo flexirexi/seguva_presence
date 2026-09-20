@@ -74,17 +74,32 @@
         </nav>
 
         <main id="main">
-            <section class="hero bg2">
+            <section class="hero bg2" aria-labelledby="hero-title">
                 <div class="container two-column">
-                    <div class="hero-copy">
-                        adsfasdf
+                    <div class="hero-copy" data-animate="fade-up">
+                        <p class="eyebrow">Enterprise AI platform</p>
+                        <h1 id="hero-title">
+                            Scalable &amp; Reliable Automation
+                            <span>Powered by GenAI</span>
+                            <span class="accent-text">Validated by our Engine</span>
+                        </h1>
+                        <p class="lead">
+                            Turn any image into a production-ready commercial asset. Every 
+                            output is scored by our own AI validation engine before it reaches 
+                            you, and 97% of all input passed is guaranteed to get a 
+                            ready-to-use output. 
+                        </p>
+                        <div class="button-row">
+                            <a href="contact.html" class="button">Book a demo</a>
+                            <a href="products.html" class="button button-secondary">View Products</a>
+                        </div>
                     </div>
-                    <figure class="hero-visual">
-                        <div class="media-placeholder">
-
+                    <figure class="hero-visual" data-animation="hero-demo">
+                        <div class="media-placeholder" aria-hidden="true">
+                            <span>Animation/product visual placeholder</span>
                         </div>
                         <figcaption>
-
+                            Every output passes our validator automatically before it reaches you.
                         </figcaption>
                     </figure>
                 </div>
