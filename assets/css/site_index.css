@@ -141,9 +141,21 @@ html[data-theme] .card-icon {
 html[data-theme] .card-link {
     margin-top: auto;
     padding-top: 1rem;
-    color: var(--link-text);
+    color: var(--card-text);
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+html[data-theme] .card-dark-link {
+    margin-top: auto;
+    padding-top: 1rem;
+    color: var(--card-dark-text);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+html[data-theme] #homeCTAButton {
+    height: calc(var(--btn-height) * 1.2);
 }
 
 
