@@ -159,6 +159,8 @@ html[data-theme] .navbar {
 html[data-theme] .nav-link {
     color: var(--nav-link-text);
     text-decoration: none;
+    padding: 3px;
+
 }
 
 html[data-theme] .nav-link:hover {
@@ -249,6 +251,7 @@ html[data-theme] footer {
 
 html[data-theme] footer a {
     color: var(--nav-link-text);
+    text-underline-offset: 3px;
 }
 
 html[data-theme] footer a:hover {
