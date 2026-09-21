@@ -153,6 +153,7 @@ html[data-theme] .navbar-collapse {
 
 html[data-theme] .navbar {
     background-color: var(--nav-bg);
+    box-shadow: 0px 3px 10px 5px #19191980;
 }
 
 html[data-theme] .nav-link {
