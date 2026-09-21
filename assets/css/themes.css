@@ -21,6 +21,7 @@ html[data-theme="dark"] {
     --nav-link-text-hover: #ffffff;
     --nav-link-decoration-hover: #c0c0c0;
     --nav-bg: #142A5E; 
+    --nav-title: #b7b7b7;
 
     --link-text: #142A5E;
     --link-text-hover: #142A5E; 
@@ -48,9 +49,10 @@ html[data-theme="dark"] {
     --card-shadow: darkgray;
     --card-shadow-hover: gray;
 
-    --card-dark-text: #f1f1f1;
+    --card-dark-text: #dddddd;
     --card-dark-bg: #142a5e;
     --card-dark-bg-hover: #142a5e;
+    --card-dark-title: #ffffff;
 
     --icon-container-bg: #c1cef0;
 
@@ -228,12 +230,37 @@ html[data-theme] .card-dark * {
     color: var(--card-dark-text);
 }
 
+html[data-theme] .card-dark h3 {
+    color: var(--card-dark-title);
+}
+
 html[data-theme] .card-dark:hover {
     background-color: var(--card-dark-bg-hover);
 }
 
 html[data-theme] .icon-container {
     background-color: var(--icon-container-bg);
+}
+
+html[data-theme] footer {
+    background-color: var(--nav-bg);
+}
+
+html[data-theme] footer a {
+    color: var(--nav-link-text);
+}
+
+html[data-theme] footer a:hover {
+    color: var(--nav-link-text-hover);
+}
+
+html[data-theme] footer h3 {
+    color: var(--nav-title);
+    margin-bottom: 15px;
+}
+
+html[data-theme] footer small {
+    color: var(--nav-title);
 }
 
 @media (min-width: 768px) {
