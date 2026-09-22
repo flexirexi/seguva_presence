@@ -2,54 +2,77 @@
     "languageCode": "es",
     "langNameShort": "ES",
 
-    "tNavHome": 					"Home",
-    "tNavTeam": 					"Equipo",
-    "tNavStrategy": 				"Estrategia",
-    "tNavProducts": 				"Productos",
-    "tNavContact": 					"Contacto",
-    "tNavBtnContact": 				"Solicitar una demo",
+    "tNavHome": 				"Home",
+    "tNavTeam": 				"Equipo",
+    "tNavStrategy": 			"Estrategia",
+    "tNavProducts": 			"Productos",
+    "tNavContact": 				"Contacto",
+    "tNavBtnContact": 			"Solicitar una demo",
 
 
-    "tHomeHeadingEyebrow": 			"Plataforma de IA empresarial",
-    "tHomeHeadingTitle": 			"Automatización escalable y confiable",
-    "tHomeHeadingSubTitle1": 		"Impulsada por IA generativa",
-    "tHomeHeadingSubTitle2": 		"Validada por nuestro motor",
-    "tHomeHeadingText": 			"Convierte cualquier imagen en un recurso comercial listo para producción. Cada resultado es evaluado por nuestro propio motor de validación de IA antes de llegar a ti, y garantizamos que el 97 % de las entradas procesadas obtendrá un resultado listo para usar.",
-    "tHomeHeadingBtnContact": 		"Solicitar una demo",
-    "tHomeHeadingBtnProducts": 		"Ver productos",
-    "tHomeHeadingImageCaption": 	"Cada resultado pasa automáticamente por nuestro validador antes de llegar a ti.",
+    "tHomeHeadingEyebrow": 		"Plataforma de IA empresarial",
+    "tHomeHeadingTitle": 		"Automatización escalable y confiable",
+    "tHomeHeadingSubTitle1": 	"Impulsada por IA generativa",
+    "tHomeHeadingSubTitle2": 	"Validada por nuestro motor",
+    "tHomeHeadingText": 		"Convierte cualquier imagen en un recurso comercial listo para producción. Cada resultado es evaluado por nuestro propio motor de validación de IA antes de llegar a ti, y garantizamos que el 97 % de las entradas procesadas obtendrá un resultado listo para usar.",
+    "tHomeHeadingBtnContact": 	"Solicitar una demo",
+    "tHomeHeadingBtnProducts": 	"Ver productos",
+    "tHomeHeadingImageCaption": "Cada resultado pasa automáticamente por nuestro validador antes de llegar a ti.",
 
-    "tHomeGoalEyebrow": 			"Nuestro objetivo principal",
-    "tHomeGoalTitle": 				"Ayudar a nuestros clientes a superar la trampa de la verificación manual",
-    "tHomeGoalText": 				"Los modelos fundacionales son probabilísticos; por eso, se requieren equipos completos para garantizar que se cumplan los estándares de calidad empresarial.",
-    "tHomeGoalQuote": 				"Con nuestro sistema automatizado de control de alta precisión, las implementaciones de IA avanzan rápidamente hacia producción y permiten obtener un retorno de inversión más rápido.",
+    "tHomeGoalEyebrow": 		"Nuestro objetivo principal",
+    "tHomeGoalTitle": 			"Ayudar a nuestros clientes a superar la trampa de la verificación manual",
+    "tHomeGoalText": 			"Los modelos fundacionales son probabilísticos; por eso, se requieren equipos completos para garantizar que se cumplan los estándares de calidad empresarial.",
+    "tHomeGoalQuote": 			"Con nuestro sistema automatizado de control de alta precisión, las implementaciones de IA avanzan rápidamente hacia producción y permiten obtener un retorno de inversión más rápido.",
 
-    "tHomeInsightsTitle": 			"3 ideas que valen dos minutos",
-    "tHomeInsights1Title": 			"Quiénes somos",
-    "tHomeInsights1Text": 			"Aplicamos redes neuronales y realizamos investigación académica en IA más de 15 años antes del auge actual, combinando esa experiencia con trayectoria en finanzas y ejecución comercial.",
-    "tHomeInsights1Link": 			"Conoce al equipo →",
+    "tHomeInsightsTitle": 		"3 ideas que valen dos minutos",
+    "tHomeInsights1Title": 		"Quiénes somos",
+    "tHomeInsights1Text": 		"Aplicamos redes neuronales y realizamos investigación académica en IA más de 15 años antes del auge actual, combinando esa experiencia con trayectoria en finanzas y ejecución comercial.",
+    "tHomeInsights1Link": 		"Conoce al equipo →",
 
-    "tHomeInsights2Title": 			"Nuestra estrategia",
-    "tHomeInsights2Text": 			"Una plataforma a medida que tu propio equipo opera de forma independiente, con enrutamiento dinámico de modelos y nuestro validador propietario evaluando cada resultado.",
-    "tHomeInsights2Link": 			"Conoce nuestra estrategia →",
+    "tHomeInsights2Title": 		"Nuestra estrategia",
+    "tHomeInsights2Text": 		"Una plataforma a medida que tu propio equipo opera de forma independiente, con enrutamiento dinámico de modelos y nuestro validador propietario evaluando cada resultado.",
+    "tHomeInsights2Link": 		"Conoce nuestra estrategia →",
 
-    "tHomeInsights3Title": 			"Productos",
-    "tHomeInsights3Text": 			"Configuraciones sectoriales para medicina, moda y comercio electrónico, y para cualquier empresa que dependa de la calidad y el procesamiento de imágenes.",
-    "tHomeInsights3Link": 			"Explora nuestros productos →",
+    "tHomeInsights3Title": 		"Productos",
+    "tHomeInsights3Text": 		"Configuraciones sectoriales para medicina, moda y comercio electrónico, y para cualquier empresa que dependa de la calidad y el procesamiento de imágenes.",
+    "tHomeInsights3Link": 		"Explora nuestros productos →",
 
-    "tHomeCTATitle": 				"Míralo en acción",
-    "tHomeCTASubTitle": 			"Descubre las capacidades de nuestra plataforma con una demostración personalizada:",
-    "tHomeCTABtnContact": 			"Solicitar una demo",
-
-
-	"tImprintHeader":				"Aviso legal",
-	"tPrivacyHeader":				"Privacidad",
+    "tHomeCTATitle": 			"Míralo en acción",
+    "tHomeCTASubTitle": 		"Descubre las capacidades de nuestra plataforma con una demostración personalizada:",
+    "tHomeCTABtnContact": 		"Solicitar una demo",
 
 
-    "tFooterCol1Title": 			"Sitio",
-    "tFooterCol2Title": 			"Legal",
-    "tFooterCol3Title": 			"Contacto",
+	"tTeamHeadingEyebrow":		"Quiénes somos",
+	"tTeamHeadingTitle":		"Profunda experiencia en IA, impulsada por una auténtica pasión por la automatización",
 
-    "tFooterImprint": 				"Aviso legal",
-    "tFooterPrivacy": 				"Privacidad"
+	"tTeamQualiMainTitle":		"Base académica sólida",
+	"tTeamQualiMainSubT":		"Más de 15 años",
+	"tTeamQualiMainText":		"de trabajo aplicado con redes neuronales e IA, respaldado por investigación revisada por pares en instituciones académicas de primer nivel en Alemania. Mucho antes del auge de 2022, y no como consecuencia de él.",
+	"tTeamQualiMainLink":		"Ver publicaciones y trayectoria académica",
+
+	"tTeamQualiOther1Title":	"Ejecución comercial",
+	"tTeamQualiOther1Text":		"Experiencia operativa y de escalamiento en mercados empresariales de Europa y Latinoamérica, desarrollada en paralelo con la experiencia técnica y no añadida posteriormente.",
+
+	"tTeamQualiOther2Title":	"Hecho en Alemania",
+	"tTeamQualiOther2Text":		"IA avanzada con el nivel de confiabilidad y disciplina de datos que las empresas globales consideran un requisito básico, no un valor añadido.",
+
+	"tTeamMeetTitle":			"Conoce a nuestro equipo",
+	"tTeamMeetCoreTitle":		"Nuestro equipo principal",
+	"tTeamMeetExpertsTitle":	"Nuestros expertos técnicos",
+
+	"tTeamCTATitle":			"Míralo en acción",
+	"tTeamCTASubTitle":			"Descubre las capacidades de nuestra plataforma con una demostración personalizada:",
+	"tTeamCTABtnContact":		"Solicitar una demo",
+
+
+	"tImprintHeader":			"Aviso legal",
+	"tPrivacyHeader":			"Privacidad",
+
+
+    "tFooterCol1Title": 		"Sitio",
+    "tFooterCol2Title": 		"Legal",
+    "tFooterCol3Title": 		"Contacto",
+
+    "tFooterImprint": 			"Aviso legal",
+    "tFooterPrivacy": 			"Privacidad"
 }

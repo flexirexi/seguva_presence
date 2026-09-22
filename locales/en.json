@@ -2,53 +2,77 @@
     "languageCode": "en",
     "langNameShort": "EN",
 
-    "tNavHome": 					"Home",
-    "tNavTeam": 					"Team",
-    "tNavStrategy": 				"Strategy",
-    "tNavProducts": 				"Products",
-    "tNavContact": 					"Contact",
-    "tNavBtnContact": 				"Book a demo",
+
+    "tNavHome": 				"Home",
+    "tNavTeam": 				"Team",
+    "tNavStrategy": 			"Strategy",
+    "tNavProducts": 			"Products",
+    "tNavContact": 				"Contact",
+    "tNavBtnContact": 			"Book a demo",
 
 
-    "tHomeHeadingEyebrow": 			"Enterprise AI platform",
-    "tHomeHeadingTitle": 			"Scalable & Reliable Automation",
-    "tHomeHeadingSubTitle1": 		"Powered by GenAI",
-    "tHomeHeadingSubTitle2": 		"Validated by our Engine",
-    "tHomeHeadingText": 			"Turn any image into a production-ready commercial asset. Every output is scored by our own AI validation engine before it reaches you, and 97% of all input passed is guaranteed to get a ready-to-use output.",
-    "tHomeHeadingBtnContact": 		"Book a demo",
-    "tHomeHeadingBtnProducts": 		"View Products",
-    "tHomeHeadingImageCaption": 	"Every output passes our validator automatically before it reaches you.",
+    "tHomeHeadingEyebrow": 		"Enterprise AI platform",
+    "tHomeHeadingTitle": 		"Scalable & Reliable Automation",
+    "tHomeHeadingSubTitle1": 	"Powered by GenAI",
+    "tHomeHeadingSubTitle2": 	"Validated by our Engine",
+    "tHomeHeadingText": 		"Turn any image into a production-ready commercial asset. Every output is scored by our own AI validation engine before it reaches you, and 97% of all input passed is guaranteed to get a ready-to-use output.",
+    "tHomeHeadingBtnContact": 	"Book a demo",
+    "tHomeHeadingBtnProducts": 	"View Products",
+    "tHomeHeadingImageCaption": "Every output passes our validator automatically before it reaches you.",
 
-    "tHomeGoalEyebrow": 			"Our main goal",
-    "tHomeGoalTitle": 				"Enabling clients to overcome the manual verification trap",
-    "tHomeGoalText": 				"Foundational models are probabilistic, hence, entire teams are required to ensure enterprise quality standards are met.",
-    "tHomeGoalQuote": 				"With our automated high-accuracy gatekeeper, AI implementations move swiftly to production, delivering a faster return on investment.",
+    "tHomeGoalEyebrow": 		"Our main goal",
+    "tHomeGoalTitle": 			"Enabling clients to overcome the manual verification trap",
+    "tHomeGoalText": 			"Foundational models are probabilistic, hence, entire teams are required to ensure enterprise quality standards are met.",
+    "tHomeGoalQuote": 			"With our automated high-accuracy gatekeeper, AI implementations move swiftly to production, delivering a faster return on investment.",
 
-    "tHomeInsightsTitle": 			"3 insights worth two minutes",
-    "tHomeInsights1Title": 			"Who we are",
-    "tHomeInsights1Text": 			"Applied neural-network an AI academic research 15+ years before the hype, paired with financial and commercial execution experience.",
-    "tHomeInsights1Link": 			"Meet the team →",
+    "tHomeInsightsTitle": 		"3 insights worth two minutes",
+    "tHomeInsights1Title": 		"Who we are",
+    "tHomeInsights1Text": 		"Applied neural-network an AI academic research 15+ years before the hype, paired with financial and commercial execution experience.",
+    "tHomeInsights1Link": 		"Meet the team →",
 
-    "tHomeInsights2Title": 			"Our strategy",
-    "tHomeInsights2Text": 			"A tailored platform your own team runs independently, with dynamic model routing and our proprietary validator scoring every single output.",
-    "tHomeInsights2Link": 			"Learn about our strategy →",
+    "tHomeInsights2Title": 		"Our strategy",
+    "tHomeInsights2Text": 		"A tailored platform your own team runs independently, with dynamic model routing and our proprietary validator scoring every single output.",
+    "tHomeInsights2Link": 		"Learn about our strategy →",
 
-    "tHomeInsights3Title": 			"Products",
-    "tHomeInsights3Text": 			"Industry configurations for medicine, fashion and e-commerce - and for every business that depends on image quality and processing.",
-    "tHomeInsights3Link": 			"Explore our products →",
+    "tHomeInsights3Title": 		"Products",
+    "tHomeInsights3Text": 		"Industry configurations for medicine, fashion and e-commerce - and for every business that depends on image quality and processing.",
+    "tHomeInsights3Link": 		"Explore our products →",
 
-    "tHomeCTATitle": 				"See it in action",
-    "tHomeCTASubTitle": 			"Explore our platform's capabilities with a personalized walkthrough:",
-    "tHomeCTABtnContact": 			"Book a demo",
-
-
-	"tImprintHeader":				"Imprint",
-	"tPrivacyHeader":				"Privacy",
+    "tHomeCTATitle": 			"See it in action",
+    "tHomeCTASubTitle": 		"Explore our platform's capabilities with a personalized walkthrough:",
+    "tHomeCTABtnContact": 		"Book a demo",
 
 
-    "tFooterCol1Title": 			"Site",
-    "tFooterCol2Title": 			"Legal",
-    "tFooterCol3Title": 			"Contact",
-    "tFooterImprint": 				"Imprint",
-    "tFooterPrivacy": 				"Privacy"
+	"tTeamHeadingEyebrow":		"Who we are",
+	"tTeamHeadingTitle":		"Deep AI expertise, driven by a genuine passion for automation",
+	
+	"tTeamQualiMainTitle":		"Solid academic foundation",
+	"tTeamQualiMainSubT":		"15+ years",
+	"tTeamQualiMainText":		"of applied neural-network and AI work, backed by peer-reviewed research in top-tier German academia. Well before the 2022 hype cycle, rather than because of it",
+	"tTeamQualiMainLink":		"View publications and academic record",
+
+	"tTeamQualiOther1Title":	"Commercial execution",
+	"tTeamQualiOther1Text":		"Operational and scaling experience across European and LATAM enterprise markets, built alongside the technical side rather than bolted on afterwards.",
+
+	"tTeamQualiOther2Title":	"Made in Germany",
+	"tTeamQualiOther2Text":		"Advanced AI held to the reliability and data discipline that global enterprises treat as a baseline, not a bonus.",
+
+	"tTeamMeetTitle":			"Meet our team",
+	"tTeamMeetCoreTitle":		"Our Core team",
+	"tTeamMeetExpertsTitle":	"Our technical experts",
+
+	"tTeamCTATitle":			"See it in action",
+	"tTeamCTASubTitle":			"Explore our platform's capabilities with a personalized walkthrough:",
+	"tTeamCTABtnContact":		"Book a demo",
+
+
+	"tImprintHeader":			"Imprint",
+	"tPrivacyHeader":			"Privacy",
+
+
+    "tFooterCol1Title": 		"Site",
+    "tFooterCol2Title": 		"Legal",
+    "tFooterCol3Title": 		"Contact",
+    "tFooterImprint": 			"Imprint",
+    "tFooterPrivacy": 			"Privacy"
 }

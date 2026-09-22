@@ -2,6 +2,7 @@
     "languageCode": "de",
     "langNameShort": "DE",
 
+
     "tNavHome": 				"Home",
     "tNavTeam": 				"Team",
     "tNavStrategy": 			"Strategie",
@@ -40,6 +41,29 @@
     "tHomeCTATitle": 			"Jetzt starten",
     "tHomeCTASubTitle": 		"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo:",
     "tHomeCTABtnContact": 		"Demo buchen",
+
+
+	"tTeamHeadingEyebrow":		"Wer wir sind",
+	"tTeamHeadingTitle":		"Tiefgreifende KI-Expertise, angetrieben von echter Leidenschaft für Automatisierung",
+
+	"tTeamQualiMainTitle":		"Solides akademisches Fundament",
+	"tTeamQualiMainSubT":		"15+ Jahre",
+	"tTeamQualiMainText":		"angewandte Arbeit mit neuronalen Netzen und KI, gestützt durch peer-reviewte Forschung an führenden deutschen Hochschulen. Lange vor dem Hype ab 2022 – und nicht erst seinetwegen.",
+	"tTeamQualiMainLink":		"Publikationen und akademischen Werdegang ansehen",
+
+	"tTeamQualiOther1Title":	"Kommerzielle Umsetzung",
+	"tTeamQualiOther1Text":		"Operative Erfahrung und Skalierungskompetenz in europäischen und lateinamerikanischen Enterprise-Märkten – parallel zur technischen Expertise aufgebaut, nicht nachträglich ergänzt.",
+
+	"tTeamQualiOther2Title":	"Made in Germany",
+	"tTeamQualiOther2Text":		"Fortschrittliche KI mit der Zuverlässigkeit und Datendisziplin, die globale Unternehmen als Grundvoraussetzung betrachten – nicht als Bonus.",
+
+	"tTeamMeetTitle":			"Unser Team",
+	"tTeamMeetCoreTitle":		"Unser Kernteam",
+	"tTeamMeetExpertsTitle":	"Unsere technischen Experten",
+
+	"tTeamCTATitle":			"Jetzt starten",
+	"tTeamCTASubTitle":			"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo:",
+	"tTeamCTABtnContact":		"Demo buchen",
 
 
 	"tImprintHeader":			"Impressum",
