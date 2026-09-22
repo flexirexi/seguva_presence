@@ -1,0 +1,48 @@
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
+*/
+
+html[data-theme] #imprintHeader {
+    color: white;
+    font-size: var(--navbar-link-text-height);
+    font-weight: 200;
+    text-decoration: none;
+    padding: 3px;
+}
+
+html[data-theme] .imprint-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+html[data-theme] .imprint-container h1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+html[data-theme] .imprint-grid {
+    display: grid;
+    grid-template-columns: 1fr;  /* Standard: Eine Spalte für mobile Ansicht */
+    gap: 20px;
+}
+
+html[data-theme] .imprint-left,
+html[data-theme] .imprint-right {
+    text-align: left;
+}
+
+/* Ab 768px: Zwei-Spalten-Layout */
+@media (min-width: 768px) {
+    html[data-theme] .imprint-container {
+        padding: 50px;
+    }
+
+    html[data-theme] .imprint-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

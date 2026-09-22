@@ -1,9 +1,9 @@
 /* 
 INFO: 
 Bootstrap is used here -> in order to overwrite, use: 
-    <selector>[data-theme]           for elements in all themes, 
-    <selector>[data-theme="dark"]    for elements only in dark mode,
-    <selector>[data-theme=light"]    for elements only in light mode
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700');
@@ -11,12 +11,13 @@ Bootstrap is used here -> in order to overwrite, use:
 @import url("layout.css");
 @import url("animation.css");
 @import url("site_index.css");
+@import url("site_imprint.css");
 
 /* 01 Generic STYLES that apply for all html pages --------------------------- */
 html[data-theme] * {
     font-family: "Ubuntu", sans-serif;
     color: var(--text);
-    box-sizing: border-box;
+    box-sizing: border-box ;
 }
 
 html[data-theme] .nav-inner-container {

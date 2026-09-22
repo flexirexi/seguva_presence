@@ -9,6 +9,7 @@
     "tNavContact": 				"Kontakt",
     "tNavBtnContact": 			"Demo buchen",
 
+
     "tHomeHeadingEyebrow": 		"Enterprise-KI-Plattform",
     "tHomeHeadingTitle": 		"Skalierbare & zuverlässige Automatisierung",
     "tHomeHeadingSubTitle1": 	"Mit GenAI",
@@ -39,6 +40,10 @@
     "tHomeCTATitle": 			"Jetzt starten",
     "tHomeCTASubTitle": 		"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo:",
     "tHomeCTABtnContact": 		"Demo buchen",
+
+
+	"tImprintHeader":				"Impressum",
+
 
     "tFooterCol1Title": 		"Seiten",
     "tFooterCol2Title": 		"Rechtliches",

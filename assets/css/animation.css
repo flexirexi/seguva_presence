@@ -1,9 +1,9 @@
 /* 
 INFO: 
 Bootstrap is used here -> in order to overwrite, use: 
-    <selector>[data-theme]           for elements in all themes, 
-    <selector>[data-theme="dark"]    for elements only in dark mode,
-    <selector>[data-theme=light"]    for elements only in light mode
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
 */
 
 html[data-theme] .nav-link::after {

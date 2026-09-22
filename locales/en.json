@@ -9,6 +9,7 @@
     "tNavContact": 					"Contact",
     "tNavBtnContact": 				"Book a demo",
 
+
     "tHomeHeadingEyebrow": 			"Enterprise AI platform",
     "tHomeHeadingTitle": 			"Scalable & Reliable Automation",
     "tHomeHeadingSubTitle1": 		"Powered by GenAI",
@@ -39,6 +40,10 @@
     "tHomeCTATitle": 				"See it in action",
     "tHomeCTASubTitle": 			"Explore our platform's capabilities with a personalized walkthrough:",
     "tHomeCTABtnContact": 			"Book a demo",
+
+
+	"tImprintHeader":				"Imprint",
+
 
     "tFooterCol1Title": 			"Site",
     "tFooterCol2Title": 			"Legal",
