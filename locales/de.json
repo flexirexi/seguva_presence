@@ -42,7 +42,8 @@
     "tHomeCTABtnContact": 		"Demo buchen",
 
 
-	"tImprintHeader":				"Impressum",
+	"tImprintHeader":			"Impressum",
+	"tPrivacyHeader":			"Datenschutz",
 
 
     "tFooterCol1Title": 		"Seiten",
