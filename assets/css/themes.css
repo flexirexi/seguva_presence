@@ -119,6 +119,10 @@ html[data-theme] .text-color-accent {
     color: var(--act2-text);
 }
 
+html[data-them] .fs-md-5-custom {
+    font-size: 3rem;
+}
+
 /* GENERAL THEMES --------------------------------------- */
 html[data-theme] main {
     padding: 0;
