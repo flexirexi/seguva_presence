@@ -1,0 +1,13 @@
+{
+
+    "languageCode": "en",
+
+    "tNavHome":             "Homes",
+	"tNavTeam":				"Teams",
+	"tNavStrategy":			"Strategy",
+	"tNavProducts":			"Products",
+	"tNavContact":			"Contact",
+	"tNavBtnContact":		"Book a demo"
+	
+
+}

@@ -28,8 +28,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item"><a class="nav-link" href="index.html"
-                            style="color: #ffffff; font-weight:450;">Home</a></li>
-                    <li class="nav-item"><a data-lang="tTeam" class="nav-link" href="team.html">Team</a></li>
+                            style="color: #ffffff; font-weight:450;" data-lang="tNavHome">Home</a></li>
+                    <li class="nav-item"><a data-lang="tNavTeam" class="nav-link" href="team.html">Team</a></li>
                     <li class="nav-item"><a data-lang="tStrategy" class="nav-link" href="strategy.html">Strategy</a>
                     </li>
                     <li class="nav-item"><a data-lang="tProducts" class="nav-link" href="products.html">Products</a>
@@ -41,8 +41,8 @@
                         <a id="btContactDesktop" href="contact.html" class="btn btn-secondary"
                             data-lang="tNavContact">Book a demo</a>
                     </li>
-                    <li class="nav-item">
-                        <button class="toggle btn btn-outline-light" id="theme-toggle">
+                    <li class="nav-item d-none">
+                        <button class="toggle btn btn-outline-light" id="theme-toggle ">
                             <img src="assets/img/icons/fa-sun-solid-full-light.svg" alt="" width="23" height="23"></img>
                             <!-- Standard Icon für Dark Mode -->
                         </button>
@@ -50,11 +50,14 @@
                     <li class="nav-item dropdown">
                         <button class="btn btn-outline-light toggle dropdown-toggle" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false" id="language-toggle">
-                            DE
+                            EN
                         </button>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="language-toggle">
-                            <li><button class="dropdown-item" type="button" data-language="de">DE</button></li>
+                        <ul 
+                            class="dropdown-menu dropdown-menu-end" 
+                            aria-labelledby="language-toggle"
+                            id=>
                             <li><button class="dropdown-item" type="button" data-language="en">EN</button></li>
+                            <li><button class="dropdown-item" type="button" data-language="de">DE</button></li>
                             <li><button class="dropdown-item" type="button" data-language="es">ES</button></li>
                         </ul>
                     </li>
