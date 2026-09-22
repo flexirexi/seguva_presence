@@ -21,9 +21,9 @@ html[data-theme] {
     --padding-horizontal-mobile:    30px;
     --padding-horizontal-desktop:   0px;
 
-    --section-padding-vertical:     40px;
+    --section-padding-vertical:     50px;
     
-    --card-border-radius:           1px;
+    --card-border-radius:           3px;
 
     --btn-border-radius:            1px;
     --btn-height:                   40px;
@@ -37,6 +37,9 @@ html[data-theme] {
     --icon-container-mini-padding:  3px;
 }
 
+html[data-theme] .mb-6-custom {
+    margin-bottom: 60px;
+}
 
 html[data-theme] section {
     padding-top: var(--section-padding-vertical);

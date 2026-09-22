@@ -6,3 +6,72 @@ Bootstrap is used here -> in order to overwrite, use:
     html[data-theme=light"] <selector>   for elements only in light mode
 */
 
+html[data-theme] .team-section {
+    border-top: 1px solid var(--bs-border-color);
+}
+
+html[data-theme] .team-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 10px var(--card-shadow);
+    border: none;
+    border-radius: var(--card-border-radius);
+    transition: translate 0.2s ease;
+}
+
+html[data-theme] .team-card:hover {
+    box-shadow: 3px 3px 11px var(--card-shadow-hover);
+    translate: 0 -2px;
+}
+
+html[data-theme] .team-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+html[data-theme] .core-team-card {
+    background-color: var(--card-dark-bg);
+}
+
+html[data-theme] .core-team-card:hover {
+    background-color: var(--card-bg-hover);
+}
+
+html[data-theme] .core-team-card p {
+    color: var(--card-dark-text);
+}
+
+html[data-theme] .expert-team-card {
+    background-color: var(--bg1);
+}
+
+html[data-theme] .expert-team-card:hover {
+    background-color: var(--card-bg-hover);
+}
+
+html[data-theme] .expert-team-card p {
+    color: var(--card-text);
+}
+
+html[data-theme] .expert-team-card:hover * {
+    color: var(--card-text-hover);
+}
+
+
+html[data-theme] .team-icon {
+    display: flex;
+    flex: 0 0 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border: 1px dashed rgba(var(--bs-primary-rgb), 0.35);
+    border-radius: 50%;
+    background-color: var(--icon-container-bg);
+}
+
+html[data-theme] .team-icon img {
+    width: 2.25rem;
+    height: 2.25rem;
+}
