@@ -31,6 +31,10 @@ html[data-theme] {
     --icon-container-radius:        8px;
     --icon-container-width:         45px;
     --icon-container-padding:       9px;
+
+    --icon-container-mini-radius:   8px;
+    --icon-container-mini-width:    30px;
+    --icon-container-mini-padding:  3px;
 }
 
 
@@ -113,6 +117,13 @@ html[data-theme] .icon-container {
     width: var(--icon-container-width);
     padding: var(--icon-container-padding);
     border-radius: var(--icon-container-radius);
+}
+
+html[data-theme] .icon-container-mini {
+    height: var(--icon-container-mini-width);
+    width: var(--icon-container-mini-width);
+    padding: var(--icon-container-mini-padding);
+    border-radius: var(--icon-container-mini-radius);
 }
 
 

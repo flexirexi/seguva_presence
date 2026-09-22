@@ -42,10 +42,11 @@ html[data-theme="dark"] {
     --act2-border-hover: #142A5E;
 
     --card-text: #494949;
+    --card-text-hover: #dddddd;
     --card-bg: #E3E8F4;
-    --card-bg-hover: #E3E8F4;
+    --card-bg-hover: #142a5e;
     --card-border: #E3E8F4;
-    --card-border-hover: #E3E8F4;
+    --card-border-hover: #142a5e;
     --card-shadow: darkgray;
     --card-shadow-hover: gray;
 
@@ -55,6 +56,7 @@ html[data-theme="dark"] {
     --card-dark-title: #ffffff;
 
     --icon-container-bg: #c1cef0;
+    --icon-container-mini-bg: #c1cef0;
 
     --toggle-bg: #00000020;
     --toggle-color: #bababadc;
@@ -225,6 +227,10 @@ html[data-theme] .card:hover {
     translate: 0 -2px;
 }
 
+html[data-theme] .card:hover * {
+    color: var(--card-text-hover);
+}
+
 html[data-theme] .card-dark {
     background-color: var(--card-dark-bg);
 }
@@ -243,6 +249,10 @@ html[data-theme] .card-dark:hover {
 
 html[data-theme] .icon-container {
     background-color: var(--icon-container-bg);
+}
+
+html[data-theme] .icon-container-mini {
+    background-color: var(--icon-container-mini-bg);
 }
 
 html[data-theme] footer {
