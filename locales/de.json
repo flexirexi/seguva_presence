@@ -1,11 +1,49 @@
 {
-
     "languageCode": "de",
+    "langNameShort": "DE",
 
-    "tNavHome":             "Homes",
-	"tNavTeam":				"Teams",
-	"tNavStrategy":			"Strategy",
-	"tNavProducts":			"Products",
-	"tNavContact":			"Contact",
-	"tNavBtnContact":		"Book a demo"
+    "tNavHome": 				"Home",
+    "tNavTeam": 				"Team",
+    "tNavStrategy": 			"Strategie",
+    "tNavProducts": 			"Produkte",
+    "tNavContact": 				"Kontakt",
+    "tNavBtnContact": 			"Demo buchen",
+
+    "tHomeHeadingEyebrow": 		"Enterprise-KI-Plattform",
+    "tHomeHeadingTitle": 		"Skalierbare & zuverlässige Automatisierung",
+    "tHomeHeadingSubTitle1": 	"Mit GenAI",
+    "tHomeHeadingSubTitle2": 	"Validiert durch unsere Engine",
+    "tHomeHeadingText": 		"Verwandeln Sie jedes Bild in ein produktionsreifes kommerzielles Asset. Jede Ausgabe wird von unserer eigenen KI-Validierungs-Engine bewertet, bevor sie Sie erreicht, und für 97 % aller eingereichten Inputs garantieren wir eine direkt einsetzbare Ausgabe.",
+    "tHomeHeadingBtnContact": 	"Demo buchen",
+    "tHomeHeadingBtnProducts": 	"Produkte ansehen",
+    "tHomeHeadingImageCaption": "Jede Ausgabe durchläuft automatisch unseren Validator, bevor sie Sie erreicht.",
+
+    "tHomeGoalEyebrow": 		"Unser Hauptziel",
+    "tHomeGoalTitle": 			"Kunden dabei unterstützen, die Falle manueller Verifizierung zu überwinden",
+    "tHomeGoalText": 			"Foundation Models arbeiten probabilistisch. Daher sind ganze Teams erforderlich, um die Qualitätsstandards von Unternehmen sicherzustellen.",
+    "tHomeGoalQuote": 			"Mit unserem automatisierten, hochpräzisen Gatekeeper gelangen KI-Implementierungen schneller in den Produktivbetrieb und erzielen dadurch schneller einen Return on Investment.",
+
+    "tHomeInsightsTitle": 		"3 Insights, die zwei Minuten wert sind",
+    "tHomeInsights1Title": 		"Wer wir sind",
+    "tHomeInsights1Text": 		"Angewandte neuronale Netze und akademische KI-Forschung bereits mehr als 15 Jahre vor dem Hype – kombiniert mit Erfahrung in Finanzen und kommerzieller Umsetzung.",
+    "tHomeInsights1Link": 		"Unser Team kennenlernen →",
+
+    "tHomeInsights2Title": 		"Unsere Strategie",
+    "tHomeInsights2Text": 		"Eine maßgeschneiderte Plattform, die Ihr eigenes Team unabhängig betreibt, mit dynamischem Modell-Routing und unserem proprietären Validator, der jede einzelne Ausgabe bewertet.",
+    "tHomeInsights2Link": 		"Mehr über unsere Strategie →",
+
+    "tHomeInsights3Title": 		"Produkte",
+    "tHomeInsights3Text": 		"Branchenlösungen für Medizin, Mode und E-Commerce – und für jedes Unternehmen, das auf Bildqualität und Bildverarbeitung angewiesen ist.",
+    "tHomeInsights3Link": 		"Unsere Produkte entdecken →",
+
+    "tHomeCTATitle": 			"Jetzt starten",
+    "tHomeCTASubTitle": 		"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo:",
+    "tHomeCTABtnContact": 		"Demo buchen",
+
+    "tFooterCol1Title": 		"Seiten",
+    "tFooterCol2Title": 		"Rechtliches",
+    "tFooterCol3Title": 		"Kontakt",
+
+    "tFooterImprint": 			"Impressum",
+    "tFooterPrivacy": 			"Datenschutz"
 }
