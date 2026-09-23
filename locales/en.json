@@ -5,8 +5,8 @@
 
     "tNavHome": 				"Home",
     "tNavTeam": 				"Team",
-    "tNavStrategy": 			"Product",
-    "tNavProducts": 			"Application",
+    "tNavProducts": 			"Products",
+    "tNavApplication": 			"Application",
     "tNavContact": 				"Contact",
     "tNavBtnContact": 			"Book a demo",
 
