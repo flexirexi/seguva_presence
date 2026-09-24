@@ -23,6 +23,11 @@ html[data-theme="dark"] {
     --nav-bg: #142A5E; 
     --nav-title: #b7b7b7;
 
+    --dropdown-text: #dedede;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #0b1734;
+    --dropdown-bg-hover: #273e72;
+
     --link-text: #142A5E;
     --link-text-hover: #142A5E; 
     --link-bg-hover: #00000000; 
@@ -172,6 +177,20 @@ html[data-theme] .nav-link {
 html[data-theme] .nav-link:hover {
     color: var(--nav-link-text-hover);
     text-decoration-color: var(--nav-link-decoration-hover);
+}
+
+html[data-theme] .dropdown-menu {
+    background-color: var(--dropdown-bg);
+}
+
+html[data-theme] .dropdown-menu * {
+    color: var(--dropdown-text);
+}
+
+html[data-theme] .dropdown-menu a:hover,
+html[data-theme] .dropdown-menu button:hover {
+    background-color: var(--dropdown-bg-hover);
+    color: var(--dropdown-text-hover);
 }
 
 /* Buttons */

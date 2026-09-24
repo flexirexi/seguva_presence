@@ -64,4 +64,9 @@ html[data-theme] ul li:last-child {
     html[data-theme] ul li:last-child {
         margin-bottom: unset;
     }
+
+    .navbar .dropdown:hover > #navProductsMenu {
+        display: block;
+    }
+
 }

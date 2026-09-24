@@ -3,6 +3,13 @@
     "langNameShort": "DE",
 
 
+	"tCompanyNameShort":		"SEGUVA",
+	"tComanyNameLong":			"SEGUVA GmbH",
+	"tAINameShort":				"VIA",
+	"tAINameLong":				"VIA [long]",
+	"tProduct1Name":			"Product 1",
+
+
     "tNavHome": 				"Home",
     "tNavTeam": 				"Team",
     "tNavProducts": 			"Produkte",

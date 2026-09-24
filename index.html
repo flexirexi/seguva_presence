@@ -30,9 +30,21 @@
                     <li class="nav-item"><a class="nav-link" href="index.html"
                             style="color: #ffffff; font-weight:450;" data-lang="tNavHome">Home</a></li>
                     <li class="nav-item"><a data-lang="tNavTeam" class="nav-link" href="team.html">Team</a></li>
-                    <li class="nav-item"><a data-lang="tNavProducts" class="nav-link" href="products.html">Product</a>
-                    </li>
-                    <li class="nav-item"><a data-lang="tNavApplication" class="nav-link" href="application.html">Application</a>
+                    <li class="nav-item"><a data-lang="tNavApplication" class="nav-link" href="application.html">Application</a></li>
+                    <li class="nav-item dropdown">
+                        <a
+                            data-lang="tNavProducts"
+                            class="nav-link"
+                            href="#"
+                            id="productsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="productsDropdown" id="navProductsMenu">
+                            <li><a class="dropdown-item" href="product1.html" data-lang="tProduct1Name">Product 1</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item"><a data-lang="tNavContact" class="nav-link" href="contact.html">Contact</a></li>
                 </ul>

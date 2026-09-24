@@ -85,6 +85,15 @@ html[data-theme] .nav-link {
     margin-right: 5px;
 }
 
+html[data-theme] .dropdown-menu li {
+    margin-bottom: 0px !important;
+}
+
+html[data-theme] .dropdown-menu a,
+html[data-theme] .dropdown-menu button {
+    padding: 10px;
+}
+
 /* Buttons */
 html[data-theme] .toggle {
     height: var(--toggle-height);
