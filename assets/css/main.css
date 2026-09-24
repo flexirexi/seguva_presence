@@ -12,6 +12,7 @@ Bootstrap is used here -> in order to overwrite, use:
 @import url("animation.css");
 @import url("site_index.css");
 @import url("site_team.css");
+@import url("site_product1.css");
 @import url("site_imprint.css");
 
 /* 01 Generic STYLES that apply for all html pages --------------------------- */
@@ -19,6 +20,21 @@ html[data-theme] * {
     font-family: "Ubuntu", sans-serif;
     color: var(--text);
     box-sizing: border-box ;
+}
+
+html[data-theme] .eyebrow {
+    margin-bottom: 1rem;
+    color: var(--dis-text);
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+html[data-theme] .lead {
+    max-width: 46rem;
+    margin-bottom: 2rem;
+    font-size: clamp(1.05rem, 2.5vw, 1.5rem);
 }
 
 html[data-theme] .nav-inner-container {

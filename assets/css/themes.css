@@ -133,7 +133,6 @@ html[data-theme] main {
     padding: 0;
 }
 
-
 html[data-theme] body {
     background-color: var(--bg1);
 }
