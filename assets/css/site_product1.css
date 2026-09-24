@@ -1,234 +1,144 @@
-/* ---------------------------------------------------------
-   MODAL SHELL
---------------------------------------------------------- */
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
+*/
 
-.showcase-modal-shell {
+html[data-theme] .showcase-modal-shell {
     position: relative;
     width: 100%;
 }
 
-
-/* ---------------------------------------------------------
-   MODAL SIZE
---------------------------------------------------------- */
-
-.showcase-modal {
+html[data-theme] .showcase-modal {
     border: 0;
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-
-/* Body darf scrollen, Modal selbst bleibt im Viewport */
-.showcase-modal .modal-body {
+html[data-theme] .showcase-modal .modal-body {
     overflow-y: auto;
 }
 
-
-/* ---------------------------------------------------------
-   INTRO / INPUT
---------------------------------------------------------- */
-
-.showcase-copy {
+html[data-theme] .showcase-copy {
     max-width: 500px;
     margin-inline: auto;
 }
 
-
-.showcase-input {
+html[data-theme] .showcase-input {
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
     background: var(--bs-tertiary-bg);
 }
 
-
-.showcase-input img {
+html[data-theme] .showcase-input img {
     display: block;
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
 }
 
-
-.showcase-label {
+html[data-theme] .showcase-label {
     position: absolute;
     top: 0.75rem;
     left: 0.75rem;
-
     padding: 0.35rem 0.65rem;
-
     border-radius: 999px;
-
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
-
     font-size: 0.75rem;
     font-weight: 600;
 }
 
-
-.showcase-eyebrow {
+html[data-theme] .showcase-eyebrow {
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
 }
 
-
-/* ---------------------------------------------------------
-   OUTPUT GALLERY
---------------------------------------------------------- */
-
-.showcase-output-scroll {
+html[data-theme] .showcase-output-scroll {
     display: flex;
     gap: 0.75rem;
-
     overflow-x: auto;
     overscroll-behavior-inline: contain;
-
     padding-bottom: 0.75rem;
-
     scroll-snap-type: x mandatory;
     scrollbar-width: thin;
 }
 
-
-.showcase-output-scroll img {
+html[data-theme] .showcase-output-scroll img {
     flex: 0 0 78%;
-
     width: 78%;
     aspect-ratio: 4 / 3;
-
     object-fit: cover;
-
     border-radius: 0.75rem;
-
     scroll-snap-align: start;
 }
 
-
-/* ---------------------------------------------------------
-   CAROUSEL CONTROLS
---------------------------------------------------------- */
-
-.showcase-control {
+html[data-theme] .showcase-control {
     width: 2.75rem;
     height: 2.75rem;
-
     top: 50%;
-
     border-radius: 50%;
-
     background: var(--bs-dark);
-
     opacity: 1;
-
     transform: translateY(-50%);
     pointer-events: auto;
     z-index: 10;
 }
 
-
-/*
- * Mobile:
- * Pfeile noch nahe am Modal.
- */
-
-.showcase-control-prev {
+html[data-theme] .showcase-control-prev {
     left: 0.5rem;
 }
 
-
-.showcase-control-next {
+html[data-theme] .showcase-control-next {
     right: 0.5rem;
 }
 
-
-/* ---------------------------------------------------------
-   DESKTOP ≥ 992px
---------------------------------------------------------- */
-
 @media (min-width: 992px) {
-
-    /*
-     * Das Modal soll möglichst mindestens 800px hoch sein,
-     * darf aber niemals unten aus dem Viewport laufen.
-     */
-
-    .showcase-modal {
+    html[data-theme] .showcase-modal {
         min-height: min(800px, calc(100dvh - 2rem));
         max-height: calc(100dvh - 2rem);
-
         display: flex;
         flex-direction: column;
     }
 
-
-    .showcase-modal .modal-body {
+    html[data-theme] .showcase-modal .modal-body {
         flex: 1;
         min-height: 0;
     }
 
-
-    /*
-     * Header/Text links.
-     */
-
-    .showcase-copy {
+    html[data-theme] .showcase-copy {
         margin-inline: 0;
     }
 
-
-    /*
-     * Bild bleibt maximal bei Bootstrap 6/12,
-     * da es in col-lg-6 sitzt.
-     */
-
-    .showcase-input {
+    html[data-theme] .showcase-input {
         width: 100%;
     }
 
-
-    /*
-     * Mehr Output-Bilder gleichzeitig sichtbar.
-     */
-
-    .showcase-output-scroll {
+    html[data-theme] .showcase-output-scroll {
         gap: 1rem;
     }
 
-
-    .showcase-output-scroll img {
+    html[data-theme] .showcase-output-scroll img {
         flex-basis: 31%;
         width: 31%;
     }
 
-
-    /*
-     * Pfeile bewusst AUSSERHALB der Modalbox.
-     */
-
-    .showcase-control-prev {
+    html[data-theme] .showcase-control-prev {
         left: -4rem;
     }
 
-
-    .showcase-control-next {
+    html[data-theme] .showcase-control-next {
         right: -4rem;
     }
-
 }
 
-
-/* ---------------------------------------------------------
-   REDUCED MOTION
---------------------------------------------------------- */
-
 @media (prefers-reduced-motion: reduce) {
-
-    .carousel-item {
+    html[data-theme] .carousel-item {
         transition: none;
     }
-
 }
