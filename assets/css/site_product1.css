@@ -6,6 +6,12 @@ Bootstrap is used here -> in order to overwrite, use:
     html[data-theme=light"] <selector>   for elements only in light mode
 */
 
+html[data-theme] .btn-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 html[data-theme] .showcase-modal-shell {
     position: relative;
     width: 100%;
@@ -21,16 +27,15 @@ html[data-theme] .showcase-modal .modal-body {
     overflow-y: auto;
 }
 
-html[data-theme] .showcase-copy {
-    max-width: 500px;
-    margin-inline: auto;
+html[data-theme] .showcase-modal .modal-body h3,
+html[data-theme] .showcase-modal .modal-body strong {
+    color: var(--main);
 }
 
 html[data-theme] .showcase-input {
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
-    background: var(--bs-tertiary-bg);
 }
 
 html[data-theme] .showcase-input img {
@@ -46,18 +51,12 @@ html[data-theme] .showcase-label {
     left: 0.75rem;
     padding: 0.35rem 0.65rem;
     border-radius: 999px;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
     font-size: 0.75rem;
     font-weight: 600;
 }
 
-html[data-theme] .showcase-eyebrow {
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-}
 
 html[data-theme] .showcase-output-scroll {
     display: flex;
@@ -109,10 +108,6 @@ html[data-theme] .showcase-control-next {
     html[data-theme] .showcase-modal .modal-body {
         flex: 1;
         min-height: 0;
-    }
-
-    html[data-theme] .showcase-copy {
-        margin-inline: 0;
     }
 
     html[data-theme] .showcase-input {
