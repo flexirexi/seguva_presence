@@ -152,32 +152,31 @@
     <div class="modal fade" id="showcaseModal" tabindex="-1" aria-labelledby="showcaseModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
             <div class="showcase-modal-shell">
-                <div class="modal-content showcase-modal">
+                <div class="modal-content showcase-modal p-3 mt-0">
                     <!-- Header -->
                     <div class="modal-header border-0 pb-0">
-                        <h2 class="visually-hidden" id="showcaseModalLabel">AI Product Showcase</h2>
-                        <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal"
+                        <button type="button" class="btn-close ms-auto " data-bs-dismiss="modal"
                             aria-label="close showcase"></button>
                     </div>
                     <!-- Body -->
-                    <div class="modal-body">
+                    <div class="modal-body p-0 pe-1">
                         <div id="showcaseCarousel" class="carousel slide" data-bs-interval="false"
                             data-bs-touch="false">
                             <div class="carousel-inner">
                                 <!-- FASHION -->
                                 <div class="carousel-item active">
                                     <article class="showcase-card">
-                                        <div class="showcase-intro row align-items-center g-4 mb-4">
-                                            <div class="col-12 col-lg-6">
+                                        <div class="showcase-intro row align-items-center mb-4 mx-0">
+                                            <div class="showcase-intro1 col-12  col-lg-4 ">
                                                 <header class=" text-center text-lg-start">
-                                                    <p class="eyebrow mb-2">Showcase: Fashion</p>
+                                                    <p class="eyebrow mb-2 pt-2">Showcase: Fashion</p>
                                                     <h3 class="mb-2">Apparel packshot</h3>
                                                     <p class="text-body-secondary mb-0">Phone photo so studio-grade
                                                         packshot on a neutral background</p>
                                                 </header>
                                             </div>
-                                            <div class="col-12 col-lg-6">
-                                                <figure class="showcase-input mb-0">
+                                            <div class="showcase-intro2 col-12 col-lg-8 p-0">
+                                                <figure class="bg1 showcase-input m-0 d-flex justify-content-center">
                                                     <img src="assets/img/product1/fashion-original.png"
                                                         alt="Original product photo of a fashion item"
                                                         class="img-fluid">
@@ -185,7 +184,7 @@
                                                 </figure>
                                             </div>
                                         </div>
-                                        <div class="mb-2 d-flex justify-content-between align-items-center">
+                                        <div class="showcase-output-header p-2 d-flex justify-content-between align-items-center">
                                             <strong>Generated outputs</strong>
                                             <small class="text-body-secondary">Swipe to explore</small>
                                         </div>
@@ -279,6 +278,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <button class="carousel-control-prev showcase-control showcase-control-prev" type="button"

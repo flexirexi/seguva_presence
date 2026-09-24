@@ -6,10 +6,33 @@ Bootstrap is used here -> in order to overwrite, use:
     html[data-theme=light"] <selector>   for elements only in light mode
 */
 
+html[data-theme] {
+    --vh-scale:         0.85;
+
+    --vh-introTotal:    60vh;
+    --vh-intro1:        18vh;
+    --vh-intro2:        42vh;
+
+    --vh-outputHeader:  5vh;
+    --vh-outputScroll:  35vh;
+}
+
 html[data-theme] .btn-close {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    border: 1px solid var(--main);
+    box-sizing:content-box;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    background-color: white;
+    opacity: 1;
+    box-shadow: 0 0 8px #b5b5b5;
+}
+
+html[data-theme] .btn-close:hover {
+    background-color: #e1e1e1;
 }
 
 html[data-theme] .showcase-modal-shell {
@@ -18,13 +41,32 @@ html[data-theme] .showcase-modal-shell {
 }
 
 html[data-theme] .showcase-modal {
+    min-height: min(800px, calc(100dvh - 2rem));
+    max-height: calc(100vh - 2rem);
     border: 0;
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
+html[data-theme] .modal-header {
+    margin-bottom: -50px;
+}
+
 html[data-theme] .showcase-modal .modal-body {
     overflow-y: auto;
+}
+
+html[data-theme] .modal-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+html[data-theme] .modal-body::-webkit-scrollbar-thumb {
+    background: #00000060;
+    border-radius: 999px;
+}
+
+html[data-theme] .modal-body::-webkit-scrollbar-track {
+    margin-block: 2rem;
 }
 
 html[data-theme] .showcase-modal .modal-body h3,
@@ -35,14 +77,30 @@ html[data-theme] .showcase-modal .modal-body strong {
 html[data-theme] .showcase-input {
     position: relative;
     overflow: hidden;
-    border-radius: 1rem;
+    border: 1px solid var(--main);
+    border-radius: 20px;
+    height: 100%;
 }
 
 html[data-theme] .showcase-input img {
     display: block;
+    height: 100%;
+    object-fit:contain;
+}
+
+html[data-theme] .showcase-intro {
+    background-color: var(--bg2);
+    border-radius: 20px;
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    height: calc(var(--vh-introTotal) * var(--vh-scale));
+}
+
+html[data-theme] .showcase-intro1 {
+    height: calc(var(--vh-intro1) * var(--vh-scale));
+}
+
+html[data-theme] .showcase-intro2 {
+    height: calc(var(--vh-intro2) * var(--vh-scale));
 }
 
 html[data-theme] .showcase-label {
@@ -57,6 +115,11 @@ html[data-theme] .showcase-label {
     font-weight: 600;
 }
 
+html[data-theme] .showcase-output-header {
+    background-color: var(--bg2);
+    border-radius: 10px 10px 0px 0px;
+    height: calc(var(--vh-outputHeader) * var(--vh-scale));
+}
 
 html[data-theme] .showcase-output-scroll {
     display: flex;
@@ -66,6 +129,8 @@ html[data-theme] .showcase-output-scroll {
     padding-bottom: 0.75rem;
     scroll-snap-type: x mandatory;
     scrollbar-width: thin;
+    border: 1px solid var(--bg2);
+    height: calc(var(--vh-outputScroll) * var(--vh-scale));
 }
 
 html[data-theme] .showcase-output-scroll img {
@@ -99,10 +164,13 @@ html[data-theme] .showcase-control-next {
 
 @media (min-width: 992px) {
     html[data-theme] .showcase-modal {
-        min-height: min(800px, calc(100dvh - 2rem));
-        max-height: calc(100dvh - 2rem);
         display: flex;
         flex-direction: column;
+    }
+
+    html[data-theme] .modal-header {
+        padding: 0;
+        margin-bottom: 0px;
     }
 
     html[data-theme] .showcase-modal .modal-body {

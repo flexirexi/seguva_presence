@@ -60,6 +60,10 @@ html[data-theme] nav {
     padding: 0;
 }
 
+/* html[data-theme] .modal {
+    margin: auto ;
+} */
+
 html[data-theme] .container {
     margin-left: 0;
     margin-right: 0;
