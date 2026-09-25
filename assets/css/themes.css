@@ -273,6 +273,10 @@ html[data-theme] .card-dark:hover {
     background-color: var(--card-dark-bg-hover);
 }
 
+html[data-theme] .card-light {
+    background-color: white;
+}
+
 html[data-theme] .icon-container {
     background-color: var(--icon-container-bg);
 }
