@@ -7,15 +7,20 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --vh-scale-max992:  0.88;
-    --vh-scale-min992:  0.84;
+    --vh-scale-max992: 0.88;
+    --vh-scale-min992: 0.84;
 
-    --vh-introTotal:    54vh;
-    --vh-intro1:        20vh;
-    --vh-intro2:        34vh;
+    --vh-introTotal-max992: 54vh;
+    --vh-introTotal-min992: 45vh;
 
-    --vh-outputHeader:  6vh;
-    --vh-outputScroll:  40vh;
+    --vh-intro1-max992: 20vh;
+    --vh-intro2-max992: 34vh;
+
+    --vh-outputHeader-max992: 6vh;
+    --vh-outputHeader-min992: 6vh;
+    
+    --vh-outputScroll-max992: 40vh;
+    --vh-outputScroll-min992: 49vh;
 }
 
 html[data-theme] .btn-close {
@@ -23,7 +28,7 @@ html[data-theme] .btn-close {
     height: 40px;
     border-radius: 50%;
     border: 1px solid var(--main);
-    box-sizing:content-box;
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
     z-index: 100;
@@ -85,23 +90,23 @@ html[data-theme] .showcase-input {
 html[data-theme] .showcase-input img {
     display: block;
     height: 100%;
-    object-fit:contain;
-    
+    object-fit: contain;
+
 }
 
 html[data-theme] .showcase-intro {
     background-color: var(--bg2);
     border-radius: 20px;
     width: 100%;
-    height: calc(var(--vh-introTotal) * var(--vh-scale-max992));
+    height: calc(var(--vh-introTotal-max992) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-intro1 {
-    height: calc(var(--vh-intro1) * var(--vh-scale-max992));
+    height: calc(var(--vh-intro1-max992) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-intro2 {
-    height: calc(var(--vh-intro2) * var(--vh-scale-max992));
+    height: calc(var(--vh-intro2-max992) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-label {
@@ -121,7 +126,7 @@ html[data-theme] .showcase-label {
 html[data-theme] .showcase-output-header {
     background-color: var(--card-dark-bg);
     border-radius: 10px 10px 0px 0px;
-    height: calc(var(--vh-outputHeader) * var(--vh-scale-max992));
+    height: calc(var(--vh-outputHeader-max992) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-output-header strong {
@@ -142,7 +147,7 @@ html[data-theme] .showcase-output-scroll {
     scroll-padding-inline: 10px;
     scrollbar-width: thin;
     border: 1px solid var(--main);
-    height: calc(var(--vh-outputScroll) * var(--vh-scale-max992));
+    height: calc(var(--vh-outputScroll-max992) * var(--vh-scale-max992));
     background-color: var(--bg2);
 }
 
@@ -176,6 +181,58 @@ html[data-theme] .showcase-control-next {
     right: 0.5rem;
 }
 
+/* MAKE IMAGES CLICKABLE */
+html[data-theme] #showcaseModal img {
+    cursor:pointer;
+}
+
+html[data-theme] #showcaseModal img:active {
+    box-shadow: 1px 1px 10px #1f1f1f;
+}
+
+html[data-theme] .image-lightbox {
+    width: 100vw;
+    max-width: none;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 2rem;
+    border: 0;
+    background: #000000e6;
+}
+
+html[data-theme] .image-lightbox[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html[data-theme] .image-lightbox img {
+    display: block;
+    max-width: 100dvw;
+    max-height: calc(100dvh - 4rem);
+    width: 700px;
+    height: auto;
+    object-fit: contain;
+    cursor: zoom-out;
+}
+
+html[data-theme] .image-lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 0;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1;
+}
+
 @media (min-width: 992px) {
     html[data-theme] .showcase-modal {
         display: flex;
@@ -197,23 +254,19 @@ html[data-theme] .showcase-control-next {
     }
 
     html[data-theme] .showcase-intro {
-        height: calc(var(--vh-introTotal) * var(--vh-scale-min992));
-    }
-
-    html[data-theme] .showcase-intro1 {
-        height: calc(var(--vh-intro1) * var(--vh-scale-min992));
+        height: calc(var(--vh-introTotal-min992) * var(--vh-scale-min992));
     }
 
     html[data-theme] .showcase-intro2 {
-        height: calc(var(--vh-intro2) * var(--vh-scale-min992));
+        height: calc(var(--vh-introTotal-min992) * var(--vh-scale-min992));
     }
 
     html[data-theme] .showcase-output-header {
-        height: calc(var(--vh-outputHeader) * var(--vh-scale-min992));
+        height: calc(var(--vh-outputHeader-min992) * var(--vh-scale-min992));
     }
 
     html[data-theme] .showcase-output-scroll {
-        height: calc(var(--vh-outputScroll) * var(--vh-scale-min992));
+        height: calc(var(--vh-outputScroll-min992) * var(--vh-scale-min992));
         gap: 1rem;
     }
 

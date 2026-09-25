@@ -250,7 +250,7 @@ html[data-theme] .card:hover {
     border: none;
     background-color: var(--card-bg-hover);
     box-shadow: 3px 3px 11px var(--card-shadow-hover);
-    translate: 0 -2px;
+    translate: 0 -0.15rem;
 }
 
 html[data-theme] .card:hover * {
