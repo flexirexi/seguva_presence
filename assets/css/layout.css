@@ -60,9 +60,9 @@ html[data-theme] nav {
     padding: 0;
 }
 
-/* html[data-theme] .modal {
-    margin: auto ;
-} */
+html[data-theme] .modal-dialog {
+    margin-top: auto;
+} 
 
 html[data-theme] .container {
     margin-left: 0;

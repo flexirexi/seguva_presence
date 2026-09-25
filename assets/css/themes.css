@@ -156,6 +156,9 @@ html[data-theme] h6 {
     color: var(--title2);
 }
 
+html[data-theme] .modal-content {
+}
+
 html[data-theme] nav,
 html[data-theme] .navbar-collapse {
     color: var(--nav-link-text);

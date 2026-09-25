@@ -7,14 +7,15 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --vh-scale:         0.85;
+    --vh-scale-max992:  0.88;
+    --vh-scale-min992:  0.84;
 
-    --vh-introTotal:    60vh;
-    --vh-intro1:        18vh;
-    --vh-intro2:        42vh;
+    --vh-introTotal:    54vh;
+    --vh-intro1:        20vh;
+    --vh-intro2:        34vh;
 
-    --vh-outputHeader:  5vh;
-    --vh-outputScroll:  35vh;
+    --vh-outputHeader:  6vh;
+    --vh-outputScroll:  40vh;
 }
 
 html[data-theme] .btn-close {
@@ -69,8 +70,7 @@ html[data-theme] .modal-body::-webkit-scrollbar-track {
     margin-block: 2rem;
 }
 
-html[data-theme] .showcase-modal .modal-body h3,
-html[data-theme] .showcase-modal .modal-body strong {
+html[data-theme] .showcase-modal .modal-body h3 {
     color: var(--main);
 }
 
@@ -86,21 +86,22 @@ html[data-theme] .showcase-input img {
     display: block;
     height: 100%;
     object-fit:contain;
+    
 }
 
 html[data-theme] .showcase-intro {
     background-color: var(--bg2);
     border-radius: 20px;
     width: 100%;
-    height: calc(var(--vh-introTotal) * var(--vh-scale));
+    height: calc(var(--vh-introTotal) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-intro1 {
-    height: calc(var(--vh-intro1) * var(--vh-scale));
+    height: calc(var(--vh-intro1) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-intro2 {
-    height: calc(var(--vh-intro2) * var(--vh-scale));
+    height: calc(var(--vh-intro2) * var(--vh-scale-max992));
 }
 
 html[data-theme] .showcase-label {
@@ -109,28 +110,40 @@ html[data-theme] .showcase-label {
     left: 0.75rem;
     padding: 0.35rem 0.65rem;
     border-radius: 999px;
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
+    border: 1px solid var(--main);
+    opacity: 0.8;
+    background: var(--bg2);
+    color: var(--main);
     font-size: 0.75rem;
     font-weight: 600;
 }
 
 html[data-theme] .showcase-output-header {
-    background-color: var(--bg2);
+    background-color: var(--card-dark-bg);
     border-radius: 10px 10px 0px 0px;
-    height: calc(var(--vh-outputHeader) * var(--vh-scale));
+    height: calc(var(--vh-outputHeader) * var(--vh-scale-max992));
+}
+
+html[data-theme] .showcase-output-header strong {
+    color: var(--card-dark-title);
+}
+
+html[data-theme] .showcase-output-header small {
+    color: var(--card-dark-text);
 }
 
 html[data-theme] .showcase-output-scroll {
     display: flex;
-    gap: 0.75rem;
+    gap: 13px;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
-    padding-bottom: 0.75rem;
+    padding: 10px;
     scroll-snap-type: x mandatory;
+    scroll-padding-inline: 10px;
     scrollbar-width: thin;
-    border: 1px solid var(--bg2);
-    height: calc(var(--vh-outputScroll) * var(--vh-scale));
+    border: 1px solid var(--main);
+    height: calc(var(--vh-outputScroll) * var(--vh-scale-max992));
+    background-color: var(--bg2);
 }
 
 html[data-theme] .showcase-output-scroll img {
@@ -140,6 +153,7 @@ html[data-theme] .showcase-output-scroll img {
     object-fit: cover;
     border-radius: 0.75rem;
     scroll-snap-align: start;
+    box-shadow: 1px 1px 7px #696868;
 }
 
 html[data-theme] .showcase-control {
@@ -182,7 +196,24 @@ html[data-theme] .showcase-control-next {
         width: 100%;
     }
 
+    html[data-theme] .showcase-intro {
+        height: calc(var(--vh-introTotal) * var(--vh-scale-min992));
+    }
+
+    html[data-theme] .showcase-intro1 {
+        height: calc(var(--vh-intro1) * var(--vh-scale-min992));
+    }
+
+    html[data-theme] .showcase-intro2 {
+        height: calc(var(--vh-intro2) * var(--vh-scale-min992));
+    }
+
+    html[data-theme] .showcase-output-header {
+        height: calc(var(--vh-outputHeader) * var(--vh-scale-min992));
+    }
+
     html[data-theme] .showcase-output-scroll {
+        height: calc(var(--vh-outputScroll) * var(--vh-scale-min992));
         gap: 1rem;
     }
 
