@@ -38,7 +38,8 @@
                             Applications
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="applicationsDropdown" id="navApplicationsMenu">
-                            <li><a class="dropdown-item" href="applications.html" data-lang="tNavApplications1Name">Overview</a></li>
+                            <li><a class="dropdown-item" href="applications.html"
+                                    data-lang="tNavApplications1Name">Overview</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a data-lang="tNavContact" class="nav-link" href="contact.html">Contact</a>
@@ -72,9 +73,7 @@
         <section class="hero bg2" aria-labelledby="hero-title">
             <div class="container" data-animate="fade-up">
                 <p class="eyebrow" data-lang="tAppsHeadingEyebrow">WHAT WE OFFER:</p>
-                <h1 class="mb-4" data-lang="tAppsHeadingTitle">
-                    Automatized market-ready output generation
-                </h1>
+                <h1 class="mb-4" data-lang="tAppsHeadingTitle">Enterprise-ready custom AI automation</h1>
                 <p class="lead" data-lang="ttAppsHeadingLead">
                     We decisively transform content production into an autonomous,
                     scalable, and quality-assured system, empowering your company to
@@ -82,11 +81,104 @@
                 </p>
             </div>
         </section>
-        
+
         <section aria-labelledby="simulation" class="bg1">
             <div class="container two-column " data-animate="fade-up">
                 Graphics for VIA - the AI
             </div>
+        </section>
+        
+        <section class="sample-project">
+            <!-- HEADER -->
+            <header class="sample-project-header text-center">
+                <h2 class="mb-2">Sample Project</h2>
+                <p class="eyebrow mb-4">Automation for e-commerce</p>
+                <!-- Placeholder: später durch echtes Logo ersetzen -->
+                <div class="sample-project-logo" aria-label="Product logo">PRODUCT LOGO</div>
+            </header>
+            <!-- INTERACTIVE PROCESS -->
+            <fieldset class="process-interactive">
+                <legend class="visually-hidden">
+                    Sample project phases
+                </legend>
+                <!-- Grüner Produktbereich -->
+                <div class="product-zone-bg" aria-hidden="true"></div>
+                <!-- PHASE 1 -->
+                <input class="phase-radio visually-hidden" type="radio" name="project-phase" id="phase-1" checked>
+                <label class="phase-card phase-card-1" for="phase-1">
+                    <span class="icon-container" aria-hidden="true"><span class="phase-icon-placeholder">1</span></span>
+                    <span class="phase-card-content"><span class="phase-title">Initial phase</span></span>
+                </label>
+                <div class="phase-description description-1" id="phase-description-1">
+                    <p class="mb-0">
+                        We start by learning from your experts to properly define
+                        and understand the current process. Representative products,
+                        validated images and existing assets are selected for internal
+                        validation.
+                    </p>
+                </div>
+                <!-- ARROW 1 → 2 -->
+                <div class="flow-arrow flow-arrow-1" aria-hidden="true"></div>
+                <!-- PHASE 2 -->
+                <input class="phase-radio visually-hidden" type="radio" name="project-phase" id="phase-2">
+                <label class="phase-card phase-card-2" for="phase-2">
+                    <span class="icon-container" aria-hidden="true"><span class="phase-icon-placeholder">2</span></span>
+                    <span class="phase-card-content"><span class="phase-title">Platform processing</span></span>
+                </label>
+                <div class="phase-description description-2" id="phase-description-2">
+                    <p class="mb-0">
+                        Products, source images and relevant data are processed by
+                        the platform. The workflow is configured and prepared for
+                        consistent AI-supported output generation.
+                    </p>
+                </div>
+                <!-- ITERATION 2 ↔ 3 -->
+                <div class="flow-iteration" aria-hidden="true">
+                    <svg viewBox="0 0 64 42" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <!-- obere Richtung -->
+                        <path d="M14 12H44C50 12 54 16 54 21"></path>
+                        <polyline points="49,17 54,22 59,17"></polyline>
+                        <!-- Rückrichtung -->
+                        <path d="M50 30H20C14 30 10 26 10 21"></path>
+                        <polyline points="15,25 10,20 5,25"></polyline>
+                    </svg>
+                </div>
+                <!-- PHASE 3 -->
+                <input class="phase-radio visually-hidden" type="radio" name="project-phase" id="phase-3">
+                <label class="phase-card phase-card-3" for="phase-3">
+                    <span class="icon-container" aria-hidden="true"><span class="phase-icon-placeholder">3</span></span>
+                    <span class="phase-card-content"><span class="phase-title">Automation</span></span>
+                </label>
+                <div class="phase-description description-3" id="phase-description-3">
+                    <p class="mb-0">
+                        Once the workflow reaches the required quality level,
+                        generation and processing are automated. Platform processing
+                        and automation can iterate until the desired output is reached.
+                    </p>
+                </div>
+                <!-- ARROW 3 → 4 -->
+                <div class="flow-arrow flow-arrow-2" aria-hidden="true"></div>
+                <!-- PHASE 4 -->
+                <input class="phase-radio visually-hidden" type="radio" name="project-phase" id="phase-4">
+                <label class="phase-card phase-card-4" for="phase-4">
+                    <span class="icon-container" aria-hidden="true">
+                        <span class="phase-icon-placeholder">4</span>
+                    </span>
+                    <span class="phase-card-content">
+                        <span class="phase-title">Optimization &amp; Scaling</span>
+                    </span>
+                </label>
+                <div class="phase-description description-4" id="phase-description-4">
+                    <p class="mb-0">
+                        The automated process is monitored, optimized and scaled.
+                        Additional products, markets and output volumes can be added
+                        while the workflow continues to improve.
+                    </p>
+                </div>
+                <!-- for desktop -->
+                <div class="description-pointer" aria-hidden="true"></div>
+            </fieldset>
         </section>
 
         <section aria-labelledby="simulation" class="bg2">
@@ -97,7 +189,6 @@
 
         <section aria-labelledby="cta" class="bg2">
             <div class="container two-column " data-animate="fade-up">
-
             </div>
         </section>
     </main>
