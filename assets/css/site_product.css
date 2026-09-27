@@ -2,13 +2,12 @@
 SAMPLE PROJECT
 ========================================================= */
 html[data-theme] .sample-project {
-    --process-primary: #18366f;
-    --process-border: #b8c2d1;
-    --product-bg: #dceee9;
-    --product-border: #7ab8a8;
-    --timeline: #c5ccd6;
-    max-width: 1200px;
-    margin-inline: auto;
+    --process-primary:                #18366f;
+    --timeline:                       #c5ccd6;
+
+    
+    --prod-icon-container-border:       var(--main);
+    --prod-icon-container-padding:      6px;
 }
 
 /* =========================================================
@@ -72,9 +71,9 @@ html[data-theme] .product-zone-bg {
     grid-column: 1 / -1;
     grid-row: 4 / 12;
     margin: -0.75rem 0;
-    border: 1px solid var(--product-border);
+    border: 1px solid var(--accent);
     border-radius: 1.25rem;
-    background: var(--product-bg);
+    background: var(--bg-accent);
     z-index: 0;
 }
 
@@ -90,6 +89,10 @@ html[data-theme] .phase-card {
     align-items: center;
     cursor: pointer;
     z-index: 2;
+        transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 html[data-theme] .phase-card-1 {
@@ -115,26 +118,32 @@ html[data-theme] .phase-card-4 {
  */
 html[data-theme] .sample-project .icon-container {
     grid-column: 1;
-    width: 3rem;
-    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-self: center;
-    border: 1px solid var(--process-border);
-    border-radius: 50%;
-    background: var(--bs-body-bg);
     z-index: 3;
+
+    height: var(--icon-container-width);
+    width: var(--icon-container-width);
+    padding: var(--prod-icon-container-padding);
+    border-radius: 50%;
 }
 
-html[data-theme] .phase-icon-placeholder {
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: var(--process-primary);
+html[data-theme] .sample-project .icon-container {
+    border: 1px solid var(--prod-icon-container-border);
+}
+
+html[data-theme] .sample-project .icon-container-green {
+    background-color: var(--icon-container-bg);
+}
+
+html[data-theme] .sample-project .icon-container-blue {
+    background-color: var(--icon-container-bg);
 }
 
 /*
- * Der eigentliche klickbare Card-Teil
+ * the actual clickable card area
  */
 html[data-theme] .phase-card-content {
     grid-column: 2;
@@ -142,13 +151,9 @@ html[data-theme] .phase-card-content {
     align-items: center;
     min-height: 72px;
     padding: 1rem 1.25rem;
-    border: 1px solid var(--process-border);
+    border: 1px solid var(--prod-icon-container-border);
     border-radius: 0.875rem;
     background: var(--bs-body-bg);
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        transform 0.2s ease;
 }
 
 html[data-theme] .phase-title {
@@ -207,7 +212,7 @@ html[data-theme] .description-4 {
 }
 
 /*
- * Nur ausgewählte Beschreibung anzeigen
+ * display only selected descriptions
  */
 html[data-theme] #phase-1:checked~.description-1,
 html[data-theme] #phase-2:checked~.description-2,
@@ -217,72 +222,30 @@ html[data-theme] #phase-4:checked~.description-4 {
 }
 
 /* =========================================================
-NORMALE PFEILE
+NORMAL ARROWS
 ======================================================== */
-html[data-theme] .flow-arrow {
-    position: relative;
-    grid-column: 2;
-    width: 2rem;
-    height: 100%;
-    justify-self: center;
-    z-index: 2;
+html[data-theme] .flow-arrow,
+html[data-theme] .flow-iteration {
+    z-index: 4;
 }
 
 
-/* vertikale Linie */
-html[data-theme] .flow-arrow::before {
-    content: "";
-    position: absolute;
-    top: 0.5rem;
-    bottom: 0.75rem;
-    left: 50%;
-    width: 2px;
-    background-color: var(--main);
-    transform: translateX(-50%);
-}
-
-/* Pfeilspitze */
-html[data-theme] .flow-arrow::after {
-    content: "";
-    position: absolute;
-    bottom: 0.6rem;
-    left: 50%;
-    width: 0.6rem;
-    height: 0.6rem;
-    border-right: 2px solid var(--main);
-    border-bottom: 2px solid var(--main);
-    transform: translateX(-50%) rotate(45deg);
-}
+/* Mobile positions */
 
 html[data-theme] .flow-arrow-1 {
     grid-row: 3;
+}
+
+html[data-theme] .flow-iteration {
+    grid-row: 6;
 }
 
 html[data-theme] .flow-arrow-2 {
     grid-row: 9;
 }
 
-/* =========================================================
-ITERATION
-========================================================= */
-html[data-theme] .flow-iteration {
-    grid-column: 2;
-    grid-row: 6;
-    align-self: center;
-    justify-self: center;
-    width: 3rem;
-    color: var(--process-primary);
-    z-index: 2;
-}
 
-html[data-theme] .flow-iteration svg {
-    display: block;
-    width: 100%;
-    height: auto;
-    transform: rotate(90deg);
-}
-
-/* Desktop pointer auf Mobile aus */
+/* no pointer in mobile mode */
 html[data-theme] .description-pointer {
     display: none;
 }
@@ -310,7 +273,7 @@ html[data-theme] .description-pointer {
     }
 
     /*
-     * Kein vertikaler Zeitstrahl mehr.
+     * no vertical time line anymore.
      */
     html[data-theme] .process-interactive::before {
         display: none;
@@ -377,7 +340,7 @@ html[data-theme] .description-pointer {
     }
 
     /*
-     * Icon wieder IN der Card.
+     * Icon IN the card again
      */
     html[data-theme] .sample-project .phase-card .icon-container {
         position: absolute;
@@ -389,11 +352,15 @@ html[data-theme] .description-pointer {
         z-index: 3;
     }
 
+    html[data-theme] .sample-project .icon-container {
+        border: none;
+    }
+
     /* =====================================================
     HOVER
     ===================================================== */
     @media (hover: hover) {
-        html[data-theme] .phase-card:hover .phase-card-content {
+        html[data-theme] .phase-card:hover {
             transform: translateY(-3px);
             box-shadow:
                 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
@@ -403,61 +370,32 @@ html[data-theme] .description-pointer {
     /* =====================================================
     DESKTOP ARROWS
     ===================================================== */
-    html[data-theme] .flow-arrow {
-        position: absolute;
-        top: 95px;
-        width: 2.75rem;
-        height: 2rem;
-        transform: translate(-50%, -50%);
-        z-index: 4;
-    }
-
-    html[data-theme] .flow-arrow-1 {
-        left: 25%;
-    }
-
-    html[data-theme] .flow-arrow-2 {
-        left: 75%;
-    }
-
-    /*
-     * horizontale Linie
-     */
-    html[data-theme] .flow-arrow::before {
-        top: 50%;
-        bottom: auto;
-        left: 0;
-        width: calc(100% - 0.4rem);
-        height: 2px;
-        transform: translateY(-50%);
-    }
-
-    /*
-     * horizontale Pfeilspitze
-     */
-    html[data-theme] .flow-arrow::after {
-        top: 50%;
-        right: 0;
-        bottom: auto;
-        left: auto;
-        width: 0.6rem;
-        height: 0.6rem;
-        transform: translateY(-50%) rotate(-45deg);
-    }
-
-    /* =====================================================
-    ITERATION 2 ↔ 3
-    ==================================================== */
+    html[data-theme] .flow-arrow,
     html[data-theme] .flow-iteration {
         position: absolute;
         top: 95px;
-        left: 50%;
-        width: 4rem;
+
         transform: translate(-50%, -50%);
-        z-index: 4;
     }
 
-    html[data-theme] .flow-iteration svg {
+
+    html[data-theme] .flow-arrow-1 {
+        left: 24%;
+        top:-100%
+    }
+
+    html[data-theme] .flow-iteration {
+        left: 49.5%;
+    }
+
+    html[data-theme] .flow-arrow-2 {
+        left: 75.25%;
+    }
+
+
+    /* desktop horizontal again */
+    html[data-theme] .flow-arrow .flow-icon,
+    html[data-theme] .flow-icon-loop {
         transform: none;
     }
 
@@ -514,7 +452,7 @@ html[data-theme] .description-pointer {
         margin: 0;
         min-height: 150px;
         padding: 2rem 2.5rem;
-        border: 1px solid var(--process-border);
+        border: 1px solid var(--prod-icon-container-border);
         border-radius: 1rem;
         background: var(--bs-body-bg);
         font-size: 1.05rem;
