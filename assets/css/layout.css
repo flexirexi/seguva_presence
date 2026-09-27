@@ -7,34 +7,40 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --navbar-height:                70px;
-    --navbar-link-text-height:      19px;
-    --navbar-link-thickness:        200;
+    --navbar-height:                    70px;
+    --navbar-link-text-height:          19px;
+    --navbar-link-thickness:            200;
     
-    --toggle-height:                40px;
-    --toggle-height-desktop:        35px;
-    --toggle-width:                 80px;
-    --toggle-width-desktop:         60px;
+    --toggle-height:                    40px;
+    --toggle-height-desktop:            35px;
+    --toggle-width:                     80px;
+    --toggle-width-desktop:             60px;
     
-    --container-margin-mobile:      0px;
+    --container-margin-mobile:          0px;
     
-    --padding-horizontal-mobile:    30px;
-    --padding-horizontal-desktop:   0px;
+    --padding-horizontal-mobile:        30px;
+    --padding-horizontal-desktop:       0px;
 
-    --section-padding-vertical:     80px;
+    --section-padding-vertical:         80px;
     
-    --card-border-radius:           3px;
+    --card-border-radius:               3px;
 
-    --btn-border-radius:            1px;
-    --btn-height:                   40px;
+    --btn-border-radius:                1px;
+    --btn-height:                       40px;
 
-    --icon-container-radius:        8px;
-    --icon-container-width:         45px;
-    --icon-container-padding:       9px;
+    --icon-container-radius:            8px;
+    --icon-container-width:             45px;
+    --icon-container-padding:           9px;
 
-    --icon-container-mini-radius:   8px;
-    --icon-container-mini-width:    30px;
-    --icon-container-mini-padding:  3px;
+    --icon-container-mini-radius:       8px;
+    --icon-container-mini-width:        30px;
+    --icon-container-mini-padding:      3px;
+
+    --icon-container-large-radius:      15px;
+    --icon-container-large-width:       65px;
+    --icon-container-large-height:      45px;
+    --icon-container-large-padding-x:   10px;
+    --icon-container-large-padding-y:   3px;
 }
 
 html[data-theme] .mb-6-custom {

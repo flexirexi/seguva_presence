@@ -1,13 +1,32 @@
 /* =========================================================
 SAMPLE PROJECT
 ========================================================= */
-html[data-theme] .sample-project {
-    --process-primary:                #18366f;
-    --timeline:                       #c5ccd6;
+html[data-theme] .sample-project {    
+    --prod-flow-icon-bg:                #E3E8F4;
+    --prod-flow-icon-border:            #142A5E;
+    --prod-flow-icon-border-w:          2px;
+    --prod-flow-icon-border-r:          50%;
+    --prod-flow-icon-size:              45px;
+    --prod-flow-icon-padding:           9px;
+
+    --prod-flow-icon-loop-width:        65px;
+    --prod-flow-icon-p-y:               3px;
+    --prod-flow-icon-p-x:               10px;
+
+    --prod-content-icon-size:           55px;
+    --prod-content-icon-padding:        9px;
+    --prod-content-icon-bg:             #d2ebe4;
+    --prod-content-icon-bg-act:         #d2ebe4;
+    --prod-content-icon-border:         #7ab8a8;
+    --prod-content-icon-border-act:     #142a5e;
+
+    --prod-descr-border:                gray;
 
     
-    --prod-icon-container-border:       var(--main);
-    --prod-icon-container-padding:      6px;
+    /* --prod-icon-container-border:       var(--main); */
+
+    --process-primary:                #18366f;
+    --timeline:                       #c5ccd6;
 }
 
 /* =========================================================
@@ -123,24 +142,56 @@ html[data-theme] .sample-project .icon-container {
     justify-content: center;
     justify-self: center;
     z-index: 3;
+}
 
-    height: var(--icon-container-width);
-    width: var(--icon-container-width);
-    padding: var(--prod-icon-container-padding);
+html[data-theme] .sample-project .icon-container-large {
+    width: var(--icon-container-large-width);
+    height: var(--icon-container-large-height);
+    padding: var(--icon-container-large-padding-y) var(--icon-container-large-padding-x);
+    border-radius: var(--icon-container-large-radius);
+}   
+
+html[data-theme] .sample-project .content-icon {
+    background-color: var(--prod-content-icon-bg);
+    border: 2px solid var(--prod-content-icon-border);
+
+    height: var(--prod-content-icon-size);
+    width: var( --prod-content-icon-size);
+    padding: var(--prod-content-icon-padding);
     border-radius: 50%;
 }
 
-html[data-theme] .sample-project .icon-container {
-    border: 1px solid var(--prod-icon-container-border);
+/* mobile vertical rotation of icons */
+html[data-theme] .flow-icon,
+html[data-theme] .flow-icon-loop {
+    position: absolute;
+    transform: translate(0, 0);
+    
+    z-index: 4;
+    transform: rotate(90deg);
+    background-color: var(--prod-flow-icon-bg);
+    border: 
+        var(--prod-flow-icon-border-w)
+        solid 
+        var(--prod-flow-icon-border);
+    border-radius: var(--prod-flow-icon-border-r);
 }
 
-html[data-theme] .sample-project .icon-container-green {
-    background-color: var(--icon-container-bg);
+/* Mobile positions */
+html[data-theme] .flow-icon-1 {
+    top: 50%;
 }
 
-html[data-theme] .sample-project .icon-container-blue {
-    background-color: var(--icon-container-bg);
+html[data-theme] .flow-icon-2 {
 }
+
+html[data-theme] .flow-icon-3 {
+}
+
+
+
+
+
 
 /*
  * the actual clickable card area
@@ -151,7 +202,7 @@ html[data-theme] .phase-card-content {
     align-items: center;
     min-height: 72px;
     padding: 1rem 1.25rem;
-    border: 1px solid var(--prod-icon-container-border);
+    /* border: 1px solid var(--prod-icon-container-border); */
     border-radius: 0.875rem;
     background: var(--bs-body-bg);
 }
@@ -165,14 +216,15 @@ html[data-theme] .phase-title {
 ACTIVE / FOCUS
 ========================================================= */
 html[data-theme] .phase-radio:checked+.phase-card .phase-card-content {
-    border-color: var(--process-primary);
+    border-color: var(--card-dark-border-hover);
     box-shadow:
-        0 0 0 1px var(--process-primary),
-        0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);
+        0 0 0 1px var(--card-shadow-hover),
+        0 0.5rem 1.0rem #383838a0;
 }
 
-html[data-theme] .phase-radio:checked+.phase-card .icon-container {
-    border-color: var(--process-primary);
+html[data-theme] .phase-radio:checked+.phase-card .content-icon {
+    background-color: var(--prod-content-icon-bg-act);
+    border: 1px solid var(--prod-content-icon-border-act);
 }
 
 html[data-theme] .phase-radio:focus-visible+.phase-card .phase-card-content {
@@ -219,29 +271,6 @@ html[data-theme] #phase-2:checked~.description-2,
 html[data-theme] #phase-3:checked~.description-3,
 html[data-theme] #phase-4:checked~.description-4 {
     display: block;
-}
-
-/* =========================================================
-NORMAL ARROWS
-======================================================== */
-html[data-theme] .flow-arrow,
-html[data-theme] .flow-iteration {
-    z-index: 4;
-}
-
-
-/* Mobile positions */
-
-html[data-theme] .flow-arrow-1 {
-    grid-row: 3;
-}
-
-html[data-theme] .flow-iteration {
-    grid-row: 6;
-}
-
-html[data-theme] .flow-arrow-2 {
-    grid-row: 9;
 }
 
 
@@ -332,9 +361,9 @@ html[data-theme] .description-pointer {
         height: 100%;
         min-height: 190px;
         display: flex;
-        align-items: flex-end;
+        
         justify-content: center;
-        padding: 5.25rem 1.25rem 1.75rem;
+        padding: 5.25rem 1.25rem 3.25rem;
         text-align: center;
         border-radius: 1rem;
     }
@@ -344,16 +373,11 @@ html[data-theme] .description-pointer {
      */
     html[data-theme] .sample-project .phase-card .icon-container {
         position: absolute;
-        top: 1.5rem;
+        top: 1.9rem;
         left: 50%;
-        width: 3.25rem;
-        height: 3.25rem;
+
         transform: translateX(-50%);
         z-index: 3;
-    }
-
-    html[data-theme] .sample-project .icon-container {
-        border: none;
     }
 
     /* =====================================================
@@ -361,43 +385,39 @@ html[data-theme] .description-pointer {
     ===================================================== */
     @media (hover: hover) {
         html[data-theme] .phase-card:hover {
-            transform: translateY(-3px);
+            transform: translate(0, -0.15rem);
             box-shadow:
                 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
         }
     }
 
     /* =====================================================
-    DESKTOP ARROWS
+    DESKTOP FLOW ICONS
     ===================================================== */
-    html[data-theme] .flow-arrow,
-    html[data-theme] .flow-iteration {
+
+    html[data-theme] .flow-icon {
         position: absolute;
-        top: 95px;
-
-        transform: translate(-50%, -50%);
+        transform: translate(0, 0);
     }
 
 
-    html[data-theme] .flow-arrow-1 {
-        left: 24%;
-        top:-100%
+    html[data-theme] .flow-icon-1 {
+        top: 16.667%;
+        left: 21.5%;
     }
 
-    html[data-theme] .flow-iteration {
-        left: 49.5%;
+    html[data-theme] .flow-icon-2 {
+        top: 16.667%;
+        left: 46.25%;
     }
 
-    html[data-theme] .flow-arrow-2 {
-        left: 75.25%;
+    html[data-theme] .flow-icon-3 {
+        top: 16.667%;
+        left: 73%;
     }
 
 
     /* desktop horizontal again */
-    html[data-theme] .flow-arrow .flow-icon,
-    html[data-theme] .flow-icon-loop {
-        transform: none;
-    }
 
     /* =====================================================
     DESKTOP DESCRIPTION POINTER
@@ -452,7 +472,7 @@ html[data-theme] .description-pointer {
         margin: 0;
         min-height: 150px;
         padding: 2rem 2.5rem;
-        border: 1px solid var(--prod-icon-container-border);
+        border: 1px solid var(--prod-descr-border);
         border-radius: 1rem;
         background: var(--bs-body-bg);
         font-size: 1.05rem;

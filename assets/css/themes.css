@@ -55,7 +55,7 @@ html[data-theme="dark"] {
     --card-border: #E3E8F4;
     --card-border-hover: #142a5e;
     --card-shadow: darkgray;
-    --card-shadow-hover: gray;
+    --card-shadow-hover: #525252;
 
     --card-dark-text: #dddddd;
     --card-dark-bg: #142a5e;
@@ -120,6 +120,10 @@ html[data-theme] .bg1 {
 
 html[data-theme] .bg2 {
     background-color: var(--bg2);
+}
+
+html[data-theme] .bg-accent {
+    background-color: var(--bg-accent);
 }
 
 html[data-theme] .text-color-accent {
