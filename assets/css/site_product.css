@@ -21,9 +21,9 @@ html[data-theme] .sample-project {
     --prod-content-icon-padding:        9px;
     --prod-content-icon-bg:             #d2ebe4;
     --prod-content-icon-bg-act:         #E3E8F4;
-    --prod-content-icon-border:         #d2ebe4; /* #7ab8a8; */
-    --prod-content-icon-border-act:     #fff;
-    --prod-content-icon-border-w:       3px;
+    --prod-content-icon-border:         #86bfb0; /* #7ab8a8; */
+    --prod-content-icon-border-act:     #142A5E;
+    --prod-content-icon-border-w:       2px;
     --prod-content-icon-border-r:       50%;
 
     --phase-card-cont-bg:               #ffffff;
@@ -78,7 +78,7 @@ html[data-theme] .process-interactive {
 html[data-theme] .process-interactive::before {
     content: "";
     position: absolute;
-    top: 2rem;
+    top: 6.5rem;
     bottom: 2rem;
     left: 1.7rem;
     width: 3px;
@@ -102,16 +102,19 @@ html[data-theme] .product-zone-bg {
 }
 
 html[data-theme] .sample-project-logo {
-    display: inline-flex;
+    grid-column: 2 / 2;
+    grid-row: -13;
+    min-width: 2rem;
     align-items: center;
     justify-content: center;
-    min-width: 260px;
-    min-height: 64px;
-    padding: 0rem 1rem;
-    border: none;
+    text-align: center;
+    padding: 0rem 1rem 0rem;
+    margin-bottom: 10px;
     border-radius: 0.75rem;
     font-weight: 700;
     background: transparent;
+    
+
 }
 
 html[data-theme] .sample-project-logo img {
@@ -194,7 +197,6 @@ html[data-theme] .flow-icon-loop {
     border-radius: var(--prod-flow-icon-border-r);
     box-shadow: var(--prod-flow-icon-shadow);
     z-index: 4;
-    
 }
 
 /* Mobile positions */
