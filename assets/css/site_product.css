@@ -370,6 +370,19 @@ html[data-theme] #prod-savings .card-main .icon-container {
     background-color: var(--main);
 }
 
+html[data-theme] .prod-cta {
+    margin: auto;
+    max-width: 900px;
+    padding: 50px 60px;
+    background-color: var(--bg2);
+    border-radius: 20px;
+    border: 1px solid var(--main);
+}
+
+html[data-theme] #prod-cta-section {
+    padding-top: 15px;
+}
+
 @media (min-width: 992px) {
     html[data-theme] .sample-project-header {
         margin-bottom: 3rem;
