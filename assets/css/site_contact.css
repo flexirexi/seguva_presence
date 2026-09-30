@@ -1,0 +1,53 @@
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
+*/
+
+html[data-theme] .form-group-name-container {
+    display: grid;
+    gap: 1rem;
+}
+
+html[data-theme] .form-floating {
+    margin-bottom: 1rem;
+}
+
+html[data-theme] .form-control,
+html[data-theme] .form-select {
+    background-color: var(--bg2);
+    color: var(--text);
+    border-color: var(--text);
+}
+
+html[data-theme] .contact-message {
+    min-height: 180px;
+    resize: vertical;
+}
+
+/* Input, Select, textarea focus */
+html[data-theme] .form-control:focus,
+html[data-theme] .form-select:focus {
+    background-color: #fff;
+    color: #212529;
+    box-shadow: 1px 1px 10px #42424280;
+}
+
+html[data-theme] .form-floating > label::after {
+    background-color: transparent;
+}
+
+html[data-theme] .form-floating > .form-control:focus ~ label,
+html[data-theme] .form-floating > .form-select:focus ~ label {
+    color: #212529;
+}
+
+
+
+@media (min-width: 768px) {
+    html[data-theme] .form-group-name-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}

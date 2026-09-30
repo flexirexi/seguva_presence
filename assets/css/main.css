@@ -14,6 +14,7 @@ Bootstrap is used here -> in order to overwrite, use:
 @import url("site_team.css");
 @import url("site_product.css");
 @import url("site_applications.css");
+@import url("site_contact.css");
 @import url("site_imprint.css");
 
 /* 01 Generic STYLES that apply for all html pages --------------------------- */

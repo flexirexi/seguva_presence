@@ -74,16 +74,71 @@
         </div>
     </nav>
 
-    <main id="main">
-        <section class="hero bg2" aria-labelledby="hero-title">
+    <main id="contact-main">
+        <section class="hero bg2" aria-labelledby="contact">
             <div class="container two-column">
-                
-            </div>
-        </section>
-
-        <section aria-labelledby="goal-title">
-            <div class="container two-column " data-animate="fade-up">
-                
+                <div class="text-center text-lg-start align-items-center">
+                    <p class="eyebrow">next step</p>
+                    <h1>Let's start a conversation</h1>
+                    <p class="lead">
+                        Explore a tailored sandbox environment with us, and 
+                        test our AI capabilities freely at your own pace.
+                    </p>
+                </div>
+                <div class="text-center text-lg-start">
+                    <form id="contact-form">
+                        <div class="form-group-name-container">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name" required>
+                                <label for="firstname" data-lang="tContactNameFirst">First name</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last name" required>
+                                <label for="lastname" data-lang="tContactNameLast">
+                                    Last name
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="E-Mail" required>
+                            <label for="email" data-lang="tContactEmail">E-Mail</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number">
+                            <label for="phone" data-lang="tContactPhone">
+                                Phone number (optional)
+                            </label>
+                        </div>
+                        <!-- <div class="form-floating">
+                            <select class="form-select" id="product" name="product" aria-label="Product">
+                                <option value="none" selected>Standard</option>
+                                <option value="via">Other</option>
+                            </select>
+                            <label for="product" data-lang="tContactProduct">
+                                Product
+                            </label>
+                        </div> -->
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="title" id="title" placeholder="Title">
+                            <label for="title" data-lang="tContactTitle">Title</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control contact-message" id="description" name="description" maxlength="1200" placeholder="Description"></textarea>
+                            <label for="description" data-lang="tContactDescription">
+                                Description (max. 1200 characters)
+                            </label>
+                        </div>
+                        <p class="small mt-4">
+                            <strong>Datenschutzhinweis:</strong>
+                            Wir nutzen diese Angaben lediglich zum Beantworten Ihrer Anfrage.
+                            Der E-Mail-Versand läuft über EmailJS. Näheres finden Sie in der
+                            Datenschutzerklärung.
+                        </p>
+                        <button type="submit" class="btn btn-primary" data-lang="tContactSubmit">
+                            Abschicken
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
