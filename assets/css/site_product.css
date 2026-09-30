@@ -182,6 +182,11 @@ html[data-theme] .sample-project .content-icon {
     border-radius: var(--prod-content-icon-border-r);
 }
 
+html[data-theme] .sample-project .content-icon img {
+    height: 100%;
+    width: 100%;
+}
+
 /* mobile vertical rotation of icons */
 html[data-theme] .flow-icon,
 html[data-theme] .flow-icon-loop {
@@ -206,6 +211,11 @@ html[data-theme] .flow-icon-1 {
     top: 50%;
 }
 
+html[data-theme] .flow-icon-1 img {
+    width: var(--prod-flow-icon-size);
+    height: var(--prod-flow-icon-size);
+}
+
 html[data-theme] .flow-icon-2 {
     width: var(--prod-flow-icon-loop-width);
     height: var(--prod-flow-icon-loop-height);
@@ -214,7 +224,17 @@ html[data-theme] .flow-icon-2 {
     border: 1px solid var(--prod-flow-icon-loop-border);
 }
 
+html[data-theme] .flow-icon-2 img {
+    width: var(--prod-flow-icon-loop-width);
+    height: var(--prod-flow-icon-loop-height);
+}
+
 html[data-theme] .flow-icon-3 {
+    width: var(--prod-flow-icon-size);
+    height: var(--prod-flow-icon-size);
+}
+
+html[data-theme] .flow-icon-3 img {
     width: var(--prod-flow-icon-size);
     height: var(--prod-flow-icon-size);
 }
@@ -466,7 +486,7 @@ html[data-theme] .description-pointer {
 
     html[data-theme] .flow-icon-2 {
         top: 31%;
-        left: 46.25%;
+        left: 46.75%;
     }
 
     html[data-theme] .flow-icon-3 {
