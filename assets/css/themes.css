@@ -9,7 +9,7 @@ Bootstrap is used here -> in order to overwrite, use:
 html[data-theme="dark"] {
     --text: #494949;
     --main: #142A5E;
-    --accent: #7ab8a8;
+    --accent: #368f79;
 
     --title: #101010;   /*or: 1abc9c*/
     --title-shadow: #535353d8;

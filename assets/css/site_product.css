@@ -1,7 +1,7 @@
 /* =========================================================
 SAMPLE PROJECT
 ========================================================= */
-html[data-theme] .sample-project {    
+html[data-theme] #prod-main {    
     --prod-flow-icon-bg:                #E3E8F4;
     --prod-flow-icon-border:            none;
     --prod-flow-icon-border-w:          5px;
@@ -21,7 +21,7 @@ html[data-theme] .sample-project {
     --prod-content-icon-padding:        9px;
     --prod-content-icon-bg:             #d2ebe4;
     --prod-content-icon-bg-act:         #E3E8F4;
-    --prod-content-icon-border:         #86bfb0; /* #7ab8a8; */
+    --prod-content-icon-border:         #368f79; /* #7ab8a8; */
     --prod-content-icon-border-act:     #142A5E;
     --prod-content-icon-border-w:       2px;
     --prod-content-icon-border-r:       50%;
@@ -39,14 +39,11 @@ html[data-theme] .sample-project {
     --product-logo-height:              10rem;
     --prod-flow-icon-top:               3.5rem;
 
-    --process-primary:                #18366f;
+    --prod-key1-color:                  var(--accent);
+    --prod-key2-color:                  var(--main);
 }
 
 
-
-/* =========================================================
-HEADER
-========================================================= */
 html[data-theme] .sample-project {
     padding-top: 60px;
 }
@@ -56,9 +53,6 @@ html[data-theme] .sample-project-header * {
     text-align: left;
 }
 
-/* =========================================================
-PROCESS – MOBILE
-========================================================= */
 html[data-theme] .process-interactive {
     position: relative;
     isolation: isolate;
@@ -75,9 +69,7 @@ html[data-theme] .process-interactive {
     
 }
 
-/*
- * Vertikaler Zeitstrahl
- */
+/* vertical time line */
 html[data-theme] .process-interactive::before {
     content: "";
     position: absolute;
@@ -91,10 +83,7 @@ html[data-theme] .process-interactive::before {
     
 }
 
-/* =========================================================
-GRÜNER PRODUKTBEREICH
-========================================================= */
-
+/* green product area*/
 html[data-theme] .product-zone-bg {
     grid-column: 1 / -1;
     grid-row: 4 / 12;
@@ -119,8 +108,6 @@ html[data-theme] .sample-project-logo {
     border-radius: 0.75rem;
     font-weight: 700;
     background: transparent;
-    
-
 }
 
 html[data-theme] .sample-project-logo img {
@@ -128,9 +115,7 @@ html[data-theme] .sample-project-logo img {
     width: auto;
 }
 
-/* =========================================================
-PHASE CARDS
-========================================================= */
+/* phase cards */
 html[data-theme] .phase-card {
     position: relative;
     grid-column: 1 / -1;
@@ -144,7 +129,6 @@ html[data-theme] .phase-card {
         border-color 0.2s ease,
         box-shadow 0.2s ease,
         transform 0.2s ease;
-    
 }
 
 html[data-theme] .phase-card-1 {
@@ -163,11 +147,6 @@ html[data-theme] .phase-card-4 {
     grid-row: 10;
 }
 
-/*
- * Dein bestehender .icon-container kann hier weiterverwendet werden.
- * Die Größenregeln kannst du entfernen, falls deine Klasse das
- * bereits passend definiert.
- */
 html[data-theme] .sample-project .icon-container {
     grid-column: 1;
     display: flex;
@@ -247,9 +226,7 @@ html[data-theme] .flow-icon-3 img {
 }
 
 
-/*
- * the actual clickable card area
- */
+/* the actual clickable card area */
 html[data-theme] .phase-card-content {
     grid-column: 2;
     display: flex;
@@ -258,7 +235,6 @@ html[data-theme] .phase-card-content {
     padding: 0.5rem 1.25rem;
     border-radius: 0.875rem;
     background: var(--phase-card-cont-bg);
-    
 }
 
 html[data-theme] .phase-title {
@@ -267,21 +243,17 @@ html[data-theme] .phase-title {
     margin: auto;
 }
 
-/* =========================================================
-ACTIVE / FOCUS
-========================================================= */
+/* ACTIVE / FOCUS */
 html[data-theme] .phase-radio:checked+.phase-card .phase-card-content {
     border-color: var(--card-dark-border-hover);
     background-color: var(--phase-card-cont-bg-act);
     box-shadow:
         0 0 0 1px var(--card-shadow-hover),
         0 0.5rem 1.0rem #383838a0;
-    
 }
 
 html[data-theme] .phase-radio:checked + .phase-card .phase-card-content * {
     color: var(--phase-card-text-color-act);
-    
 }
 
 html[data-theme] .phase-radio:checked+.phase-card .content-icon {
@@ -290,7 +262,6 @@ html[data-theme] .phase-radio:checked+.phase-card .content-icon {
         var(--prod-content-icon-border-w) 
         solid 
         var(--prod-content-icon-border-act);
-
 }
 
 html[data-theme] .phase-radio:focus-visible+.phase-card .phase-card-content * {
@@ -298,9 +269,7 @@ html[data-theme] .phase-radio:focus-visible+.phase-card .phase-card-content * {
 
 }
 
-/* =========================================================
-DESCRIPTIONS – MOBILE
-========================================================= */
+/* DESCRIPTIONS MOBILE */
 html[data-theme] .phase-description {
     display: grid;
     grid-template-rows: 0fr;
@@ -329,7 +298,6 @@ html[data-theme] .phase-description {
 html[data-theme] .phase-description-inner {
     overflow: hidden;
     min-height: 0;
-    
 }
 
 html[data-theme] .description-1 {
@@ -348,9 +316,7 @@ html[data-theme] .description-4 {
     grid-row: 11;
 }
 
-/*
- * display only selected descriptions
- */
+/* display only selected descriptions */
 html[data-theme] #phase-1:checked~.description-1,
 html[data-theme] #phase-2:checked~.description-2,
 html[data-theme] #phase-3:checked~.description-3,
@@ -367,17 +333,29 @@ html[data-theme] .description-pointer {
     display: none;
 }
 
+/* SECTION KEY SELLING */
+html[data-theme] #prod-key-selling .icon-container {
+    background: none;
+    width: 120px;
+    height: auto;
+}
+
+html[data-theme] #k1 h1 {
+    color: var(--prod-key1-color);
+    font-size: 70px;
+}
+
+html[data-theme] #k2 h1 {
+    color: var(--prod-key2-color);
+    font-size: 60px;
+}
+
 @media (min-width: 992px) {
-    /* =====================================================
-    HEADER
-    ===================================================== */
     html[data-theme] .sample-project-header {
         margin-bottom: 3rem;
     }
 
-    /* =====================================================
-    DESKTOP PROCESS GRID
-    ===================================================== */
+    /* DESKTOP PROCESS GRID */
     html[data-theme] .process-interactive {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -388,23 +366,14 @@ html[data-theme] .description-pointer {
         
     }
 
-    /*
-     * no vertical time line anymore.
-     */
+    /* no vertical time line anymore */
     html[data-theme] .process-interactive::before {
         display: none;
     }
 
-    /* =====================================================
-    PRODUCT BACKGROUND
-    ===================================================== */
     html[data-theme] .product-zone-bg {
         grid-column: 2 / 5;
         grid-row: 1;
-        /*
-         * Border läuft durch Phase 2 und 4 hindurch:
-         * dadurch entsteht die Überlappung aus deinem Beispiel.
-         */
         margin:
             -1.5rem
             8%
@@ -424,9 +393,7 @@ html[data-theme] .description-pointer {
         margin-bottom: 0;
     }
 
-    /* =====================================================
-    DESKTOP CARDS
-    ===================================================== */
+    /* DESKTOP CARDS */
     html[data-theme] .phase-card {
         display: block;
         min-width: 0;
@@ -466,14 +433,11 @@ html[data-theme] .description-pointer {
         border-radius: 1rem;
     }
 
-    /*
-     * Icon IN the card again
-     */
+    /* Icon IN the card again */
     html[data-theme] .sample-project .phase-card .icon-container {
         position: absolute;
         top: 1.9rem;
         left: 50%;
-
         transform: translateX(-50%);
         z-index: 3;
     }
@@ -482,9 +446,7 @@ html[data-theme] .description-pointer {
         pointer-events: none;
     }
 
-    /* =====================================================
-    HOVER
-    ===================================================== */
+    /* HOVER */
     @media (hover: hover) {
         html[data-theme] .phase-card:hover {
             transform: translate(0, -0.15rem);
@@ -493,15 +455,11 @@ html[data-theme] .description-pointer {
         }
     }
 
-    /* =====================================================
-    DESKTOP FLOW ICONS
-    ===================================================== */
-
+    /* DESKTOP FLOW ICONS */
     html[data-theme] .flow-icon {
         position: absolute;
         transform: translate(0, 0);
     }
-
 
     html[data-theme] .flow-icon-1 {
         top: calc(31% + var(--prod-flow-icon-top));
@@ -518,12 +476,6 @@ html[data-theme] .description-pointer {
         left: 73%;
     }
 
-
-    /* desktop horizontal again */
-
-    /* =====================================================
-    DESKTOP DESCRIPTION POINTER
-    ===================================================== */
     html[data-theme] .description-pointer {
         display: block;
         grid-column: 1 / -1;
@@ -545,15 +497,14 @@ html[data-theme] .description-pointer {
         transition: left 0.35s ease;
     }
 
-    /*
-     * Linie wandert zur aktiven Phase
-     */
+    /* line moves to active phase */
     html[data-theme] #phase-1:checked~.description-1,
     html[data-theme] #phase-2:checked~.description-2,
     html[data-theme] #phase-3:checked~.description-3,
     html[data-theme] #phase-4:checked~.description-4 {
         margin-top: 0;
     }
+
     html[data-theme] #phase-1:checked ~ .description-pointer::before {
         left: 12.5%;
     }
@@ -570,9 +521,6 @@ html[data-theme] .description-pointer {
         left: 87.5%;
     }
 
-    /* =====================================================
-    DESKTOP DESCRIPTION BOX
-    ===================================================== */
     html[data-theme] .phase-description {
         grid-column: 1 / -1;
         grid-row: 3;

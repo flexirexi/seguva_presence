@@ -1,0 +1,24 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 30"
+    fill="none"
+    stroke="#142A5E"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true">
+    
+    <path
+        stroke-width="3"
+        d="M4 25a20 20 0 0 1 40 0"/>
+
+    <path
+        stroke-width="2.5"
+        d="M24 25L35.3 16.8"/>
+
+    <circle
+        stroke="none"
+        fill="#142A5E"
+        cx="24"
+        cy="25"
+        r="2.75"/>
+</svg>
