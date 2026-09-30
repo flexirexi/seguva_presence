@@ -34,11 +34,12 @@ html[data-theme] .sample-project {
     --phase-card-text-color-hover:      #dddddd;
 
     --prod-descr-border:                gray;
+    --prod-timeline:                    #acb2bb;
 
-    /* --prod-icon-container-border:       var(--main); */
+    --product-logo-height:              10rem;
+    --prod-flow-icon-top:               3.5rem;
 
     --process-primary:                #18366f;
-    --prod-timeline:                  #acb2bb;
 }
 
 
@@ -80,7 +81,7 @@ html[data-theme] .process-interactive {
 html[data-theme] .process-interactive::before {
     content: "";
     position: absolute;
-    top: 6.5rem;
+    top: calc(3rem + var(--product-logo-height));
     bottom: 2rem;
     left: 1.7rem;
     width: 3px;
@@ -113,7 +114,7 @@ html[data-theme] .sample-project-logo {
     justify-content: center;
     text-align: center;
     padding: 0rem 1rem 0rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 0.75rem;
     font-weight: 700;
     background: transparent;
@@ -122,8 +123,8 @@ html[data-theme] .sample-project-logo {
 }
 
 html[data-theme] .sample-project-logo img {
-    width: 10rem;
-    height: auto;
+    height: var(--product-logo-height);
+    width: auto;
 }
 
 /* =========================================================
@@ -254,7 +255,6 @@ html[data-theme] .phase-card-content {
     align-items: center;
     min-height: 72px;
     padding: 0.5rem 1.25rem;
-    /* border: 1px solid var(--prod-icon-container-border); */
     border-radius: 0.875rem;
     background: var(--phase-card-cont-bg);
     
@@ -355,23 +355,16 @@ html[data-theme] #phase-2:checked~.description-2,
 html[data-theme] #phase-3:checked~.description-3,
 html[data-theme] #phase-4:checked~.description-4 {
     grid-template-rows: 1fr;
-
     margin-top: 1rem;
     padding: 1rem 1.25rem;
-
     opacity: 1;
     transform: translateY(0);
-
-
 }
-
 
 /* no pointer in mobile mode */
 html[data-theme] .description-pointer {
     display: none;
 }
-
-
 
 @media (min-width: 992px) {
     /* =====================================================
@@ -427,6 +420,7 @@ html[data-theme] .description-pointer {
         z-index: 2;
         pointer-events: none;
         translate: 0 -30px;
+        margin-bottom: 0;
     }
 
     /* =====================================================
@@ -509,17 +503,17 @@ html[data-theme] .description-pointer {
 
 
     html[data-theme] .flow-icon-1 {
-        top: 31%;
+        top: calc(31% + var(--prod-flow-icon-top));
         left: 21.5%;
     }
 
     html[data-theme] .flow-icon-2 {
-        top: 31%;
+        top: calc(31% + var(--prod-flow-icon-top));
         left: 46.4%;
     }
 
     html[data-theme] .flow-icon-3 {
-        top: 31%;
+        top: calc(31% + var(--prod-flow-icon-top));
         left: 73%;
     }
 
@@ -595,17 +589,14 @@ html[data-theme] .description-pointer {
 
 @media (min-width: 1200px) {
     html[data-theme] .flow-icon-1 {
-        top: 31%;
         left: 21.9%;
     }
 
     html[data-theme] .flow-icon-2 {
-        top: 31%;
         left: 47%;
     }
 
     html[data-theme] .flow-icon-3 {
-        top: 31%;
         left: 73.2%;
     }
 }
