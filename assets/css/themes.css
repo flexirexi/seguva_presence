@@ -161,7 +161,8 @@ html[data-theme] h6 {
     color: var(--title2);
 }
 
-html[data-theme] .modal-content {
+html[data-theme] .t-muted {
+    color: var(--dis-text);
 }
 
 html[data-theme] nav,
@@ -179,7 +180,6 @@ html[data-theme] .nav-link {
     color: var(--nav-link-text);
     text-decoration: none;
     padding: 3px;
-
 }
 
 html[data-theme] .nav-link:hover {
@@ -280,6 +280,14 @@ html[data-theme] .card-dark:hover {
 
 html[data-theme] .card-light {
     background-color: white;
+}
+
+html[data-theme] .card-accent {
+    background-color: var(--bg-accent);
+}
+
+html[data-theme] .card-accent:hover {
+    background-color: var(--accent);
 }
 
 html[data-theme] .icon-container {
