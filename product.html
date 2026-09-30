@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body id="product-body">
     <nav class="navbar navbar-expand-lg  fixed-top navbar-dark">
         <div class="container ">
             <div class="nav-inner-container d-flex ">
@@ -92,7 +92,6 @@
         <section class="sample-project">
             <div class="container">
 
-                
                 <!-- HEADER -->
                 <header class="sample-project-header text-center">
                     <h2 class="mb-2">A sample Project</h2>
@@ -101,13 +100,13 @@
 
                 <!-- INTERACTIVE PROCESS -->
                 <fieldset class="process-interactive">
-                    <legend class="visually-hidden">Sample project phases</legend>
                     <!-- product logo -->
                     <div class="sample-project-logo" aria-label="Product logo">
                         <img src="assets/img/logos/product-logo-via-transparent.svg" alt="VIA product logo">
                     </div>
                     <!-- green product area -->
                     <div class="product-zone-bg" aria-hidden="true"></div>
+                    <legend class="visually-hidden">Sample project phases</legend>
                     <!-- PHASE 1 -->
                     <input class="phase-radio visually-hidden" type="radio" name="project-phase" id="phase-1" checked>
                     <label class="phase-card phase-card-1 me-2" for="phase-1">
@@ -117,12 +116,14 @@
                         <span class="phase-card-content card"><span class="phase-title">Initial phase</span></span>
                     </label>
                     <div class="phase-description description-1 me-2" id="phase-description-1">
-                        <p class="mb-0">
-                            We start by learning from your experts to properly define
-                            and understand the current process. Representative products,
-                            validated images and existing assets are selected for internal
-                            validation.
-                        </p>
+                        <div class="phase-description-inner">
+                            <p class="mb-0">
+                                We start by learning from your experts to properly define
+                                and understand the current process. Representative products,
+                                validated images and existing assets are selected for internal
+                                validation.
+                            </p>
+                        </div>
                     </div>
                     <!-- ARROW 1 > 2 -->
                     <div class="icon-container flow-icon flow-icon-1 d-none d-lg-flex" aria-hidden="true">
@@ -137,11 +138,13 @@
                         <span class="phase-card-content card"><span class="phase-title">Platform processing</span></span>
                     </label>
                     <div class="phase-description description-2 me-2" id="phase-description-2">
-                        <p class="mb-0">
-                            Products, source images and relevant data are processed by
-                            the platform. The workflow is configured and prepared for
-                            consistent AI-supported output generation.
-                        </p>
+                        <div class="phase-description-inner">
+                            <p class="mb-0">
+                                Products, source images and relevant data are processed by
+                                the platform. The workflow is configured and prepared for
+                                consistent AI-supported output generation.
+                            </p>
+                        </div>
                     </div>
                     <!-- ITERATION 2 > 3 -->
                     <div class=" icon-container flow-icon flow-icon-2 d-none d-lg-flex" aria-hidden="true">
@@ -156,11 +159,13 @@
                         <span class="phase-card-content card"><span class="phase-title">Automation</span></span>
                     </label>
                     <div class="phase-description description-3 me-2" id="phase-description-3">
-                        <p class="mb-0">
-                            Once the workflow reaches the required quality level,
-                            generation and processing are automated. Platform processing
-                            and automation can iterate until the desired output is reached.
-                        </p>
+                        <div class="phase-description-inner">
+                            <p class="mb-0">
+                                Once the workflow reaches the required quality level,
+                                generation and processing are automated. Platform processing
+                                and automation can iterate until the desired output is reached.
+                            </p>
+                        </div>
                     </div>
                     <!-- ARROW 3 → 4 -->
                     <div class=" icon-container flow-icon flow-icon-3 d-none d-lg-flex" aria-hidden="true">
@@ -177,11 +182,13 @@
                         </span>
                     </label>
                     <div class="phase-description description-4 me-2" id="phase-description-4">
-                        <p class="mb-0">
-                            The automated process is monitored, optimized and scaled.
-                            Additional products, markets and output volumes can be added
-                            while the workflow continues to improve.
-                        </p>
+                        <div class="phase-description-inner">
+                            <p class="mb-0">
+                                The automated process is monitored, optimized and scaled.
+                                Additional products, markets and output volumes can be added
+                                while the workflow continues to improve.
+                            </p>
+                        </div>
                     </div>
                     <!-- for desktop -->
                     <div class="description-pointer" aria-hidden="true"></div>
@@ -240,6 +247,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/lang.js" defer></script>
+    <script src="assets/js/site_product.js"></script>
 </body>
 
 </html>

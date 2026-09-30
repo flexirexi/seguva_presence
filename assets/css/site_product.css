@@ -10,7 +10,7 @@ html[data-theme] .sample-project {
     --prod-flow-icon-padding:           6px;
     --prod-flow-icon-shadow:            1px 1px 5px #51515180;
 
-    --prod-flow-icon-loop-width:        65px;
+    --prod-flow-icon-loop-width:        60px;
     --prod-flow-icon-loop-height:       50px;
     --prod-flow-icon-loop-p-y:          0px;
     --prod-flow-icon-loop-p-x:          8px;
@@ -35,12 +35,13 @@ html[data-theme] .sample-project {
 
     --prod-descr-border:                gray;
 
-    
     /* --prod-icon-container-border:       var(--main); */
 
     --process-primary:                #18366f;
-    --timeline:                       #c5ccd6;
+    --prod-timeline:                  #acb2bb;
 }
+
+
 
 /* =========================================================
 HEADER
@@ -70,6 +71,7 @@ html[data-theme] .process-interactive {
     padding: 1rem 0;
     border: 0;
     min-width: 0;
+    
 }
 
 /*
@@ -83,8 +85,9 @@ html[data-theme] .process-interactive::before {
     left: 1.7rem;
     width: 3px;
     border-radius: 999px;
-    background: var(--timeline);
+    background: var(--prod-timeline);
     z-index: 1;
+    
 }
 
 /* =========================================================
@@ -99,6 +102,7 @@ html[data-theme] .product-zone-bg {
     border-radius: 1.25rem;
     background: var(--bg-accent);
     z-index: 0;
+    
 }
 
 html[data-theme] .sample-project-logo {
@@ -138,6 +142,7 @@ html[data-theme] .phase-card {
         border-color 0.2s ease,
         box-shadow 0.2s ease,
         transform 0.2s ease;
+    
 }
 
 html[data-theme] .phase-card-1 {
@@ -240,10 +245,6 @@ html[data-theme] .flow-icon-3 img {
 }
 
 
-
-
-
-
 /*
  * the actual clickable card area
  */
@@ -256,6 +257,7 @@ html[data-theme] .phase-card-content {
     /* border: 1px solid var(--prod-icon-container-border); */
     border-radius: 0.875rem;
     background: var(--phase-card-cont-bg);
+    
 }
 
 html[data-theme] .phase-title {
@@ -273,10 +275,12 @@ html[data-theme] .phase-radio:checked+.phase-card .phase-card-content {
     box-shadow:
         0 0 0 1px var(--card-shadow-hover),
         0 0.5rem 1.0rem #383838a0;
+    
 }
 
 html[data-theme] .phase-radio:checked + .phase-card .phase-card-content * {
     color: var(--phase-card-text-color-act);
+    
 }
 
 html[data-theme] .phase-radio:checked+.phase-card .content-icon {
@@ -285,30 +289,46 @@ html[data-theme] .phase-radio:checked+.phase-card .content-icon {
         var(--prod-content-icon-border-w) 
         solid 
         var(--prod-content-icon-border-act);
-}
 
-html[data-theme] .phase-radio:focus-visible+.phase-card .phase-card-content {
-    outline: 3px solid rgba(24, 54, 111, 0.25);
-    outline-offset: 3px;
 }
 
 html[data-theme] .phase-radio:focus-visible+.phase-card .phase-card-content * {
     color: var(--phase-card-text-color-hover);
+
 }
 
 /* =========================================================
 DESCRIPTIONS – MOBILE
 ========================================================= */
 html[data-theme] .phase-description {
-    display: none;
+    display: grid;
+    grid-template-rows: 0fr;
     grid-column: 2;
     position: relative;
-    margin-top: 0.75rem;
-    padding: 1rem 1.25rem;
+
+    margin-top: 0;
+    padding: 0 1.25rem;
+    opacity: 0;
+    transform: translateY(-0.4rem);
+
     border-radius: 0.75rem;
-    background: rgba(255, 255, 255, 0.65);
+    background: #ffffffa6;
     line-height: 1.65;
+    pointer-events: none;
     z-index: 2;
+
+    transition:
+        grid-template-rows 0.35s ease,
+        opacity 0.25s ease,
+        transform 0.35s ease,
+        margin-top 0.35s ease,
+        padding 0.35s ease;
+}
+
+html[data-theme] .phase-description-inner {
+    overflow: hidden;
+    min-height: 0;
+    
 }
 
 html[data-theme] .description-1 {
@@ -334,7 +354,15 @@ html[data-theme] #phase-1:checked~.description-1,
 html[data-theme] #phase-2:checked~.description-2,
 html[data-theme] #phase-3:checked~.description-3,
 html[data-theme] #phase-4:checked~.description-4 {
-    display: block;
+    grid-template-rows: 1fr;
+
+    margin-top: 1rem;
+    padding: 1rem 1.25rem;
+
+    opacity: 1;
+    transform: translateY(0);
+
+
 }
 
 
@@ -363,6 +391,7 @@ html[data-theme] .description-pointer {
         column-gap: 1.75rem;
         padding: 0;
         overflow: visible;
+        
     }
 
     /*
@@ -486,7 +515,7 @@ html[data-theme] .description-pointer {
 
     html[data-theme] .flow-icon-2 {
         top: 31%;
-        left: 46.75%;
+        left: 46.4%;
     }
 
     html[data-theme] .flow-icon-3 {
@@ -516,7 +545,7 @@ html[data-theme] .description-pointer {
         bottom: 0;
         left: 12.5%;
         width: 2px;
-        background: var(--timeline);
+        background: var(--prod-timeline);
         transform: translateX(-50%);
         transition: left 0.35s ease;
     }
@@ -524,7 +553,12 @@ html[data-theme] .description-pointer {
     /*
      * Linie wandert zur aktiven Phase
      */
-
+    html[data-theme] #phase-1:checked~.description-1,
+    html[data-theme] #phase-2:checked~.description-2,
+    html[data-theme] #phase-3:checked~.description-3,
+    html[data-theme] #phase-4:checked~.description-4 {
+        margin-top: 0;
+    }
     html[data-theme] #phase-1:checked ~ .description-pointer::before {
         left: 12.5%;
     }
@@ -555,6 +589,23 @@ html[data-theme] .description-pointer {
         background: var(--bs-body-bg);
         font-size: 1.05rem;
         z-index: 2;
+        transition: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    html[data-theme] .flow-icon-1 {
+        top: 31%;
+        left: 21.9%;
     }
 
+    html[data-theme] .flow-icon-2 {
+        top: 31%;
+        left: 47%;
+    }
+
+    html[data-theme] .flow-icon-3 {
+        top: 31%;
+        left: 73.2%;
+    }
 }
