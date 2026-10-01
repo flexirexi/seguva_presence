@@ -76,42 +76,73 @@ html[data-theme="dark"] {
 }
 
 html[data-theme="light"] {
-    --text: #494949;
-    --accent: #02D893;
+    --text: #3f4945;
+    --main: #003415;
+    --accent: #2fa07b;
 
-    --title: #101010;   /*or: 1abc9c*/
-    --title-shadow: #000000d8;
+    --title: #0b2d23;
+    --title-shadow: #3f5d54d0;
+    --title2: #4f625c;
 
-    --bg1: #d5d5d5;
-    --bg2: #DCE3F3;
+    --bg1: #f0f4f1;
+    --bg2: #dfe9e4;
+    --bg-accent: #cfe9dd;
 
-    --nav-link-text: #dedede;
+    --nav-link-text: #d7e4de;
     --nav-link-text-hover: #ffffff;
-    --nav-link-decoration-hover: #c0c0c0;
-    --nav-bg: #142A5E; 
+    --nav-link-decoration-hover: #a8cabd;
+    --nav-bg: #003415;
+    --nav-title: #b2cbbf;
 
-    --link-text: #48C9B0;
-    --link-text-hover: #48C9B0; 
-    --link-bg-hover: #00000000; 
-    
-    --act-text: #FBFBF9; 
-    --act-text-hover: #FBFBF9;
+    --dropdown-text: #d7e4de;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #082c21;
+    --dropdown-bg-hover: #16614b;
+
+    --link-text: #0f5c47;
+    --link-text-hover: #0a4133;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f5fcf8;
+    --act-text-hover: #ffffff;
+    --act-bg: #2fa07b;
+    --act-bg-hover: #257f62;
+    --act-border: #2fa07b;
+    --act-border-hover: #cfe9dd;
+
+    --act2-text: #003415;
+    --act2-text-hover: #082c21;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #edf3ef;
+    --act2-border: #ffffff;
+    --act2-border-hover: #003415;
+
+    --card-text: #3f4945;
+    --card-text-hover: #e8f1ec;
+    --card-bg: #dfe9e4;
+    --card-bg-hover: #003415;
+    --card-border: #cfddd6;
+    --card-border-hover: #2fa07b;
+    --card-shadow: #9eaba5;
+    --card-shadow-hover: #24473c;
+
+    --card-dark-text: #dbe9e2;
+    --card-dark-bg: #003415;
+    --card-dark-bg-hover: #0a3629;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #bee1d3;
+    --icon-container-mini-bg: #bee1d3;
 
     --toggle-bg: #00000020;
-    --toggle-color: #bababadc;
+    --toggle-color: #b2c8bf;
     --toggle-color-hover: #ffffff;
 
-    --act-bg: #ffffff;  
-    --act-bg-hover: #d5d5d5;  
-
-    --act-border: #ffffff;
-    --act-border-hover: #d5d5d5;
-
-
-    --dis-text: #889E9C; 
-    --dis-bg: #A4B7B6; 
-    --dis-border: #A4B7B6;
+    --dis-text: #85928d;
+    --dis-bg: #bccbc4;
+    --dis-border: #bccbc4;
 }
+
 
 /* VARIABLES AS CLASSES --------------------------------- */
 html[data-theme] .bg1 {

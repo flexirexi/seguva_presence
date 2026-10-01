@@ -1,0 +1,773 @@
+/* Feel free to copy paste one of the below pre-built color palettes into themes.css.
+ * PLEASE ONLY REPLACE the "html[data-theme="light"]"-part!!!
+*/
+
+/****************************************************************************************
+ *
+ *                          COLOR PALETTE LIBRARY
+ *
+ *  HOW TO USE:
+ *  1. Choose ONE palette below.
+ *  2. Copy the COMPLETE html[data-theme="light"] { ... } block.
+ *  3. Replace the existing color-variable block in the stylesheet.
+ *  4. Do NOT combine variables from different palettes unless intentionally redesigning.
+ *
+ *  NOTE:
+ *  The name data-theme="light" is historical and does NOT indicate
+ *  whether the selected palette has to be light or dark.
+ *
+ ****************************************************************************************/
+
+
+
+/* =============================================================================
+    PALETTE 01 — DEEP AUBERGINE
+    Warm - Premium - Elegant - Enterprise
+    Main: Aubergine ; Accent: Muted Bronze ; Background: Warm Stone
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #514c50;
+    --main: #3b2d3f;
+    --accent: #a9785d;
+
+    --title: #1d191c;
+    --title-shadow: #4f474bd0;
+    --title2: #5d565a;
+
+    --bg1: #f2efeb;
+    --bg2: #e7e1dd;
+    --bg-accent: #eadbd2;
+
+    --nav-link-text: #ddd5dc;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #bfaebc;
+    --nav-bg: #3b2d3f;
+    --nav-title: #c6bac4;
+
+    --dropdown-text: #ddd5dc;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #241b27;
+    --dropdown-bg-hover: #513b55;
+
+    --link-text: #3b2d3f;
+    --link-text-hover: #241b27;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f8f5f6;
+    --act-text-hover: #ffffff;
+    --act-bg: #3b2d3f;
+    --act-bg-hover: #241b27;
+    --act-border: #3b2d3f;
+    --act-border-hover: #e7e1dd;
+
+    --act2-text: #3b2d3f;
+    --act2-text-hover: #241b27;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #f2efeb;
+    --act2-border: #ffffff;
+    --act2-border-hover: #3b2d3f;
+
+    --card-text: #514c50;
+    --card-text-hover: #eee8ec;
+    --card-bg: #e7e1dd;
+    --card-bg-hover: #3b2d3f;
+    --card-border: #d9d1cc;
+    --card-border-hover: #3b2d3f;
+    --card-shadow: #aaa29d;
+    --card-shadow-hover: #4a4046;
+
+    --card-dark-text: #e9e2e7;
+    --card-dark-bg: #3b2d3f;
+    --card-dark-bg-hover: #2d2231;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #d8c8d4;
+    --icon-container-mini-bg: #d8c8d4;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #c4bac2;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #857d82;
+    --dis-bg: #c6bdb9;
+    --dis-border: #c6bdb9;
+}
+
+
+
+/* =============================================================================
+    PALETTE 02 — GRAPHITE PETROL
+    Technical - Modern - Precise - AI / Enterprise
+    Main: Graphite ; Accent: Petrol ; Background: Cool Grey
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #454c4e;
+    --main: #27383d;
+    --accent: #2f887f;
+
+    --title: #182124;
+    --title-shadow: #45575bcf;
+    --title2: #526064;
+
+    --bg1: #f1f4f3;
+    --bg2: #e2e9e7;
+    --bg-accent: #d3e9e4;
+
+    --nav-link-text: #d8e1df;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #a9c5bf;
+    --nav-bg: #27383d;
+    --nav-title: #adc0bc;
+
+    --dropdown-text: #d8e1df;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #182326;
+    --dropdown-bg-hover: #385159;
+
+    --link-text: #245f59;
+    --link-text-hover: #173f3b;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f5f9f8;
+    --act-text-hover: #ffffff;
+    --act-bg: #27383d;
+    --act-bg-hover: #172326;
+    --act-border: #27383d;
+    --act-border-hover: #d3e9e4;
+
+    --act2-text: #27383d;
+    --act2-text-hover: #182326;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #edf2f1;
+    --act2-border: #ffffff;
+    --act2-border-hover: #27383d;
+
+    --card-text: #454c4e;
+    --card-text-hover: #e8efed;
+    --card-bg: #e2e9e7;
+    --card-bg-hover: #27383d;
+    --card-border: #d4dedb;
+    --card-border-hover: #27383d;
+    --card-shadow: #9da9a6;
+    --card-shadow-hover: #344347;
+
+    --card-dark-text: #dae5e2;
+    --card-dark-bg: #27383d;
+    --card-dark-bg-hover: #1d2c30;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #c5ddd8;
+    --icon-container-mini-bg: #c5ddd8;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b3c2bf;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #87918f;
+    --dis-bg: #bdc9c6;
+    --dis-border: #bdc9c6;
+}
+
+
+
+/* =============================================================================
+    PALETTE 03 — FOREST SAGE
+    Sustainable - Calm - Trustworthy - Natural
+    Main: Deep Forest ; Accent: Sage Green ; Background: Warm Sand
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #4b5049;
+    --main: #27483b;
+    --accent: #69977c;
+
+    --title: #17251f;
+    --title-shadow: #44594ed0;
+    --title2: #59655d;
+
+    --bg1: #f4f2eb;
+    --bg2: #e8e7dc;
+    --bg-accent: #dce8d8;
+
+    --nav-link-text: #dce5df;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #b7c9bd;
+    --nav-bg: #27483b;
+    --nav-title: #b6c9be;
+
+    --dropdown-text: #dce5df;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #182d25;
+    --dropdown-bg-hover: #38634f;
+
+    --link-text: #27483b;
+    --link-text-hover: #173126;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f6faf7;
+    --act-text-hover: #ffffff;
+    --act-bg: #27483b;
+    --act-bg-hover: #173126;
+    --act-border: #27483b;
+    --act-border-hover: #e8e7dc;
+
+    --act2-text: #27483b;
+    --act2-text-hover: #173126;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #f1f0e8;
+    --act2-border: #ffffff;
+    --act2-border-hover: #27483b;
+
+    --card-text: #4b5049;
+    --card-text-hover: #e7eee9;
+    --card-bg: #e8e7dc;
+    --card-bg-hover: #27483b;
+    --card-border: #d8d8cc;
+    --card-border-hover: #27483b;
+    --card-shadow: #a7a99d;
+    --card-shadow-hover: #344b40;
+
+    --card-dark-text: #dce7df;
+    --card-dark-bg: #27483b;
+    --card-dark-bg-hover: #1d382d;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #cbdccf;
+    --icon-container-mini-bg: #cbdccf;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b8c6bd;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #898e87;
+    --dis-bg: #c3c8bd;
+    --dis-border: #c3c8bd;
+}
+
+
+
+/* =============================================================================
+    PALETTE 04 — SIGNAL COBALT
+    Bold - Technical - Clear - Enterprise
+    Main: Deep Navy ; Accent: Strong Cobalt ; Background: Cool Ice
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #3f4652;
+    --main: #18233d;
+    --accent: #3157d5;
+
+    --title: #101522;
+    --title-shadow: #3e4c6bd0;
+    --title2: #515b6e;
+
+    --bg1: #f3f5fa;
+    --bg2: #e6eaf3;
+    --bg-accent: #dbe3ff;
+
+    --nav-link-text: #dbe1ef;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #aebbe0;
+    --nav-bg: #18233d;
+    --nav-title: #b7c0d6;
+
+    --dropdown-text: #dbe1ef;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #0f1729;
+    --dropdown-bg-hover: #26385f;
+
+    --link-text: #2747ad;
+    --link-text-hover: #172c73;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f7f9ff;
+    --act-text-hover: #ffffff;
+    --act-bg: #3157d5;
+    --act-bg-hover: #2445b5;
+    --act-border: #3157d5;
+    --act-border-hover: #dbe3ff;
+
+    --act2-text: #18233d;
+    --act2-text-hover: #101522;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #eef1f7;
+    --act2-border: #ffffff;
+    --act2-border-hover: #18233d;
+
+    --card-text: #3f4652;
+    --card-text-hover: #eef2ff;
+    --card-bg: #e6eaf3;
+    --card-bg-hover: #18233d;
+    --card-border: #d7dce7;
+    --card-border-hover: #3157d5;
+    --card-shadow: #9fa7b7;
+    --card-shadow-hover: #2d3850;
+
+    --card-dark-text: #dce3f4;
+    --card-dark-bg: #18233d;
+    --card-dark-bg-hover: #111b30;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #cdd8fa;
+    --icon-container-mini-bg: #cdd8fa;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b7c0d3;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #8b919e;
+    --dis-bg: #c2c7d1;
+    --dis-border: #c2c7d1;
+}
+
+
+
+/* =============================================================================
+    PALETTE 05 — ESPRESSO OLIVE
+    Refined - Warm - Established - Boutique Enterprise
+    Main: Espresso ; Accent: Olive ; Background: Parchment
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #514d47;
+    --main: #42372f;
+    --accent: #7e8460;
+
+    --title: #211c18;
+    --title-shadow: #594f47d0;
+    --title2: #625b53;
+
+    --bg1: #f5f1e9;
+    --bg2: #e9e2d7;
+    --bg-accent: #e4e3cf;
+
+    --nav-link-text: #e0d8cf;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #c5b9ab;
+    --nav-bg: #42372f;
+    --nav-title: #c9bdb1;
+
+    --dropdown-text: #e0d8cf;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #29221d;
+    --dropdown-bg-hover: #5b4c41;
+
+    --link-text: #51452f;
+    --link-text-hover: #30281e;
+    --link-bg-hover: #00000000;
+
+    --act-text: #faf7f2;
+    --act-text-hover: #ffffff;
+    --act-bg: #42372f;
+    --act-bg-hover: #29221d;
+    --act-border: #42372f;
+    --act-border-hover: #e9e2d7;
+
+    --act2-text: #42372f;
+    --act2-text-hover: #29221d;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #f3eee6;
+    --act2-border: #ffffff;
+    --act2-border-hover: #42372f;
+
+    --card-text: #514d47;
+    --card-text-hover: #eee8df;
+    --card-bg: #e9e2d7;
+    --card-bg-hover: #42372f;
+    --card-border: #dad2c6;
+    --card-border-hover: #42372f;
+    --card-shadow: #aaa197;
+    --card-shadow-hover: #4d433b;
+
+    --card-dark-text: #e6ddd4;
+    --card-dark-bg: #42372f;
+    --card-dark-bg-hover: #332a24;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #d7d5bd;
+    --icon-container-mini-bg: #d7d5bd;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #c2b9b0;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #8b867e;
+    --dis-bg: #c9c2b7;
+    --dis-border: #c9c2b7;
+}
+
+/* =============================================================================
+    PALETTE 06 — CARBON CRIMSON
+    Strong - Executive - Distinctive - Premium
+    Main: Carbon ; Accent: Crimson ; Background: Soft Grey
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #48484d;
+    --main: #25262b;
+    --accent: #b83b55;
+
+    --title: #17171a;
+    --title-shadow: #505057d0;
+    --title2: #5d5d64;
+
+    --bg1: #f3f2f3;
+    --bg2: #e8e6e8;
+    --bg-accent: #f0dce1;
+
+    --nav-link-text: #dddddf;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #c6aeb4;
+    --nav-bg: #25262b;
+    --nav-title: #bdbdc2;
+
+    --dropdown-text: #dddddf;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #17181c;
+    --dropdown-bg-hover: #3a3b42;
+
+    --link-text: #8f2d42;
+    --link-text-hover: #681d2f;
+    --link-bg-hover: #00000000;
+
+    --act-text: #fff8fa;
+    --act-text-hover: #ffffff;
+    --act-bg: #b83b55;
+    --act-bg-hover: #922c42;
+    --act-border: #b83b55;
+    --act-border-hover: #f0dce1;
+
+    --act2-text: #25262b;
+    --act2-text-hover: #17171a;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #f0eef0;
+    --act2-border: #ffffff;
+    --act2-border-hover: #25262b;
+
+    --card-text: #48484d;
+    --card-text-hover: #f3e8eb;
+    --card-bg: #e8e6e8;
+    --card-bg-hover: #25262b;
+    --card-border: #d8d5d8;
+    --card-border-hover: #b83b55;
+    --card-shadow: #aaa6aa;
+    --card-shadow-hover: #3d3d43;
+
+    --card-dark-text: #e5e3e6;
+    --card-dark-bg: #25262b;
+    --card-dark-bg-hover: #1c1d21;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #e4c9d0;
+    --icon-container-mini-bg: #e4c9d0;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #bebdc1;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #8e8d92;
+    --dis-bg: #c9c6c9;
+    --dis-border: #c9c6c9;
+}
+
+
+
+/* =============================================================================
+    PALETTE 07 — STEEL AMBER
+    Bold - Industrial - Confident - Modern
+    Main: Steel Graphite ; Accent: Burnt Amber ; Background: Warm Silver
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #444b50;
+    --main: #26323a;
+    --accent: #c76b2f;
+
+    --title: #161d21;
+    --title-shadow: #4c5960d0;
+    --title2: #596269;
+
+    --bg1: #f2f3f3;
+    --bg2: #e4e7e8;
+    --bg-accent: #f0dfd3;
+
+    --nav-link-text: #d9dee1;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #bbc4c9;
+    --nav-bg: #26323a;
+    --nav-title: #b6c0c5;
+
+    --dropdown-text: #d9dee1;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #182126;
+    --dropdown-bg-hover: #394952;
+
+    --link-text: #9c4f20;
+    --link-text-hover: #713713;
+    --link-bg-hover: #00000000;
+
+    --act-text: #fff9f4;
+    --act-text-hover: #ffffff;
+    --act-bg: #c76b2f;
+    --act-bg-hover: #a45421;
+    --act-border: #c76b2f;
+    --act-border-hover: #f0dfd3;
+
+    --act2-text: #26323a;
+    --act2-text-hover: #182126;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #eef0f1;
+    --act2-border: #ffffff;
+    --act2-border-hover: #26323a;
+
+    --card-text: #444b50;
+    --card-text-hover: #edf1f2;
+    --card-bg: #e4e7e8;
+    --card-bg-hover: #26323a;
+    --card-border: #d4d9db;
+    --card-border-hover: #c76b2f;
+    --card-shadow: #a1a8ab;
+    --card-shadow-hover: #36434a;
+
+    --card-dark-text: #dce2e5;
+    --card-dark-bg: #26323a;
+    --card-dark-bg-hover: #1c272d;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #ead2c2;
+    --icon-container-mini-bg: #ead2c2;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b7c0c4;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #8a9296;
+    --dis-bg: #c1c8ca;
+    --dis-border: #c1c8ca;
+}
+
+/* =============================================================================
+    PALETTE 08 — WARM BORDEAUX
+    Bold · Refined · Serious · Premium
+    Main: Warm Wine Red | Accent: Brick Red | Background: Warm Ivory
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #4b4442;
+    --main: #571c20;
+    --accent: #a7463d;
+
+    --title: #281516;
+    --title-shadow: #624844d0;
+    --title2: #685654;
+
+    --bg1: #f5f1ee;
+    --bg2: #ebe1dd;
+    --bg-accent: #efd8d2;
+
+    --nav-link-text: #e7dcda;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #cfb5b0;
+    --nav-bg: #571c20;
+    --nav-title: #ceb9b5;
+
+    --dropdown-text: #e7dcda;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #321012;
+    --dropdown-bg-hover: #72282b;
+
+    --link-text: #842f2f;
+    --link-text-hover: #5d1d20;
+    --link-bg-hover: #00000000;
+
+    --act-text: #fff8f6;
+    --act-text-hover: #ffffff;
+    --act-bg: #a7463d;
+    --act-bg-hover: #87362f;
+    --act-border: #a7463d;
+    --act-border-hover: #efd8d2;
+
+    --act2-text: #571c20;
+    --act2-text-hover: #321012;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #f3ece8;
+    --act2-border: #ffffff;
+    --act2-border-hover: #571c20;
+
+    --card-text: #4b4442;
+    --card-text-hover: #f3e9e6;
+    --card-bg: #ebe1dd;
+    --card-bg-hover: #571c20;
+    --card-border: #daccc7;
+    --card-border-hover: #a7463d;
+    --card-shadow: #aaa09c;
+    --card-shadow-hover: #563a38;
+
+    --card-dark-text: #ebdfdc;
+    --card-dark-bg: #571c20;
+    --card-dark-bg-hover: #3f1417;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #e3c6c0;
+    --icon-container-mini-bg: #e3c6c0;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #c8bab7;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #8d8582;
+    --dis-bg: #c9c0bc;
+    --dis-border: #c9c0bc;
+}
+
+
+
+/* =============================================================================
+    PALETTE 09 — DEEP FOREST
+    Strong · Calm · Sophisticated · Enterprise
+    Main: Deep Forest | Accent: Emerald | Background: Mist Grey
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #414b47;
+    --main: #18392f;
+    --accent: #2f8a6b;
+
+    --title: #10241e;
+    --title-shadow: #40584fd0;
+    --title2: #52645d;
+
+    --bg1: #f1f4f2;
+    --bg2: #e0e8e4;
+    --bg-accent: #d2e7de;
+
+    --nav-link-text: #d9e3df;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #abc4ba;
+    --nav-bg: #18392f;
+    --nav-title: #b3c6be;
+
+    --dropdown-text: #d9e3df;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #0e231c;
+    --dropdown-bg-hover: #285344;
+
+    --link-text: #22654f;
+    --link-text-hover: #164536;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f5fbf8;
+    --act-text-hover: #ffffff;
+    --act-bg: #2f8a6b;
+    --act-bg-hover: #246c54;
+    --act-border: #2f8a6b;
+    --act-border-hover: #d2e7de;
+
+    --act2-text: #18392f;
+    --act2-text-hover: #0e231c;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #edf2ef;
+    --act2-border: #ffffff;
+    --act2-border-hover: #18392f;
+
+    --card-text: #414b47;
+    --card-text-hover: #e9f0ed;
+    --card-bg: #e0e8e4;
+    --card-bg-hover: #18392f;
+    --card-border: #cfdbd5;
+    --card-border-hover: #2f8a6b;
+    --card-shadow: #9ea9a4;
+    --card-shadow-hover: #2e433b;
+
+    --card-dark-text: #dce8e3;
+    --card-dark-bg: #18392f;
+    --card-dark-bg-hover: #102b23;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #c4ddd3;
+    --icon-container-mini-bg: #c4ddd3;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b5c6bf;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #87918d;
+    --dis-bg: #bec9c4;
+    --dis-border: #bec9c4;
+}
+
+/* =============================================================================
+    PALETTE 10 — DEEP FOREST SATURATED
+    Strong · Calm · Sophisticated · Enterprise
+    Main: Saturated Deep Green | Accent: Emerald | Background: Mist Grey
+   ============================================================================= */
+
+html[data-theme="light"] {
+    --text: #3f4945;
+    --main: #003415;
+    --accent: #2fa07b;
+
+    --title: #0b2d23;
+    --title-shadow: #3f5d54d0;
+    --title2: #4f625c;
+
+    --bg1: #f0f4f1;
+    --bg2: #dfe9e4;
+    --bg-accent: #cfe9dd;
+
+    --nav-link-text: #d7e4de;
+    --nav-link-text-hover: #ffffff;
+    --nav-link-decoration-hover: #a8cabd;
+    --nav-bg: #003415;
+    --nav-title: #b2cbbf;
+
+    --dropdown-text: #d7e4de;
+    --dropdown-text-hover: #ffffff;
+    --dropdown-bg: #082c21;
+    --dropdown-bg-hover: #16614b;
+
+    --link-text: #0f5c47;
+    --link-text-hover: #0a4133;
+    --link-bg-hover: #00000000;
+
+    --act-text: #f5fcf8;
+    --act-text-hover: #ffffff;
+    --act-bg: #2fa07b;
+    --act-bg-hover: #257f62;
+    --act-border: #2fa07b;
+    --act-border-hover: #cfe9dd;
+
+    --act2-text: #003415;
+    --act2-text-hover: #082c21;
+    --act2-bg: #ffffff;
+    --act2-bg-hover: #edf3ef;
+    --act2-border: #ffffff;
+    --act2-border-hover: #003415;
+
+    --card-text: #3f4945;
+    --card-text-hover: #e8f1ec;
+    --card-bg: #dfe9e4;
+    --card-bg-hover: #003415;
+    --card-border: #cfddd6;
+    --card-border-hover: #2fa07b;
+    --card-shadow: #9eaba5;
+    --card-shadow-hover: #24473c;
+
+    --card-dark-text: #dbe9e2;
+    --card-dark-bg: #003415;
+    --card-dark-bg-hover: #0a3629;
+    --card-dark-title: #ffffff;
+
+    --icon-container-bg: #bee1d3;
+    --icon-container-mini-bg: #bee1d3;
+
+    --toggle-bg: #00000020;
+    --toggle-color: #b2c8bf;
+    --toggle-color-hover: #ffffff;
+
+    --dis-text: #85928d;
+    --dis-bg: #bccbc4;
+    --dis-border: #bccbc4;
+}
