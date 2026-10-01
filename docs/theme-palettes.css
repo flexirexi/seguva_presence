@@ -556,8 +556,8 @@ html[data-theme="light"] {
 
 html[data-theme="light"] {
     --text: #4b4442;
-    --main: #571c20;
-    --accent: #a7463d;
+    --main: #4c0e12;
+    --accent: #a77e3d;
 
     --title: #281516;
     --title-shadow: #624844d0;
@@ -565,12 +565,12 @@ html[data-theme="light"] {
 
     --bg1: #f5f1ee;
     --bg2: #ebe1dd;
-    --bg-accent: #efd8d2;
+    --bg-accent: #dec090;
 
     --nav-link-text: #e7dcda;
     --nav-link-text-hover: #ffffff;
     --nav-link-decoration-hover: #cfb5b0;
-    --nav-bg: #571c20;
+    --nav-bg: #4c0e12;
     --nav-title: #ceb9b5;
 
     --dropdown-text: #e7dcda;
@@ -589,24 +589,24 @@ html[data-theme="light"] {
     --act-border: #a7463d;
     --act-border-hover: #efd8d2;
 
-    --act2-text: #571c20;
+    --act2-text: #4c0e12;
     --act2-text-hover: #321012;
     --act2-bg: #ffffff;
     --act2-bg-hover: #f3ece8;
     --act2-border: #ffffff;
-    --act2-border-hover: #571c20;
+    --act2-border-hover: #4c0e12;
 
     --card-text: #4b4442;
     --card-text-hover: #f3e9e6;
     --card-bg: #ebe1dd;
-    --card-bg-hover: #571c20;
+    --card-bg-hover: #4c0e12;
     --card-border: #daccc7;
     --card-border-hover: #a7463d;
     --card-shadow: #aaa09c;
     --card-shadow-hover: #563a38;
 
     --card-dark-text: #ebdfdc;
-    --card-dark-bg: #571c20;
+    --card-dark-bg: #4c0e12;
     --card-dark-bg-hover: #3f1417;
     --card-dark-title: #ffffff;
 
