@@ -109,21 +109,25 @@
                                 Phone number (optional)
                             </label>
                         </div>
-                        <!-- <div class="form-floating">
-                            <select class="form-select" id="product" name="product" aria-label="Product">
-                                <option value="none" selected>Standard</option>
-                                <option value="via">Other</option>
-                            </select>
-                            <label for="product" data-lang="tContactProduct">
-                                Product
-                            </label>
-                        </div> -->
                         <div class="form-floating">
-                            <input type="text" class="form-control" name="title" id="title" placeholder="Title">
+                            <select class="form-select" id="industry" name="industry" aria-label="Industry">
+                                <option value="none" selected>choose..</option>
+                                <option value="fashion">Fashion</option>
+                                <option value="medicine">Medicine</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="finance">Finance</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="industry" data-lang="tContactIndustry">
+                                Industry (optional)
+                            </label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
                             <label for="title" data-lang="tContactTitle">Title</label>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control contact-message" id="description" name="description" maxlength="1200" placeholder="Description"></textarea>
+                            <textarea class="form-control contact-message" id="description" name="description" maxlength="1200" placeholder="Description" required></textarea>
                             <label for="description" data-lang="tContactDescription">
                                 Description (max. 1200 characters)
                             </label>
