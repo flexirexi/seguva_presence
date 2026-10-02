@@ -1,5 +1,5 @@
 emailjs.init({
-    publicKey: "your_key"
+    publicKey: "NQdO5mpAvyWxAk2sx"
 });
 
 
@@ -30,14 +30,14 @@ contactForm.addEventListener("submit", async function (e) {
     const isGerman = document.documentElement.lang === "de";
 
     const templateId = isGerman
-        ? "template_id1"
-        : "template_id2";
+        ? "template_lyo40am"
+        : "template_au82zcs";
 
 
     try {
 
         await emailjs.sendForm(
-            "service_code",
+            "service_8aoy2lg",
             templateId,
             contactForm
         );

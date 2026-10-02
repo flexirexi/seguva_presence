@@ -306,6 +306,7 @@ html[data-theme] .phase-description {
 html[data-theme] .phase-description-inner {
     overflow: hidden;
     min-height: 0;
+    color:blue !important;
 }
 
 html[data-theme] .description-1 {
