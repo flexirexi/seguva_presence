@@ -21,7 +21,7 @@ Bootstrap is used here -> in order to overwrite, use:
 html[data-theme] * {
     font-family: "Ubuntu", sans-serif;
     color: var(--text);
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 
 html[data-theme] .eyebrow {
