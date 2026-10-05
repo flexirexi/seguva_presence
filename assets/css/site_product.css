@@ -25,8 +25,8 @@ html[data-theme] #prod-main {
     --prod-flow-icon-loop-border:       none;
     --prod-flow-icon-loop-border-r:     10px;
 
-    --prod-content-icon-size:           55px;
-    --prod-content-icon-padding:        9px;
+    --prod-content-icon-size:           65px;
+    --prod-content-icon-padding:        10px;
     --prod-content-icon-bg:             #d2ebe4;
     --prod-content-icon-bg-act:         #E3E8F4;
     --prod-content-icon-border:         #368f79; /* #7ab8a8; */
