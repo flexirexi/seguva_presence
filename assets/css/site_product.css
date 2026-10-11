@@ -233,6 +233,14 @@ html[data-theme] .flow-icon-3 img {
     height: var(--prod-flow-icon-size);
 }
 
+html[data-theme] .mobile-arrow img {
+    width: var(--prod-flow-icon-size);
+    height: var(--prod-flow-icon-size);
+    transform: rotate(90deg);
+    position: absolute;
+    left: 45%;
+}
+
 
 /* the actual clickable card area */
 html[data-theme] .phase-card-content {
@@ -536,6 +544,10 @@ html[data-theme] #prod-cta-section {
         background: var(--prod-timeline);
         transform: translateX(-50%);
         transition: left 0.35s ease;
+    }
+
+    html[data-theme] .mobile-arrow img {
+        display: none;
     }
 
     /* line moves to active phase */
