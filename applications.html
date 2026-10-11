@@ -177,7 +177,7 @@
             </div>
         </section>
 
-        <section class="hero bg2" aria-labelledby="hero-title">
+        <section id="appsSectionShowcases" class="hero bg2" aria-labelledby="hero-title">
             <div class="container">
                 <div class="section-heading" data-animate="fade-up">
                     <p class="eyebrow" data-lang="tAppsDemoEyebrow">A SHORT DEMONSTRATION: Images as an asset</p>
@@ -188,44 +188,47 @@
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <!-- Apparel packshot -->
+                    <!-- Furniture -->
                     <div class="col-12 col-sm-6 col-md-4">
-                        <article class="card card-light h-100 overflow-hidden" data-animate="fade-up">
+                        <article class="card card-light overflow-hidden" data-animate="fade-up">
                             <a href="#showcaseModal" class="showcase-trigger h-100 p-0" data-case-index="0">
-                                <img src="https://placehold.co/800x600" alt="Fashion showcase">
-                                <div class="d-flex flex-column p-4">
-                                    <h3 class="h5 mb-2" data-lang="tAppsDemo1Title">Apparel packshot</h3>
-                                    <p class="mb-4" data-lang="tAppsDemo1Text">
-                                        Mobile photo to studio-grade packshot on a neutral background
-                                    </p>
+                                <img src="assets/img/applications/pexels-dan-hadley-360599-8927352-furniture.jpg" alt="Furniture showcase">
+                                <!-- https://placehold.co/800x600 -->
+                                <div class=" d-flex flex-column p-4">
+                                    <h3 class="h5 mb-2" data-lang="tAppsDemo1Title">Furniture in scene</h3>
+                                    <p class="mb-4" data-lang="tAppsDemo1Text">Catalogue cut-out placed into a styled
+                                        interior scene</p>
                                     <small class="mt-auto" data-lang="tAppsDemo1CTA"><b>View sample</b></small>
                                 </div>
                             </a>
                         </article>
                     </div>
-                    <!-- Furniture -->
+                    <!-- Medicine -->
                     <div class="col-12 col-sm-6 col-md-4">
-                        <article class="card card-light h-100 overflow-hidden" data-animate="fade-up">
-                            <a href="#showcaseModal" class="showcase-trigger h-100 p-0" data-case-index="1">
-                                <img src="https://placehold.co/800x600" alt="Medicine showcase">
-                                <div class=" d-flex flex-column p-4">
-                                    <h3 class="h5 mb-2" data-lang="tAppsDemo2Title">Furniture in scene</h3>
-                                    <p class="mb-4" data-lang="tAppsDemo2Text">Catalogue cut-out placed into a styled
-                                        interior scene</p>
+                        <article class="card card-light overflow-hidden" data-animate="fade-up">
+                            <a href="#showcaseModal" class="showcase-trigger p-0" data-case-index="1">
+                                <img src="assets/img/applications/pexels-pavel-danilyuk-8442147-diagnostics.jpg" alt="Medicine showcase">
+                                <div class="d-flex flex-column p-4">
+                                    <h3 class="h5 mb-2" data-lang="tAppsDemo2Title">X-Ray of lungs</h3>
+                                    <p class="mb-4" data-lang="tAppsDemo2Text">
+                                        A strong support in diagnostics.
+                                    </p>
                                     <small class="mt-auto" data-lang="tAppsDemo2CTA"><b>View sample</b></small>
                                 </div>
                             </a>
                         </article>
                     </div>
-                    <!-- Product variants -->
+                    <!-- Solar Energy -->
                     <div class="col-12 col-sm-6 col-md-4">
-                        <article class="card card-light h-100 overflow-hidden" data-animate="fade-up">
+                        <article class="card card-light overflow-hidden" data-animate="fade-up">
                             <a href="#showcaseModal" class="showcase-trigger h-100 p-0" data-case-index="2">
-                                <img src="https://placehold.co/800x600" alt="E-Commerce showcase">
+                                <img src="assets/img/applications/pexels-adrinildennis-27873672-solar.jpg" alt="Solar showcase">
                                 <div class="d-flex flex-column p-4">
-                                    <h3 class="h5 mb-2" data-lang="tAppsDemo3Title">Product variants</h3>
-                                    <p class="mb-4" data-lang="tAppsDemo3Text">One source image expanded into a full
-                                        colorway set.</p>
+                                    <h3 class="h5 mb-2" data-lang="tAppsDemo3Title">Solgar Energy</h3>
+                                    <p class="mb-4" data-lang="tAppsDemo3Text">
+                                        A full analysis about energy efficiency to support environmental 
+                                        decisions.
+                                    </p>
                                     <small class="mt-auto" data-lang="tAppsDemo3CTA"><b>View sample</b></small>
                                 </div>
                             </a>
@@ -298,6 +301,7 @@
         </section>
     </main>
 
+    <!-- CAROUSELS -->
     <div class="modal fade" id="showcaseModal" tabindex="-1" aria-labelledby="showcaseModalLabel" aria-hidden="true">
         <dialog id="imageLightbox" class="image-lightbox">
             <button type="button" class="image-lightbox-close" aria-label="Close image">

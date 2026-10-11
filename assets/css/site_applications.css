@@ -21,6 +21,8 @@ html[data-theme] {
     
     --vh-outputScroll-max992: 40vh;
     --vh-outputScroll-min992: 49vh;
+
+    --appsSectionShowcasesW: 100%;
 }
 
 html[data-theme] .btn-close {
@@ -233,6 +235,13 @@ html[data-theme] .image-lightbox-close {
     z-index: 1;
 }
 
+html[data-theme] #appsSectionShowcases .showcase-trigger img {
+    width: var(--appsSectionShowcasesW);
+    height: 180px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 @media (min-width: 992px) {
     html[data-theme] .showcase-modal {
         display: flex;
@@ -281,6 +290,13 @@ html[data-theme] .image-lightbox-close {
 
     html[data-theme] .showcase-control-next {
         right: -4rem;
+    }
+
+    html[data-theme] #appsSectionShowcases .showcase-trigger img {
+        width: var(--appsSectionShowcasesW);
+        height: 250px;
+        overflow: hidden;
+        object-fit: cover;
     }
 }
 
