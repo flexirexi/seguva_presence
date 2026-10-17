@@ -77,3 +77,10 @@ The website follows a clean and timeless design to demonstrate seriousness for S
 # Deployment
 ---
 # References and Credits
+
+## External Media (free for commecial use)
+
+### on applications.html
+- pexels-adrinildennis-27873672-solar.jpg by [Adrinil Dennis](https://www.pexels.com/photo/solar-panels-27873672/) on pexels.com
+- pexels-dan-hadley-360599-8927352-furniture.jpg by [Dan Hadley](https://www.pexels.com/photo/pillows-on-a-blue-sofa-8927352/)
+- pexels-pabel-danilyuk-8442147-diagnostics.jpg by [Pavel Danilyuk](https://www.pexels.com/photo/pillows-on-a-blue-sofa-8927352/)
