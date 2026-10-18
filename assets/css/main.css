@@ -17,6 +17,11 @@ Bootstrap is used here -> in order to overwrite, use:
 @import url("site_contact.css");
 @import url("site_imprint.css");
 
+/* 00 Generic text hider to prevent text flash at website load */
+html:not(.lang-ready) [data-lang] {
+    visibility: hidden;
+}
+
 /* 01 Generic STYLES that apply for all html pages --------------------------- */
 html[data-theme] * {
     font-family: "Ubuntu", sans-serif;

@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
             
         } catch (error) {
             console.error("Fehler beim Laden oder Parsen der JSON:", error);
+        } finally {
+            document.documentElement.classList.add("lang-ready");
         }
     }
 
