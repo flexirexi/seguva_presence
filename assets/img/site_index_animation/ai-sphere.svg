@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Animated AI sphere">
+  <!-- Entirely self-contained: both appearance and its own perpetual animation. -->
+  <defs>
+    <radialGradient id="halo"><stop offset="0" stop-color="#28bc90" stop-opacity=".22"/><stop offset=".58" stop-color="#23ad92" stop-opacity=".09"/><stop offset="1" stop-color="#23ad92" stop-opacity="0"/></radialGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3bdab4"/><stop offset=".42" stop-color="#74f2d8"/><stop offset="1" stop-color="#7b9df9"/></linearGradient>
+    <linearGradient id="thread2" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#57a5fb"/><stop offset=".45" stop-color="#6debc9"/><stop offset="1" stop-color="#20ac8a"/></linearGradient>
+  </defs>
+
+  <style>
+    .mesh-a,
+    .mesh-b,
+    .orbit-shell,
+    .aura {
+        transform-box: view-box;
+        transform-origin: 50% 50%;
+    }
+
+    .mesh-a {
+        animation: drift-a 11s ease-in-out infinite alternate;
+    }
+
+    .mesh-b {
+        animation: drift-b 9s ease-in-out infinite alternate;
+    }
+
+    .orbit-shell {
+        animation: orbit 23s linear infinite;
+    }
+
+    .aura {
+        animation: aura 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes drift-a {
+        from {
+            transform: rotate(-8deg) scale(.99);
+        }
+
+        to {
+            transform: rotate(15deg) scale(1.025);
+        }
+    }
+
+    @keyframes drift-b {
+        from {
+            transform: rotate(16deg) scale(1.01);
+        }
+
+        to {
+            transform: rotate(-13deg) scale(.99);
+        }
+    }
+
+    @keyframes orbit {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes aura {
+        to {
+            opacity: .72;
+            transform: scale(1.08);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            animation: none !important;
+        }
+    }
+  </style>
+
+  <circle class="aura" cx="110" cy="110" r="105" fill="url(#halo)"/>
+  <circle cx="110" cy="110" r="74" fill="#092e31" opacity=".1"/>
+
+  <g class="mesh-a" fill="none" stroke="url(#thread)" stroke-linecap="round">
+    <ellipse cx="110" cy="47.0" rx="38.82" ry="8.54" stroke-width="0.65" opacity="0.29"/>
+    <ellipse cx="110" cy="56.0" rx="50.60" ry="11.13" stroke-width="0.65" opacity="0.32"/>
+    <ellipse cx="110" cy="65.0" rx="58.75" ry="12.92" stroke-width="0.65" opacity="0.35"/>
+    <ellipse cx="110" cy="74.0" rx="64.65" ry="14.22" stroke-width="0.95" opacity="0.38"/>
+    <ellipse cx="110" cy="83.0" rx="68.90" ry="15.16" stroke-width="0.95" opacity="0.41"/>
+    <ellipse cx="110" cy="92.0" rx="71.78" ry="15.79" stroke-width="0.95" opacity="0.44"/>
+    <ellipse cx="110" cy="101.0" rx="73.45" ry="16.16" stroke-width="0.95" opacity="0.47"/>
+    <ellipse cx="110" cy="110.0" rx="74.00" ry="16.28" stroke-width="0.95" opacity="0.50"/>
+    <ellipse cx="110" cy="119.0" rx="73.45" ry="16.16" stroke-width="0.95" opacity="0.47"/>
+    <ellipse cx="110" cy="128.0" rx="71.78" ry="15.79" stroke-width="0.95" opacity="0.44"/>
+    <ellipse cx="110" cy="137.0" rx="68.90" ry="15.16" stroke-width="0.95" opacity="0.41"/>
+    <ellipse cx="110" cy="146.0" rx="64.65" ry="14.22" stroke-width="0.95" opacity="0.38"/>
+    <ellipse cx="110" cy="155.0" rx="58.75" ry="12.92" stroke-width="0.65" opacity="0.35"/>
+    <ellipse cx="110" cy="164.0" rx="50.60" ry="11.13" stroke-width="0.65" opacity="0.32"/>
+    <ellipse cx="110" cy="173.0" rx="38.82" ry="8.54" stroke-width="0.65" opacity="0.29"/>
+  </g>
+
+  <g class="mesh-b" fill="none" stroke="url(#thread2)" stroke-linecap="round">
+    <ellipse cx="47.0" cy="110" rx="8.93" ry="38.82" stroke-width="0.65" opacity="0.30"/>
+    <ellipse cx="56.0" cy="110" rx="11.64" ry="50.60" stroke-width="0.65" opacity="0.33"/>
+    <ellipse cx="65.0" cy="110" rx="13.51" ry="58.75" stroke-width="0.65" opacity="0.36"/>
+    <ellipse cx="74.0" cy="110" rx="14.87" ry="64.65" stroke-width="0.95" opacity="0.39"/>
+    <ellipse cx="83.0" cy="110" rx="15.85" ry="68.90" stroke-width="0.95" opacity="0.42"/>
+    <ellipse cx="92.0" cy="110" rx="16.51" ry="71.78" stroke-width="0.95" opacity="0.45"/>
+    <ellipse cx="101.0" cy="110" rx="16.89" ry="73.45" stroke-width="0.95" opacity="0.48"/>
+    <ellipse cx="110.0" cy="110" rx="17.02" ry="74.00" stroke-width="0.95" opacity="0.51"/>
+    <ellipse cx="119.0" cy="110" rx="16.89" ry="73.45" stroke-width="0.95" opacity="0.48"/>
+    <ellipse cx="128.0" cy="110" rx="16.51" ry="71.78" stroke-width="0.95" opacity="0.45"/>
+    <ellipse cx="137.0" cy="110" rx="15.85" ry="68.90" stroke-width="0.95" opacity="0.42"/>
+    <ellipse cx="146.0" cy="110" rx="14.87" ry="64.65" stroke-width="0.95" opacity="0.39"/>
+    <ellipse cx="155.0" cy="110" rx="13.51" ry="58.75" stroke-width="0.65" opacity="0.36"/>
+    <ellipse cx="164.0" cy="110" rx="11.64" ry="50.60" stroke-width="0.65" opacity="0.33"/>
+    <ellipse cx="173.0" cy="110" rx="8.93" ry="38.82" stroke-width="0.65" opacity="0.30"/>
+  </g>
+
+  <g class="orbit-shell" fill="none" stroke="url(#thread)" stroke-linecap="round">
+    <ellipse cx="110" cy="110" rx="75" ry="11" transform="rotate(16 110 110)" stroke-width=".95" opacity="0.22"/>
+    <ellipse cx="110" cy="110" rx="75" ry="16" transform="rotate(43 110 110)" stroke-width=".95" opacity="0.26"/>
+    <ellipse cx="110" cy="110" rx="75" ry="21" transform="rotate(70 110 110)" stroke-width=".95" opacity="0.29"/>
+    <ellipse cx="110" cy="110" rx="75" ry="26" transform="rotate(97 110 110)" stroke-width=".95" opacity="0.33"/>
+    <ellipse cx="110" cy="110" rx="75" ry="31" transform="rotate(124 110 110)" stroke-width=".95" opacity="0.36"/>
+    <ellipse cx="110" cy="110" rx="75" ry="36" transform="rotate(151 110 110)" stroke-width=".95" opacity="0.40"/>
+  </g>
+  
+  <circle cx="110" cy="110" r="76" fill="none" stroke="#70ffe0" stroke-opacity=".12" stroke-width=".8"/>
+</svg>

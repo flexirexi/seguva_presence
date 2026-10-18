@@ -1,0 +1,13 @@
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
+
+this is for the animation on the home page only (modular principle)
+- it is imported into main.css, directly after site_index.css
+- svg-images are modular, too, and self-contained (i.e. replaceable)
+- animation duration: 15 sec. To change timing, update --ai-duration and percentages together
+*/
+

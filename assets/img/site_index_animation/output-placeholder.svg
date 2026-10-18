@@ -1,0 +1,35 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  viewBox="0 0 180 110" 
+  role="img" 
+  aria-label="Output image placeholder">
+
+  <rect 
+    x="16" 
+    y="12" 
+    width="148" 
+    height="86" 
+    rx="11" 
+    fill="none" 
+    stroke="#a9d8cb" 
+    stroke-opacity="0.9" 
+    stroke-width="4"
+  />
+
+  <circle 
+    cx="55" 
+    cy="40" 
+    r="10" 
+    fill="#8bd7bc" 
+    opacity=".8"
+  />
+
+  <path 
+    d="M27 82L69 55L98 74L123 44L153 82" 
+    fill="none" 
+    stroke="#7ed9bb" 
+    stroke-width="5" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+</svg>
