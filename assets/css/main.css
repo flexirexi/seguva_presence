@@ -11,6 +11,7 @@ Bootstrap is used here -> in order to overwrite, use:
 @import url("layout.css");
 @import url("animation.css");
 @import url("site_index.css");
+@import url("site_index_animation.css");
 @import url("site_team.css");
 @import url("site_product.css");
 @import url("site_applications.css");

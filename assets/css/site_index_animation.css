@@ -11,3 +11,545 @@ this is for the animation on the home page only (modular principle)
 - animation duration: 15 sec. To change timing, update --ai-duration and percentages together
 */
 
+
+.ai-demo {
+    --ai-duration: 15s;
+    --ai-accent: #53deab;
+    --ai-foreground: #e4fbf3;
+    --ai-border: rgba(114, 231, 192, .24);
+    --ai-surface: #0a1a24;
+    width: 100%;
+    max-width: 640px;
+    margin-inline: auto;
+}
+
+.ai-demo__stage {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    container-type: inline-size;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid var(--ai-border);
+    border-radius: clamp(12px, 2vw, 22px);
+    color: var(--ai-foreground);
+    background:
+        radial-gradient(ellipse at 50% 46%, rgba(28, 87, 88, .25), transparent 70%),
+        linear-gradient(142deg, #112731, var(--ai-surface) 66%, #0a171d);
+}
+
+/* Grid layers all share one cell. No position:absolute / top / left. */
+.ai-demo__input,
+.ai-demo__status,
+.ai-demo__sphere-layer,
+.ai-demo__processing,
+.ai-demo__gallery {
+    grid-area: 1 / 1;
+    min-width: 0;
+    min-height: 0;
+    pointer-events: none;
+}
+
+/* INPUT artwork */
+.ai-demo__input {
+    display: grid;
+    place-items: center;
+    animation: ai-input var(--ai-duration) linear infinite both;
+}
+
+.ai-demo__input-card {
+    width: 52cqw;
+    aspect-ratio: 3 / 2;
+    display: grid;
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+    overflow: hidden;
+    border: 1px solid rgba(116, 224, 194, .22);
+    border-radius: 2.7cqw;
+    background: rgba(9, 30, 36, .75);
+    box-shadow: 0 1.2cqw 5cqw rgba(0, 0, 0, .22);
+}
+
+.ai-demo__input-card>* {
+    grid-area: 1 / 1;
+    min-width: 0;
+    min-height: 0;
+}
+
+.ai-demo__input-art {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+/* Fully grid-bound scanning layers: the gradient moves, not the DOM element. */
+.ai-demo__scan-y,
+.ai-demo__scan-x {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.ai-demo__scan-y {
+    background-image: linear-gradient(to bottom,
+            transparent 43%, rgba(91, 255, 189, .05) 47%,
+            rgba(91, 255, 189, .38) 49.4%,
+            #a0ffe0 50%,
+            rgba(91, 255, 189, .38) 50.6%,
+            rgba(91, 255, 189, .05) 53%, transparent 57%);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    animation: ai-scan-y var(--ai-duration) linear infinite both;
+}
+
+.ai-demo__scan-x {
+    background-image: linear-gradient(to right,
+            transparent 43%, rgba(91, 255, 189, .05) 47%,
+            rgba(91, 255, 189, .38) 49.4%,
+            #a0ffe0 50%,
+            rgba(91, 255, 189, .38) 50.6%,
+            rgba(91, 255, 189, .05) 53%, transparent 57%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    animation: ai-scan-x var(--ai-duration) linear infinite both;
+}
+
+/* Stationary corner labels, independent fades. */
+.ai-demo__status {
+    display: grid;
+    align-content: start;
+    justify-items: start;
+    padding: 3.5cqw;
+    z-index: 3;
+}
+
+.ai-demo__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: .7cqw;
+    padding: 1.3cqw 2.6cqw;
+    font-size: clamp(10px, 2.15cqw, 15px);
+    line-height: 1.2;
+    letter-spacing: .11em;
+    font-weight: 700;
+    border: 1px solid rgba(114, 231, 192, .46);
+    background-color: rgba(62, 170, 139, .08);
+    border-radius: 99px;
+    white-space: nowrap;
+}
+
+.ai-demo__pill-check {
+    color: var(--ai-accent);
+    font-size: 1.1em;
+}
+
+.ai-demo__status--input {
+    animation: ai-status-input var(--ai-duration) linear infinite both;
+}
+
+.ai-demo__status--validated {
+    animation: ai-status-validated var(--ai-duration) linear infinite both;
+}
+
+/* ONE persistent externally animated SVG. Stage CSS only moves its <img>. */
+.ai-demo__sphere-layer {
+    display: grid;
+    align-items: start;
+    justify-items: end;
+    z-index: 2;
+}
+
+.ai-demo__sphere {
+    width: 20cqw;
+    height: 20cqw;
+    aspect-ratio: 1;
+    display: block;
+    margin: 3cqw;
+    object-fit: contain;
+    transform-origin: center;
+    animation: ai-sphere-travel var(--ai-duration) cubic-bezier(.45, .04, .28, 1) infinite both;
+}
+
+/* VALIDATING text -> check; both anchored below the enlarged sphere. */
+.ai-demo__processing {
+    display: grid;
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+    place-items: end center;
+    padding: 0 3cqw 8.5cqw;
+    z-index: 2;
+}
+
+.ai-demo__processing>* {
+    grid-area: 1 / 1;
+    align-self: end;
+    justify-self: center;
+}
+
+.ai-demo__validating-label {
+    color: #d7f9eb;
+    font-size: clamp(11px, 2.45cqw, 18px);
+    font-weight: 700;
+    letter-spacing: .18em;
+    line-height: 1.25;
+    animation: ai-validating var(--ai-duration) ease-in-out infinite both;
+}
+
+.ai-demo__check {
+    width: 9cqw;
+    height: 9cqw;
+    display: block;
+    object-fit: contain;
+    animation: ai-check var(--ai-duration) ease-in-out infinite both;
+}
+
+/* Gallery: four replaceable files, displayed as a 2x2 grid. */
+.ai-demo__gallery {
+    display: grid;
+    width: 53cqw;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.7cqw;
+    z-index: 1;
+}
+
+.ai-demo__tile {
+    min-width: 0;
+    aspect-ratio: 8 / 5;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid rgba(118, 223, 196, .28);
+    border-radius: 1.55cqw;
+    background: linear-gradient(145deg, #173f43, #10222c);
+    box-shadow: 0 .8cqw 2cqw rgba(0, 0, 0, .14);
+    opacity: 0;
+    animation-duration: var(--ai-duration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.ai-demo__tile:nth-child(2) {
+    background: linear-gradient(145deg, #24435f, #10222e);
+}
+
+.ai-demo__tile:nth-child(3) {
+    background: linear-gradient(145deg, #305347, #15282c);
+}
+
+.ai-demo__tile:nth-child(4) {
+    background: linear-gradient(145deg, #25415a, #162733);
+}
+
+.ai-demo__tile img {
+    display: block;
+    width: 64%;
+    height: 64%;
+    object-fit: contain;
+}
+
+/* Each animation shares the same 15s / 0-100% clock. */
+@keyframes ai-input {
+    0% {
+        opacity: 0;
+        transform: scale(.97);
+    }
+
+    6%,
+    28% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    34%,
+    100% {
+        opacity: 0;
+        transform: scale(.98);
+    }
+}
+
+@keyframes ai-status-input {
+
+    0%,
+    6% {
+        opacity: 0;
+        transform: translateY(.9cqw);
+    }
+
+    10%,
+    28% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    33%,
+    100% {
+        opacity: 0;
+        transform: translateY(-.6cqw);
+    }
+}
+
+@keyframes ai-scan-y {
+
+    0%,
+    12% {
+        opacity: 0;
+        background-position: 50% 100%;
+    }
+
+    13% {
+        opacity: 1;
+    }
+
+    19% {
+        opacity: 1;
+        background-position: 50% 0%;
+    }
+
+    20%,
+    100% {
+        opacity: 0;
+        background-position: 50% 0%;
+    }
+}
+
+@keyframes ai-scan-x {
+
+    0%,
+    21% {
+        opacity: 0;
+        background-position: 100% 50%;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    28% {
+        opacity: 1;
+        background-position: 0% 50%;
+    }
+
+    29%,
+    100% {
+        opacity: 0;
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes ai-sphere-travel {
+
+    0%,
+    33% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    45%,
+    68% {
+        transform: translate(-37cqw, 24.5cqw) scale(1.8);
+    }
+
+    80%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@keyframes ai-validating {
+
+    0%,
+    45% {
+        opacity: 0;
+        transform: translateY(.9cqw);
+    }
+
+    48%,
+    58% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    61%,
+    100% {
+        opacity: 0;
+        transform: translateY(-.7cqw);
+    }
+}
+
+@keyframes ai-check {
+
+    0%,
+    60% {
+        opacity: 0;
+        transform: scale(.55);
+        clip-path: circle(0% at center);
+    }
+
+    66% {
+        opacity: 1;
+        transform: scale(1.08);
+        clip-path: circle(72% at center);
+    }
+
+    69% {
+        opacity: 1;
+        transform: scale(1);
+        clip-path: circle(72% at center);
+    }
+
+    73%,
+    100% {
+        opacity: 0;
+        transform: scale(.88);
+        clip-path: circle(72% at center);
+    }
+}
+
+@keyframes ai-status-validated {
+
+    0%,
+    79% {
+        opacity: 0;
+        transform: translateY(.8cqw);
+    }
+
+    83%,
+    95% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.6cqw);
+    }
+}
+
+.ai-demo__tile:nth-child(1) {
+    animation-name: ai-tile-1;
+}
+
+.ai-demo__tile:nth-child(2) {
+    animation-name: ai-tile-2;
+}
+
+.ai-demo__tile:nth-child(3) {
+    animation-name: ai-tile-3;
+}
+
+.ai-demo__tile:nth-child(4) {
+    animation-name: ai-tile-4;
+}
+
+@keyframes ai-tile-1 {
+
+    0%,
+    81% {
+        opacity: 0;
+        transform: translateY(1.2cqw) scale(.95);
+    }
+
+    85%,
+    95% {
+        opacity: 1;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.7cqw) scale(.98);
+    }
+}
+
+@keyframes ai-tile-2 {
+
+    0%,
+    83% {
+        opacity: 0;
+        transform: translateY(1.2cqw) scale(.95);
+    }
+
+    87%,
+    95% {
+        opacity: 1;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.7cqw) scale(.98);
+    }
+}
+
+@keyframes ai-tile-3 {
+
+    0%,
+    85% {
+        opacity: 0;
+        transform: translateY(1.2cqw) scale(.95);
+    }
+
+    89%,
+    95% {
+        opacity: 1;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.7cqw) scale(.98);
+    }
+}
+
+@keyframes ai-tile-4 {
+
+    0%,
+    87% {
+        opacity: 0;
+        transform: translateY(1.2cqw) scale(.95);
+    }
+
+    91%,
+    95% {
+        opacity: 1;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-.7cqw) scale(.98);
+    }
+}
+
+/* Users asking for reduced motion receive the meaningful final stage. */
+@media (prefers-reduced-motion: reduce) {
+
+    .ai-demo *,
+    .ai-demo *::before,
+    .ai-demo *::after {
+        animation: none !important;
+    }
+
+    .ai-demo__input,
+    .ai-demo__status--input,
+    .ai-demo__processing {
+        display: none;
+    }
+
+    .ai-demo__status--validated {
+        opacity: 1;
+    }
+
+    .ai-demo__tile {
+        opacity: 1;
+        transform: none;
+    }
+
+    .ai-demo__sphere {
+        transform: none;
+    }
+}

@@ -77,6 +77,52 @@
     </nav>
 
     <main id="main">
+        <section class="ai-demo" aria-label="AI product validation process">
+            <div class="ai-demo__stage" role="img" aria-label="An input product is scanned, validated by AI and transformed into four output images.">
+                <!-- Input graphic + the two CSS-only scan passes. -->
+                <div class="ai-demo__input" aria-hidden="true">
+                    <div class="ai-demo__input-card">
+                        <img class="ai-demo__input-art" src="assets/img/site_index_animation/input.svg" alt="input image">
+                        <span class="ai-demo__scan-y"></span>
+                        <span class="ai-demo__scan-x"></span>
+                    </div>
+                </div>
+                <!-- Header badges: stationary, independently faded. -->
+                <div class="ai-demo__status ai-demo__status--input" aria-hidden="true">
+                    <span class="ai-demo__pill">INPUT</span>
+                </div>
+                <div class="ai-demo__status ai-demo__status--validated" aria-hidden="true">
+                    <span class="ai-demo__pill">VALIDATED 
+                        <span class="ai-demo__pill-check">✓</span>
+                    </span>
+                </div>
+                <!-- One sphere; its inner motion is authored inside ai-sphere.svg. -->
+                <div class="ai-demo__sphere-layer" aria-hidden="true">
+                    <img class="ai-demo__sphere" src="assets/img/site_index_animation/ai-sphere.svg" alt="animation of ai-sphere">
+                </div>
+                <!-- The text and check share one grid cell, never both visible. -->
+                <div class="ai-demo__processing" aria-hidden="true">
+                    <span class="ai-demo__validating-label">VALIDATING</span>
+                    <img class="ai-demo__check" src="assets/svg/ai-demo/check.svg" alt="">
+                </div>
+                <!-- The same modular SVG is used four times. -->
+                <div class="ai-demo__gallery" aria-hidden="true">
+                    <div class="ai-demo__tile">
+                        <img src="assets/img/site_index_animation/output-placeholder.svg" alt="placeholder image">
+                    </div>
+                    <div class="ai-demo__tile">
+                        <img src="assets/img/site_index_animation/output-placeholder.svg" alt="placeholder image">
+                    </div>
+                    <div class="ai-demo__tile">
+                        <img src="assets/img/site_index_animation/output-placeholder.svg" alt="placeholder image">
+                    </div>
+                    <div class="ai-demo__tile">
+                        <img src="assets/img/site_index_animation/output-placeholder.svg" alt="placeholder image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="homeSection" class="hero bg2" aria-labelledby="hero-title">
             <div class="container two-column">
                 <div class="hero-copy" data-animate="fade-up">
