@@ -12,18 +12,18 @@ this is for the animation on the home page only (modular principle)
 */
 
 
-.ai-demo {
+html[data-theme] .ai-demo {
     --ai-duration: 15s;
     --ai-accent: #53deab;
     --ai-foreground: #e4fbf3;
-    --ai-border: rgba(114, 231, 192, .24);
-    --ai-surface: #0a1a24;
+    --ai-border: #72e7c03d;
+    --ai-surface: #0d202d;
     width: 100%;
     max-width: 640px;
     margin-inline: auto;
 }
 
-.ai-demo__stage {
+html[data-theme] .ai-demo__stage {
     width: 100%;
     aspect-ratio: 4 / 3;
     display: grid;
@@ -41,11 +41,11 @@ this is for the animation on the home page only (modular principle)
 }
 
 /* Grid layers all share one cell. No position:absolute / top / left. */
-.ai-demo__input,
-.ai-demo__status,
-.ai-demo__sphere-layer,
-.ai-demo__processing,
-.ai-demo__gallery {
+html[data-theme] .ai-demo__input,
+html[data-theme] .ai-demo__status,
+html[data-theme] .ai-demo__sphere-layer,
+html[data-theme] .ai-demo__processing,
+html[data-theme] .ai-demo__gallery {
     grid-area: 1 / 1;
     min-width: 0;
     min-height: 0;
@@ -53,13 +53,13 @@ this is for the animation on the home page only (modular principle)
 }
 
 /* INPUT artwork */
-.ai-demo__input {
+html[data-theme] .ai-demo__input {
     display: grid;
     place-items: center;
     animation: ai-input var(--ai-duration) linear infinite both;
 }
 
-.ai-demo__input-card {
+html[data-theme] .ai-demo__input-card {
     width: 52cqw;
     aspect-ratio: 3 / 2;
     display: grid;
@@ -71,13 +71,13 @@ this is for the animation on the home page only (modular principle)
     box-shadow: 0 1.2cqw 5cqw rgba(0, 0, 0, .22);
 }
 
-.ai-demo__input-card>* {
+html[data-theme] .ai-demo__input-card>* {
     grid-area: 1 / 1;
     min-width: 0;
     min-height: 0;
 }
 
-.ai-demo__input-art {
+html[data-theme] .ai-demo__input-art {
     width: 100%;
     height: 100%;
     display: block;
@@ -93,7 +93,7 @@ this is for the animation on the home page only (modular principle)
     z-index: 1;
 }
 
-.ai-demo__scan-y {
+html[data-theme] .ai-demo__scan-y {
     background-image: linear-gradient(to bottom,
             transparent 43%, rgba(91, 255, 189, .05) 47%,
             rgba(91, 255, 189, .38) 49.4%,
@@ -105,7 +105,7 @@ this is for the animation on the home page only (modular principle)
     animation: ai-scan-y var(--ai-duration) linear infinite both;
 }
 
-.ai-demo__scan-x {
+html[data-theme] .ai-demo__scan-x {
     background-image: linear-gradient(to right,
             transparent 43%, rgba(91, 255, 189, .05) 47%,
             rgba(91, 255, 189, .38) 49.4%,
@@ -118,7 +118,7 @@ this is for the animation on the home page only (modular principle)
 }
 
 /* Stationary corner labels, independent fades. */
-.ai-demo__status {
+html[data-theme] .ai-demo__status {
     display: grid;
     align-content: start;
     justify-items: start;
@@ -126,7 +126,7 @@ this is for the animation on the home page only (modular principle)
     z-index: 3;
 }
 
-.ai-demo__pill {
+html[data-theme] .ai-demo__pill {
     display: inline-flex;
     align-items: center;
     gap: .7cqw;
@@ -135,36 +135,37 @@ this is for the animation on the home page only (modular principle)
     line-height: 1.2;
     letter-spacing: .11em;
     font-weight: 700;
-    border: 1px solid rgba(114, 231, 192, .46);
-    background-color: rgba(62, 170, 139, .08);
+    border: 1px solid #72e7c075;
+    background-color: #3eaa8b14;
     border-radius: 99px;
     white-space: nowrap;
+    color: var(--ai-accent);
 }
 
-.ai-demo__pill-check {
+html[data-theme] .ai-demo__pill-check {
     color: var(--ai-accent);
     font-size: 1.1em;
 }
 
-.ai-demo__status--input {
+html[data-theme] .ai-demo__status--input {
     animation: ai-status-input var(--ai-duration) linear infinite both;
 }
 
-.ai-demo__status--validated {
+html[data-theme] .ai-demo__status--validated {
     animation: ai-status-validated var(--ai-duration) linear infinite both;
 }
 
 /* ONE persistent externally animated SVG. Stage CSS only moves its <img>. */
-.ai-demo__sphere-layer {
+html[data-theme] .ai-demo__sphere-layer {
     display: grid;
     align-items: start;
     justify-items: end;
     z-index: 2;
 }
 
-.ai-demo__sphere {
-    width: 20cqw;
-    height: 20cqw;
+html[data-theme] .ai-demo__sphere {
+    width: 15cqw;
+    height: 15cqw;
     aspect-ratio: 1;
     display: block;
     margin: 3cqw;
@@ -174,7 +175,7 @@ this is for the animation on the home page only (modular principle)
 }
 
 /* VALIDATING text -> check; both anchored below the enlarged sphere. */
-.ai-demo__processing {
+html[data-theme] .ai-demo__processing {
     display: grid;
     grid-template: minmax(0, 1fr) / minmax(0, 1fr);
     place-items: end center;
@@ -182,13 +183,13 @@ this is for the animation on the home page only (modular principle)
     z-index: 2;
 }
 
-.ai-demo__processing>* {
+html[data-theme] .ai-demo__processing>* {
     grid-area: 1 / 1;
     align-self: end;
     justify-self: center;
 }
 
-.ai-demo__validating-label {
+html[data-theme] .ai-demo__validating-label {
     color: #d7f9eb;
     font-size: clamp(11px, 2.45cqw, 18px);
     font-weight: 700;
@@ -197,7 +198,7 @@ this is for the animation on the home page only (modular principle)
     animation: ai-validating var(--ai-duration) ease-in-out infinite both;
 }
 
-.ai-demo__check {
+html[data-theme] .ai-demo__check {
     width: 9cqw;
     height: 9cqw;
     display: block;
@@ -206,7 +207,7 @@ this is for the animation on the home page only (modular principle)
 }
 
 /* Gallery: four replaceable files, displayed as a 2x2 grid. */
-.ai-demo__gallery {
+html[data-theme] .ai-demo__gallery {
     display: grid;
     width: 53cqw;
     align-self: center;
@@ -216,7 +217,7 @@ this is for the animation on the home page only (modular principle)
     z-index: 1;
 }
 
-.ai-demo__tile {
+html[data-theme] .ai-demo__tile {
     min-width: 0;
     aspect-ratio: 8 / 5;
     display: grid;
@@ -233,19 +234,19 @@ this is for the animation on the home page only (modular principle)
     animation-fill-mode: both;
 }
 
-.ai-demo__tile:nth-child(2) {
+html[data-theme] .ai-demo__tile:nth-child(2) {
     background: linear-gradient(145deg, #24435f, #10222e);
 }
 
-.ai-demo__tile:nth-child(3) {
+html[data-theme] .ai-demo__tile:nth-child(3) {
     background: linear-gradient(145deg, #305347, #15282c);
 }
 
-.ai-demo__tile:nth-child(4) {
+html[data-theme] .ai-demo__tile:nth-child(4) {
     background: linear-gradient(145deg, #25415a, #162733);
 }
 
-.ai-demo__tile img {
+html[data-theme] .ai-demo__tile img {
     display: block;
     width: 64%;
     height: 64%;
@@ -350,7 +351,7 @@ this is for the animation on the home page only (modular principle)
 
     45%,
     68% {
-        transform: translate(-37cqw, 24.5cqw) scale(1.8);
+        transform: translate(-39.5cqw, 22cqw) scale(2.4);
     }
 
     80%,
@@ -429,19 +430,19 @@ this is for the animation on the home page only (modular principle)
     }
 }
 
-.ai-demo__tile:nth-child(1) {
+html[data-theme] .ai-demo__tile:nth-child(1) {
     animation-name: ai-tile-1;
 }
 
-.ai-demo__tile:nth-child(2) {
+html[data-theme] .ai-demo__tile:nth-child(2) {
     animation-name: ai-tile-2;
 }
 
-.ai-demo__tile:nth-child(3) {
+html[data-theme] .ai-demo__tile:nth-child(3) {
     animation-name: ai-tile-3;
 }
 
-.ai-demo__tile:nth-child(4) {
+html[data-theme] .ai-demo__tile:nth-child(4) {
     animation-name: ai-tile-4;
 }
 
@@ -528,28 +529,28 @@ this is for the animation on the home page only (modular principle)
 /* Users asking for reduced motion receive the meaningful final stage. */
 @media (prefers-reduced-motion: reduce) {
 
-    .ai-demo *,
-    .ai-demo *::before,
-    .ai-demo *::after {
+    html[data-theme] .ai-demo *,
+    html[data-theme] .ai-demo *::before,
+    html[data-theme] .ai-demo *::after {
         animation: none !important;
     }
 
-    .ai-demo__input,
-    .ai-demo__status--input,
-    .ai-demo__processing {
+    html[data-theme] .ai-demo__input,
+    html[data-theme] .ai-demo__status--input,
+    html[data-theme] .ai-demo__processing {
         display: none;
     }
 
-    .ai-demo__status--validated {
+    html[data-theme] .ai-demo__status--validated {
         opacity: 1;
     }
 
-    .ai-demo__tile {
+    html[data-theme] .ai-demo__tile {
         opacity: 1;
         transform: none;
     }
 
-    .ai-demo__sphere {
+    html[data-theme] .ai-demo__sphere {
         transform: none;
     }
 }

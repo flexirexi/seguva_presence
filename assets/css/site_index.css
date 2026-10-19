@@ -39,20 +39,7 @@ html[data-theme] .hero-visual figcaption {
     text-align: center;
 }
 
-html[data-theme] .media-placeholder {
-    aspect-ratio: 4 / 3;
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-    border: 1px dashed #98a2b3;
-    border-radius: 1rem;
-    background: linear-gradient(135deg, #edf3ff, #fff);
-    color: gray;
-    text-align: center;
-    max-width: 576px;
-    margin-top: 20px;
 
-}
 
 html[data-theme] .section-grid {
     align-items: start;

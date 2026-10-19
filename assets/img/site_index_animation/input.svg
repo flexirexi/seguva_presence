@@ -6,8 +6,8 @@
   
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#152d35"/>
-      <stop offset="1" stop-color="#10232c"/>
+      <stop offset="0" stop-color="#1f404c"/>
+      <stop offset="1" stop-color="#142b36"/>
     </linearGradient>
 
     <linearGradient id="box" x1="0" y1="0" x2="1" y2="1">
