@@ -49,6 +49,8 @@ html[data-theme] #prod-main {
 
     --prod-key1-color:                  var(--accent);
     --prod-key2-color:                  var(--main);
+    --prod-key-font-size:               70px;
+    --prod-key-icon-size:               155px;
 }
 
 
@@ -352,18 +354,18 @@ html[data-theme] .description-pointer {
 /* SECTION KEY SELLING */
 html[data-theme] #prod-key-selling .icon-container {
     background: none;
-    width: 120px;
+    width: var(--prod-key-icon-size);
     height: auto;
 }
 
 html[data-theme] #k1 h1 {
     color: var(--prod-key1-color);
-    font-size: 70px;
+    font-size: var(--prod-key-font-size);
 }
 
 html[data-theme] #k2 h1 {
     color: var(--prod-key2-color);
-    font-size: 60px;
+    font-size: var(--prod-key-font-size);
 }
 
 /* SECTION SAVINGS */
