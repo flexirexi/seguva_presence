@@ -12,8 +12,8 @@
 
     "tNavHome": 				"Home",
     "tNavTeam": 				"Team",
-    "tNavProducts": 			"Products",
-    "tNavApplication": 			"Application",
+    "tNavProduct":   			"Product",
+    "tNavApps": 	        		"Applications",
     "tNavContact": 				"Contact",
     "tNavBtnContact": 			"Book a demo",
 
@@ -24,7 +24,7 @@
     "tHomeHeadingSubTitle2": 	"Validated by our Engine",
     "tHomeHeadingText": 		"Turn any image into a production-ready commercial asset. Every output is scored by our own AI validation engine before it reaches you, and 97% of all input passed is guaranteed to get a ready-to-use output.",
     "tHomeHeadingBtnContact": 	"Book a demo",
-    "tHomeHeadingBtnProducts": 	"View Products",
+    "tHomeHeadingBtnProduct": 	"View Product",
     "tHomeHeadingImageCaption": "Every output passes our validator automatically before it reaches you.",
 
     "tHomeGoalEyebrow": 		"Our main goal",
@@ -37,13 +37,13 @@
     "tHomeInsights1Text": 		"Applied neural-network an AI academic research 15+ years before the hype, paired with financial and commercial execution experience.",
     "tHomeInsights1Link": 		"Meet the team →",
 
-    "tHomeInsights2Title": 		"Our strategy",
+    "tHomeInsights2Title": 		"Our Product",
     "tHomeInsights2Text": 		"A tailored platform your own team runs independently, with dynamic model routing and our proprietary validator scoring every single output.",
-    "tHomeInsights2Link": 		"Learn about our strategy →",
+    "tHomeInsights2Link": 		"Learn about our product →",
 
-    "tHomeInsights3Title": 		"Products",
+    "tHomeInsights3Title": 		"Applications",
     "tHomeInsights3Text": 		"Industry configurations for medicine, fashion and e-commerce - and for every business that depends on image quality and processing.",
-    "tHomeInsights3Link": 		"Explore our products →",
+    "tHomeInsights3Link": 		"Explore Apps →",
 
     "tCTATitle":	 			"See it in action",
     "tCTASubTitle":	 			"Explore our platform's capabilities with a personalized walkthrough:",

@@ -49,8 +49,8 @@ html[data-theme] #prod-main {
 
     --prod-key1-color:                  var(--accent);
     --prod-key2-color:                  var(--main);
-    --prod-key-font-size:               70px;
-    --prod-key-icon-size:               155px;
+    --prod-key-font-size:               80px;
+    --prod-key-icon-size:               160px;
 }
 
 
