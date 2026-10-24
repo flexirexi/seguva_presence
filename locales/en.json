@@ -4,18 +4,30 @@
 
 
 	"tCompanyNameShort":		"SEGUVA",
-	"tComanyNameLong":			"SEGUVA GmbH",
+	"tCompanyNameLong":			"SEGUVA GmbH",
 	"tAINameShort":				"VIA",
 	"tAINameLong":				"VIA [long]",
-	"tProduct1Name":			"Product 1",
 
 
     "tNavHome": 				"Home",
     "tNavTeam": 				"Team",
     "tNavProduct":   			"Product",
-    "tNavApps": 	        		"Applications",
+    "tNavApps": 	        	"Applications",
+    "tNavAppsMenu":             "Overview",
     "tNavContact": 				"Contact",
     "tNavBtnContact": 			"Book a demo",
+
+    "tCTATitle":	 			"See it in action",
+    "tCTASubTitle":	 			"Explore our platform's capabilities with a personalized walkthrough:",
+    "tCTABtnContact":	 		"Book a demo",
+
+    "tFooterCol1Title": 		"Site",
+    "tFooterCol2Title": 		"Legal",
+    "tFooterCol3Title": 		"Contact",
+    "tFooterImprint": 			"Imprint",
+    "tFooterPrivacy": 			"Privacy",
+    "tFooterCol3Email":         "info@seguva.com",
+    "tFooterCopyright":         "© 2026 Seguva. All rights reserved",
 
 
     "tHomeHeadingEyebrow": 		"Enterprise AI platform",
@@ -45,10 +57,54 @@
     "tHomeInsights3Text": 		"Industry configurations for medicine, fashion and e-commerce - and for every business that depends on image quality and processing.",
     "tHomeInsights3Link": 		"Explore Apps →",
 
-    "tCTATitle":	 			"See it in action",
-    "tCTASubTitle":	 			"Explore our platform's capabilities with a personalized walkthrough:",
-    "tCTABtnContact":	 		"Book a demo",
 
+    "tAppsHeadingEyebrow":      "Our industry solution:",
+    "tAppsHeadingTitle":        "Wherever asset quality cannot be left to chance",
+    "tAppsHeadingLead":         "The same core platform, customized to generate production-ready assets for any industry",
+    "tAppsTargetTitle":         "Target industries",
+    "tAppsTarget1Title":        "Fashion",
+    "tAppsTarget1Text":         "Packshots, lookbooks and campaign variations across every colorway and size, without booking a studio",
+    "tAppsTarget2Title":        "Medicine",
+    "tAppsTarget2Text":         "Imaging and documentation workflows where consistency, traceability and verifiable quality are mandatory rather than desirable.",
+    "tAppsTarget3Title":        "E-commerce",
+    "tAppsTarget3Text":         "Catalogue imagery at scale: every product, every variant, every channel, held to one consistent standard",
+    "tAppsTarget4Title":        "... and beyond",
+    "tAppsTarget4Text":         "Financial forecasting, invoice processing and other applications that enhance operation efficiency across industries",
+
+    "tAppsDemoEyebrow":         "A short demonstration: images as an asset",
+    "tAppsDemoTitle":           "Input in. Market-ready out.",
+    "tAppsDemoLead":            "Each <b>showcase</b> was produced on the platform and cleared by the validator. No manual retouching.",
+
+    "tAppsShowcasesLabelInput": "Input",
+    "tAppsShowcasesLabelOutput":"Generated outputs",
+    "tAppsShowcasesLabelSwipe": "Swipe to explore",
+
+    "tAppsDemo1Title":          "Furniture in scene",
+    "tAppsDemo1Text":           "Catalogue cut-out placed into a styled interior scene",
+    "tAppsDemo1CTA":            "View sample",
+    "tAppsShowcase1Eyebrow":    "Showcase",
+    "tAppsShowcase1Title":      "Furniture in scene",
+    "tAppsShowcase1Sub":        "Catalogue cut-out placed into a styled interior scene",
+
+    "tAppsDemo2Title":          "X-Ray of lungs",
+    "tAppsDemo2Text":           "A strong support in diagnostics",
+    "tAppsDemo2CTA":            "View sample",
+    "tAppsShowcase2Eyebrow":    "Showcase: medicine/diagnostics",
+    "tAppsShowcase2Title":      "X-Ray of lungs",
+    "tAppsShowcase2Sub":        "",
+
+    "tAppsDemo3Title":          "Solar Energy",
+    "tAppsDemo3Text":           "A full analysis about energy efficiency to support environmental decisions",
+    "tAppsDemo3CTA":            "View sample",
+    "tAppsShowcase3Eyebrow":    "Showcase: Solar Energy",
+    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Sub":        "",
+
+    "tAppsRunEyebrow":          "Deployment",
+    "tAppsRunTitle":            "2 ways to run it",
+    "tAppsRun1Title":           "Cloud API",
+    "tAppsRun1Text":            "Integrated into your existing stack, processing from day one. We host it, monitor it and keep the models current",
+    "tAppsRunInfo":             "Both options run the identical validation layer. Nothing is downgraded for the on-premise installation.",
 
 	"tTeamHeadingEyebrow":		"Who we are",
 	"tTeamHeadingTitle":		"Deep AI expertise, driven by a genuine passion for automation",
@@ -74,12 +130,5 @@
 
 
 	"tImprintHeader":			"Imprint",
-	"tPrivacyHeader":			"Privacy",
-
-
-    "tFooterCol1Title": 		"Site",
-    "tFooterCol2Title": 		"Legal",
-    "tFooterCol3Title": 		"Contact",
-    "tFooterImprint": 			"Imprint",
-    "tFooterPrivacy": 			"Privacy"
+	"tPrivacyHeader":			"Privacy"
 }
