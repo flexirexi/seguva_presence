@@ -129,6 +129,45 @@
     "tContactSubmit":           "Send message",
 
 
+    "tProdHeadingEyebrow":      "What we offer:",
+    "tProdHeadingTitle":        "Enterprise-ready custom AI automation",
+    "tProdHeadingLead":         "We decisively transform content production into an autonomous, scalable, and quality-assured system, empowering your company to effectively scale high-quality AI asset generation.",
+
+    "tProdGraphicEyebrow":      "Automation for e-commerce",
+    "tProdGraphicTitle":        "A sample project",
+    "tProdGraphicP1Title":      "Initial phase",
+    "tProdGraphicP1Descr":      "We start by learning from your experts to properly define and understand the current process. Representative products, validated images and existing assets are selected for internal validation.",
+    "tProdGraphicP2Title":      "Platform processing",
+    "tProdGraphicP2Descr":      "Products, source images and relevant data are processed by the platform. The workflow is configured and prepared for consistent AI-supported output generation.",
+    "tProdGraphicP3Title":      "Automation",
+    "tProdGraphicP3Descr":      "Once the workflow reaches the required quality level, generation and processing are automated. Platform processing and automation can iterate until the desired output is reached.",
+    "tProdGraphicP4Title":      "Optimization & Scaling",
+    "tProdGraphicP4Descr":      "The automated process is monitored, optimized and scaled. Additional products, markets and output volumes can be added while the workflow continues to improve.",
+
+    "tProdKeySelling1Fig":      "97%",
+    "tProdKeySelling1Descr":    "of all input passed is guaranteed to get a ready-to-use output",
+    "tProdKeySelling2Fig":      "80%",
+    "tProdKeySelling2Descr":    "cost savings potential against traditional content production",
+    "tProdKeySellingInfo":      "Our validator replaces the human-in-the-loop. That is what makes the economics work.",
+
+
+    "tProdRunEyebrow":          "The value",
+    "tProdRunTitle":            "Savings that compound",
+    "tProdRunSubTitle":         "Fashion industry example",
+    "tProdRun1Title":           "Cost efficiency",
+    "tProdRun1Descr":           "Eliminates most production spend: studios, shoots, travel, logistics, post-production. Once you are set up the marginal cost per asset is close to zero, so testing a new variation costs almost nothing.",
+    "tProdRun2Title":           "Lower footprint",
+    "tProdRun2Descr":           "Less travel, fewer physical samples, no on-set waste. A smaller footprint per asset, an defensible numbers for ESG reporting.",
+    "tProdRun3Title":           "Speed to market",
+    "tProdRun3Descr":           "ASset in hours instead of weeks. Campaigns launch sooner and can still react to demand while it is moving.",
+    "tProdRun4Title":           "Scale on demand",
+    "tProdRun4Descr":           "Thousands of variations across scenes, lighting, backgrounds and formats. Large catalogues and high-volume performance marketing handled without adding headcount.",
+
+    "tProdCTATitle":            "Low-friction onboarding",
+    "tProdCTAText":             "Skip the lengthy sales cycles and endless slide decks. Book a demo, test a prototype, and see real value with your own content.",
+    "tProdCTABtn":              "Book a demo",
+
+
 	"tTeamHeadingEyebrow":		"Who we are",
 	"tTeamHeadingTitle":		"Deep AI expertise, driven by a genuine passion for automation",
 	
