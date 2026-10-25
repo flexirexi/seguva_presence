@@ -30,25 +30,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item"><a class="nav-link" href="index.html" data-lang="tNavHome">Home</a></li>
-                    <li class="nav-item"><a data-lang="tNavTeam" class="nav-link" href="team.html">Team</a></li>
-                    <li class="nav-item"><a data-lang="tNavProduct" class="nav-link" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html" data-lang="tNavTeam">Team</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html" data-lang="tNavProduct">Product</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a
-                        data-lang="tNavApplications"
-                        class="nav-link"
-                        href="#"
-                        id="applicationsDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                        <a class="nav-link" href="#" id="applicationsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-lang="tNavApps">
                         Applications
                     </a>
                     <ul class="dropdown-menu " aria-labelledby="applicationsDropdown" id="navApplicationsMenu">
-                        <li><a class="dropdown-item" href="applications.html" data-lang="tApplicationsName">Overview</a></li>
+                        <li><a class="dropdown-item" href="applications.html" data-lang="tNavAppsMenu">Overview</a></li>
                     </ul>
                 </li>
-                    <li class="nav-item"><a data-lang="tNavContact" class="nav-link" href="contact.html"
-                        style="color: #ffffff; font-weight:450;" >Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-lang="tNavContact"
+                            style="color: #ffffff; font-weight:450;">Contact</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
@@ -80,9 +78,9 @@
         <section class="hero bg2" aria-labelledby="contact">
             <div class="container two-column">
                 <div class="text-center text-lg-start mb-auto mt-5">
-                    <p class="eyebrow">next step</p>
-                    <h1>Let's start a conversation</h1>
-                    <p class="lead">
+                    <p class="eyebrow" data-lang="tContactNextEyebrow">next step</p>
+                    <h1 data-lang="tContactNextTitle">Let's start a conversation</h1>
+                    <p class="lead" data-lang="tContactNextLead">
                         Explore a tailored sandbox environment with us, and 
                         test our AI capabilities freely at your own pace.
                     </p>
@@ -96,9 +94,7 @@
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last name" required>
-                                <label for="lastname" data-lang="tContactNameLast">
-                                    Last name
-                                </label>
+                                <label for="lastname" data-lang="tContactNameLast">Last name</label>
                             </div>
                         </div>
                         <div class="form-floating">
@@ -107,18 +103,16 @@
                         </div>
                         <div class="form-floating">
                             <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number">
-                            <label for="phone" data-lang="tContactPhone">
-                                Phone number (optional)
-                            </label>
+                            <label for="phone" data-lang="tContactPhone">Phone number (optional)</label>
                         </div>
                         <div class="form-floating">
                             <select class="form-select" id="industry" name="industry" aria-label="Industry">
-                                <option value="none" selected>choose..</option>
-                                <option value="fashion">Fashion</option>
-                                <option value="medicine">Medicine</option>
-                                <option value="ecommerce">E-commerce</option>
-                                <option value="finance">Finance</option>
-                                <option value="other">Other</option>
+                                <option value="none" data-lang="tContactIndustryChoose" selected>choose..</option>
+                                <option value="fashion" data-lang="tContactIndustryFashion">Fashion</option>
+                                <option value="medicine" data-lang="tContactIndustryMedicine">Medicine</option>
+                                <option value="ecommerce" data-lang="tContactIndustryEcommerce">E-commerce</option>
+                                <option value="finance" data-lang="tContactIndustryFinance">Finance</option>
+                                <option value="other" data-lang="tContactIndustryOther">Other</option>
                             </select>
                             <label for="industry" data-lang="tContactIndustry">
                                 Industry (optional)
@@ -126,19 +120,21 @@
                         </div>
                         <div class="form-floating">
                             <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
-                            <label for="title" data-lang="tContactTitle">Title</label>
+                            <label for="title" data-lang="tContactMsgTitle">Title</label>
                         </div>
                         <div class="form-floating">
                             <textarea class="form-control contact-message" id="description" name="description" maxlength="1200" placeholder="Description" required></textarea>
-                            <label for="description" data-lang="tContactDescription">
+                            <label for="description" data-lang="tContactMsgDescr">
                                 Description (max. 1200 characters)
                             </label>
                         </div>
                         <p class="small mt-4">
-                            <strong>Datenschutzhinweis:</strong>
-                            Wir nutzen diese Angaben lediglich zum Beantworten Ihrer Anfrage.
-                            Der E-Mail-Versand läuft über EmailJS. Näheres finden Sie in der
-                            Datenschutzerklärung.
+                            <strong data-lang="tContactPrivacyTitle">Datenschutzhinweis: </strong>
+                            <span data-lang="tContactPrivacyText">
+                                Wir nutzen diese Angaben lediglich zum Beantworten Ihrer Anfrage.
+                                Der E-Mail-Versand läuft über EmailJS. Näheres finden Sie in der
+                                Datenschutzerklärung.
+                            </span>    
                         </p>
                         <button type="submit" class="btn btn-primary" id="contact-submit">
                             <span
@@ -174,7 +170,7 @@
                     <ul class="list-unstyled mb-0">
                         <li class="mb-1"><a href="index.html" data-lang="tNavHome">Home</a></li>
                         <li class="mb-1"><a href="team.html" data-lang="tNavTeam">Team</a></li>
-                        <li class="mb-1"><a href="product.html" data-lang="tNavProducts">Product</a></li>
+                        <li class="mb-1"><a href="product.html" data-lang="tNavProduct">Product</a></li>
                         <li class="mb-1"><a href="applications.html" data-lang="tNavApps">Applications</a></li>
                         <li><a href="contact.html" data-lang="tNavContact">Contact</a></li>
                     </ul>
@@ -188,11 +184,11 @@
                 </div>
                 <div class="col-12 col-md col-lg">
                     <h3 class="h6 text-uppercase"  data-lang="tFooterCol3Title">Contact</h3>
-                    <a href="mailto:info@seguva.com">info@seguva.com</a>
+                    <a href="mailto:info@seguva.com" data-lang="tFooterCol3Email">info@seguva.com</a>
                 </div>
             </div>
             <div class="border-top mt-5 pt-4 mx-3 mx-lg-0 text-center text-md-start">
-                <small>© 2026 Seguva. All rights reserved.</small>
+                <small data-lang="tFooterCopyright">© 2026 Seguva. All rights reserved.</small>
             </div>
         </div>
     </footer>

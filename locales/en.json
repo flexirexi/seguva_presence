@@ -106,6 +106,29 @@
     "tAppsRun1Text":            "Integrated into your existing stack, processing from day one. We host it, monitor it and keep the models current",
     "tAppsRunInfo":             "Both options run the identical validation layer. Nothing is downgraded for the on-premise installation.",
 
+
+    "tContactNextEyebrow":      "next step",
+    "tContactNextTitle":        "Let's start a conversation",
+    "tContactNextLead":         "Explore a tailored sandbox environment with us, and test our AI capabilities freely at your own pace.",
+
+    "tContactNameFirst":        "First name",
+    "tContactNameLast":         "Last name",
+    "tContactEmail":            "Email",
+    "tContactPhone":            "Phone number (optional)",
+    "tContactIndustry":         "Industry (optional)",
+    "tContactIndustryChoose":   "choose..",
+    "tContactIndustryFashion":  "Fashion",
+    "tContactIndustryMedicine": "Medicine",
+    "tContactIndustryEcommerce":"E-commerce",
+    "tContactIndustryFinance":  "Finance",
+    "tContactIndustryOther":    "Other",
+    "tContactMsgTitle":         "Title",
+    "tContactMsgDescr":         "Description (max. 1200 characters)",
+    "tContactPrivacyTitle":     "Data privacy:",
+    "tContactPrivacyText":      "We use this information solely to respond to your inquiry. Emails are sent via EmailJS. For more details, please refer to our Privacy Policy.",
+    "tContactSubmit":           "Send message",
+
+
 	"tTeamHeadingEyebrow":		"Who we are",
 	"tTeamHeadingTitle":		"Deep AI expertise, driven by a genuine passion for automation",
 	
