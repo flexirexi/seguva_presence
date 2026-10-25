@@ -11,11 +11,26 @@
 
 
     "tNavHome": 				"Home",
-    "tNavTeam": 				"Equipo",
-    "tNavApplication": 			"Application",
-    "tNavProducts": 			"Productos",
-    "tNavContact": 				"Contacto",
-    "tNavBtnContact": 			"Solicitar una demo",
+    "tNavTeam":                 "Equipo",
+    "tNavProduct":              "Producto",
+    "tNavApps":                 "Aplicaciones",
+    "tNavAppsMenu":             "Resumen",
+    "tNavContact":              "Contacto",
+    "tNavBtnContact":           "Reservar una demo",
+
+
+    "tCTATitle":                "Véalo en acción",
+    "tCTASubTitle":             "Descubra las capacidades de nuestra plataforma con una demostración personalizada:",
+    "tCTABtnContact":           "Reservar una demo",
+
+
+    "tFooterCol1Title":         "Sitio",
+    "tFooterCol2Title":         "Legal",
+    "tFooterCol3Title":         "Contacto",
+    "tFooterImprint":           "Aviso legal",
+    "tFooterPrivacy":           "Privacidad",
+    "tFooterCol3Email":         "info@seguva.com",
+    "tFooterCopyright":         "© 2026 Seguva. Todos los derechos reservados",
 
 
     "tHomeHeadingEyebrow": 		"Plataforma de IA empresarial",
@@ -24,7 +39,7 @@
     "tHomeHeadingSubTitle2": 	"Validada por nuestro motor",
     "tHomeHeadingText": 		"Convierte cualquier imagen en un recurso comercial listo para producción. Cada resultado es evaluado por nuestro propio motor de validación de IA antes de llegar a ti, y garantizamos que el 97 % de las entradas procesadas obtendrá un resultado listo para usar.",
     "tHomeHeadingBtnContact": 	"Solicitar una demo",
-    "tHomeHeadingBtnProducts": 	"Ver productos",
+    "tHomeHeadingBtnProduct": 	"Ver productos",
     "tHomeHeadingImageCaption": "Cada resultado pasa automáticamente por nuestro validador antes de llegar a ti.",
 
     "tHomeGoalEyebrow": 		"Nuestro objetivo principal",
@@ -45,42 +60,149 @@
     "tHomeInsights3Text": 		"Configuraciones sectoriales para medicina, moda y comercio electrónico, y para cualquier empresa que dependa de la calidad y el procesamiento de imágenes.",
     "tHomeInsights3Link": 		"Explora nuestros productos →",
 
-    "tCTATitle":	 			"Míralo en acción",
-    "tCTASubTitle": 			"Descubre las capacidades de nuestra plataforma con una demostración personalizada:",
-    "tCTABtnContact": 			"Solicitar una demo",
 
+    "tAppsHeadingEyebrow":      "Nuestra solución sectorial:",
+    "tAppsHeadingTitle":        "Donde la calidad de los recursos no puede dejarse al azar",
+    "tAppsHeadingLead":         "La misma plataforma central, adaptada para generar recursos listos para producción en cualquier industria",
+    "tAppsTargetTitle":         "Sectores objetivo",
+    "tAppsTarget1Title":        "Moda",
+    "tAppsTarget1Text":         "Packshots, lookbooks y variaciones de campaña para cada color y talla, sin necesidad de reservar un estudio.",
+    "tAppsTarget2Title":        "Medicina",
+    "tAppsTarget2Text":         "Flujos de trabajo de imagen y documentación donde la consistencia, la trazabilidad y la calidad verificable son requisitos, no simples ventajas.",
+    "tAppsTarget3Title":        "Comercio electrónico",
+    "tAppsTarget3Text":         "Imágenes de catálogo a gran escala: cada producto, cada variante y cada canal bajo un mismo estándar de calidad.",
+    "tAppsTarget4Title":        "... y mucho más",
+    "tAppsTarget4Text":         "Pronósticos financieros, procesamiento de facturas y otras aplicaciones que mejoran la eficiencia operativa en distintos sectores.",
 
-	"tTeamHeadingEyebrow":		"Quiénes somos",
-	"tTeamHeadingTitle":		"Profunda experiencia en IA, impulsada por una auténtica pasión por la automatización",
+    "tAppsDemoEyebrow":         "Una breve demostración: imágenes como recurso",
+    "tAppsDemoTitle":           "Input dentro. Listo para el mercado fuera.",
+    "tAppsDemoLead":            "Cada <b>showcase</b> fue producido en la plataforma y aprobado por el validador. Sin retoque manual.",
 
-	"tTeamQualiMainTitle":		"Base académica sólida",
-	"tTeamQualiMainSubT":		"Más de 15 años",
-	"tTeamQualiMainText":		"de trabajo aplicado con redes neuronales e IA, respaldado por investigación revisada por pares en instituciones académicas de primer nivel en Alemania. Mucho antes del auge de 2022, y no como consecuencia de él.",
-	"tTeamQualiMainLink":		"Ver publicaciones y trayectoria académica",
+    "tAppsShowcasesLabelInput": "Input",
+    "tAppsShowcasesLabelOutput":"Resultados generados",
+    "tAppsShowcasesLabelSwipe": "Deslice para explorar",
 
-	"tTeamQualiOther1Title":	"Ejecución comercial",
-	"tTeamQualiOther1Text":		"Experiencia operativa y de escalamiento en mercados empresariales de Europa y Latinoamérica, desarrollada en paralelo con la experiencia técnica y no añadida posteriormente.",
+    "tAppsDemo1Title":          "Muebles en escena",
+    "tAppsDemo1Text":           "Un recorte de catálogo integrado en una escena de interior diseñada.",
+    "tAppsDemo1CTA":            "Ver ejemplo",
+    "tAppsShowcase1Eyebrow":    "Showcase",
+    "tAppsShowcase1Title":      "Muebles en escena",
+    "tAppsShowcase1Sub":        "Un recorte de catálogo integrado en una escena de interior diseñada.",
 
-	"tTeamQualiOther2Title":	"Hecho en Alemania",
-	"tTeamQualiOther2Text":		"IA avanzada con el nivel de confiabilidad y disciplina de datos que las empresas globales consideran un requisito básico, no un valor añadido.",
+    "tAppsDemo2Title":          "Radiografía de pulmones",
+    "tAppsDemo2Text":           "Un apoyo sólido para el diagnóstico",
+    "tAppsDemo2CTA":            "Ver ejemplo",
+    "tAppsShowcase2Eyebrow":    "Showcase: medicina/diagnóstico",
+    "tAppsShowcase2Title":      "Radiografía de pulmones",
+    "tAppsShowcase2Sub":        "",
 
-	"tTeamMeetTitle":			"Conoce a nuestro equipo",
-	"tTeamMeetCoreTitle":		"Nuestro equipo principal",
-	"tTeamMeetExpertsTitle":	"Nuestros expertos técnicos",
+    "tAppsDemo3Title":          "Energía solar",
+    "tAppsDemo3Text":           "Un análisis completo de eficiencia energética para apoyar decisiones ambientales.",
+    "tAppsDemo3CTA":            "Ver ejemplo",
+    "tAppsShowcase3Eyebrow":    "Showcase: energía solar",
+    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Sub":        "",
 
-	"tTeamCTATitle":			"Míralo en acción",
-	"tTeamCTASubTitle":			"Descubre las capacidades de nuestra plataforma con una demostración personalizada:",
-	"tTeamCTABtnContact":		"Solicitar una demo",
+    "tAppsRunEyebrow":          "Implementación",
+    "tAppsRunTitle":            "2 formas de operarlo",
+    "tAppsRun1Title":           "Cloud API",
+    "tAppsRun1Text":            "Integrada en su infraestructura existente y operativa desde el primer día. Nosotros la alojamos, supervisamos y mantenemos los modelos actualizados.",
+    "tAppsRun2Title":           "On-premise seguro",
+    "tAppsRun2Text":            "La plataforma completa se instala dentro de su propia infraestructura. Sus datos nunca salen de ella: la solución adecuada cuando los requisitos de compliance determinan la arquitectura.",
+    "tAppsRunInfo":             "Ambas opciones utilizan la misma capa de validación. La instalación on-premise no implica ninguna reducción funcional.",
+
+    "tContactNextEyebrow":      "Siguiente paso",
+    "tContactNextTitle":        "Empecemos una conversación",
+    "tContactNextLead":         "Explore con nosotros un entorno sandbox adaptado a sus necesidades y pruebe libremente nuestras capacidades de IA a su propio ritmo.",
+
+    "tContactNameFirst":        "Nombre",
+    "tContactNameLast":         "Apellido",
+    "tContactEmail":            "Correo electrónico",
+    "tContactPhone":            "Número de teléfono (opcional)",
+    "tContactIndustry":         "Industria (opcional)",
+    "tContactIndustryChoose":   "Seleccione...",
+    "tContactIndustryFashion":  "Moda",
+    "tContactIndustryMedicine": "Medicina",
+    "tContactIndustryEcommerce":"Comercio electrónico",
+    "tContactIndustryFinance":  "Finanzas",
+    "tContactIndustryOther":    "Otro",
+    "tContactMsgTitle":         "Título",
+    "tContactMsgDescr":         "Descripción (máx. 1200 caracteres)",
+    "tContactPrivacyTitle":     "Privacidad de datos:",
+    "tContactPrivacyText":      "Utilizamos esta información exclusivamente para responder a su consulta. Los correos electrónicos se envían mediante EmailJS. Para más información, consulte nuestra Política de Privacidad.",
+    "tContactSubmit":           "Enviar mensaje",
+
+    "tProdHeadingEyebrow":      "Lo que ofrecemos:",
+    "tProdHeadingTitle":        "Automatización de IA personalizada y preparada para empresas",
+    "tProdHeadingLead":         "Transformamos de forma decisiva la producción de contenido en un sistema autónomo, escalable y con calidad garantizada, permitiendo a su empresa escalar eficazmente la generación de recursos de alta calidad mediante IA.",
+
+    "tProdGraphicEyebrow":      "Automatización para comercio electrónico",
+    "tProdGraphicTitle":        "Un proyecto de ejemplo",
+    "tProdGraphicP1Title":      "Fase inicial",
+    "tProdGraphicP1Descr":      "Comenzamos aprendiendo de sus expertos para definir y comprender correctamente el proceso actual. Se seleccionan productos representativos, imágenes validadas y recursos existentes para la validación interna.",
+    "tProdGraphicP2Title":      "Procesamiento en la plataforma",
+    "tProdGraphicP2Descr":      "Los productos, las imágenes de origen y los datos relevantes se procesan en la plataforma. El flujo de trabajo se configura y prepara para generar resultados consistentes con apoyo de IA.",
+    "tProdGraphicP3Title":      "Automatización",
+    "tProdGraphicP3Descr":      "Una vez que el flujo de trabajo alcanza el nivel de calidad requerido, la generación y el procesamiento se automatizan. El procesamiento de la plataforma y la automatización pueden iterarse hasta alcanzar el resultado deseado.",
+    "tProdGraphicP4Title":      "Optimización y escalado",
+    "tProdGraphicP4Descr":      "El proceso automatizado se supervisa, optimiza y escala. Pueden incorporarse productos, mercados y volúmenes adicionales mientras el flujo de trabajo continúa mejorando.",
+
+    "tProdKeySelling1Fig":      "97%",
+    "tProdKeySelling1Descr":    "de todos los inputs procesados obtiene garantizadamente un resultado listo para usar",
+    "tProdKeySelling2Fig":      "80%",
+    "tProdKeySelling2Descr":    "de potencial de ahorro frente a la producción tradicional de contenido",
+    "tProdKeySellingInfo":      "Nuestro validador sustituye al human-in-the-loop. Eso es lo que hace viable la economía del proceso.",
+
+    "tProdRunEyebrow":          "El valor",
+    "tProdRunTitle":            "Ahorros que se acumulan",
+    "tProdRunSubTitle":         "Ejemplo de la industria de la moda",
+    "tProdRun1Title":           "Eficiencia de costos",
+    "tProdRun1Descr":           "Elimina gran parte del gasto de producción: estudios, sesiones, viajes, logística y posproducción. Una vez implementado el sistema, el costo marginal por recurso se acerca a cero, por lo que probar una nueva variante cuesta prácticamente nada.",
+    "tProdRun2Title":           "Menor huella",
+    "tProdRun2Descr":           "Menos viajes, menos muestras físicas y sin desperdicio en el set. Una menor huella por recurso y cifras sólidas para los reportes ESG.",
+    "tProdRun3Title":           "Mayor velocidad al mercado",
+    "tProdRun3Descr":           "Recursos en horas en lugar de semanas. Las campañas se lanzan antes y aún pueden reaccionar a la demanda mientras esta cambia.",
+    "tProdRun4Title":           "Escalado bajo demanda",
+    "tProdRun4Descr":           "Miles de variaciones en escenas, iluminación, fondos y formatos. Grandes catálogos y marketing de rendimiento de alto volumen sin necesidad de aumentar la plantilla.",
+
+    "tProdCTATitle":            "Onboarding sin fricción",
+    "tProdCTAText":             "Evite largos ciclos de ventas y presentaciones interminables. Reserve una demo, pruebe un prototipo y compruebe el valor real con su propio contenido.",
+    "tProdCTABtn":              "Reservar una demo",
+
+    "tTeamHeadingEyebrow":      "Quiénes somos",
+    "tTeamHeadingTitle":        "Profunda experiencia en IA, impulsada por una auténtica pasión por la automatización",
+
+    "tTeamQualiMainTitle":      "Sólida base académica",
+    "tTeamQualiMainSubT":       "15+ años",
+    "tTeamQualiMainText":       "de trabajo aplicado con redes neuronales e IA, respaldado por investigación revisada por pares en instituciones académicas alemanas de primer nivel. Mucho antes del auge de 2022 y no como consecuencia de él.",
+    "tTeamQualiMainLink":       "Ver publicaciones y trayectoria académica",
+
+    "tTeamQualiOther1Title":    "Ejecución comercial",
+    "tTeamQualiOther1Text":     "Experiencia operativa y de escalado en mercados empresariales de Europa y Latinoamérica, desarrollada junto con la experiencia técnica y no añadida posteriormente.",
+
+    "tTeamQualiOther2Title":    "Hecho en Alemania",
+    "tTeamQualiOther2Text":     "IA avanzada sometida a los estándares de confiabilidad y disciplina de datos que las empresas globales consideran una base, no un valor añadido.",
+
+    "tTeamMeetTitle":           "Conozca a nuestro equipo",
+
+    "tTeamMeetCoreTitle":       "Nuestro equipo principal",
+    "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
+    "tTeamMeetCore1Descr":      "Liderazgo técnico: experiencia en redes neuronales para el motor de validación y desarrollo conceptual",
+    "tTeamMeetCore2Name":       "Juan Herrera Cano",
+    "tTeamMeetCore2Descr":      "Liderazgo comercial: gestión empresarial",
+
+    "tTeamMeetExpertsTitle":    "Nuestros expertos técnicos",
+    "tTeamMeetExperts1Name":    "Timo",
+    "tTeamMeetExperts1Descr":   "Arquitectura de IA y cloud: desarrollo y mantenimiento de la plataforma",
+    "tTeamMeetExperts2Name":    "Pablo",
+    "tTeamMeetExperts2Descr":   " ",
+
+    "tTeamCTATitle":            "Véalo en acción",
+    "tTeamCTASubTitle":         "Descubra las capacidades de nuestra plataforma con una demostración personalizada:",
+    "tTeamCTABtnContact":       "Reservar una demo",
 
 
 	"tImprintHeader":			"Aviso legal",
-	"tPrivacyHeader":			"Privacidad",
+	"tPrivacyHeader":			"Privacidad"
 
-
-    "tFooterCol1Title": 		"Sitio",
-    "tFooterCol2Title": 		"Legal",
-    "tFooterCol3Title": 		"Contacto",
-
-    "tFooterImprint": 			"Aviso legal",
-    "tFooterPrivacy": 			"Privacidad"
 }

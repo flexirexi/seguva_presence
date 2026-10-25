@@ -104,6 +104,8 @@
     "tAppsRunTitle":            "2 ways to run it",
     "tAppsRun1Title":           "Cloud API",
     "tAppsRun1Text":            "Integrated into your existing stack, processing from day one. We host it, monitor it and keep the models current",
+    "tAppsRun2Title":           "Secure on-premise",
+    "tAppsRun2Text":            "The full platform installed inside your own infrastructure. Your data never leaves it - the answer when compliance decide the architecture.",
     "tAppsRunInfo":             "Both options run the identical validation layer. Nothing is downgraded for the on-premise installation.",
 
 
