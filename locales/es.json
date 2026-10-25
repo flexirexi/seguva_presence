@@ -203,6 +203,10 @@
 
 
 	"tImprintHeader":			"Aviso legal",
-	"tPrivacyHeader":			"Privacidad"
+	"tPrivacyHeader":			"Privacidad",
 
+    "t404Title":                "404",
+    "t404Subtitle":             "Ups. No se encontró esta página",
+    "t404Text":                 "El enlace que abrió es incorrecto o la página fue eliminada.",
+    "t404HomeBtn":              "Inicio"
 }

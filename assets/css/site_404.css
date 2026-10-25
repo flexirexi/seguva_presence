@@ -1,0 +1,11 @@
+/* 
+INFO: 
+Bootstrap is used here -> in order to overwrite, use: 
+    html[data-theme] <selector>          for elements in all themes, 
+    html[data-theme="dark"] <selector>   for elements only in dark mode,
+    html[data-theme=light"] <selector>   for elements only in light mode
+*/
+
+html[data-theme] .ai-sphere-container img {
+    max-width: 120px; 
+}

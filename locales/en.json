@@ -204,5 +204,10 @@
 
 
 	"tImprintHeader":			"Imprint",
-	"tPrivacyHeader":			"Privacy"
+	"tPrivacyHeader":			"Privacy",
+
+    "t404Title":                "404",
+    "t404Subtitle":             "Oops. This page was not found",
+    "t404Text":                 "The link you clicked is corrupted or the pages was removed.",
+    "t404HomeBtn":              "Home"
 }

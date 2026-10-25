@@ -201,6 +201,11 @@
 
 
 	"tImprintHeader":			"Impressum",
-	"tPrivacyHeader":			"Datenschutz"
+	"tPrivacyHeader":			"Datenschutz",
+
+    "t404Title":                "404",
+    "t404Subtitle":             "Oops. Diese Seite wurde nicht gefunden",
+    "t404Text":                 "Der aufgerufene Link ist fehlerhaft oder die Seite wurde entfernt.",
+    "t404HomeBtn":              "Zur Startseite"
 
 }
