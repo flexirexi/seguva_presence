@@ -183,8 +183,18 @@
 	"tTeamQualiOther2Text":		"Advanced AI held to the reliability and data discipline that global enterprises treat as a baseline, not a bonus.",
 
 	"tTeamMeetTitle":			"Meet our team",
+
 	"tTeamMeetCoreTitle":		"Our Core team",
+    "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
+    "tTeamMeetCore1Descr":      "Technical leadership: neural-network know-how for the validation engine, and concept development",
+    "tTeamMeetCore2Name":       "Juan Herrera Cano",
+    "tTeamMeetCore2Descr":      "Commercial leadership: enterprise management",
+
 	"tTeamMeetExpertsTitle":	"Our technical experts",
+    "tTeamMeetExperts1Name":    "Timo",
+    "tTeamMeetExperts1Descr":   "AI and cloud architecture: platform development and maintenance",
+    "tTeamMeetExperts2Name":    "Pablo",
+    "tTeamMeetExperts2Descr":   "",
 
 	"tTeamCTATitle":			"See it in action",
 	"tTeamCTASubTitle":			"Explore our platform's capabilities with a personalized walkthrough:",

@@ -69,9 +69,11 @@ html[data-theme] .team-icon {
     border: 1px dashed rgba(var(--bs-primary-rgb), 0.35);
     border-radius: 50%;
     background-color: var(--icon-container-bg);
+    overflow: hidden;
 }
 
 html[data-theme] .team-icon img {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 100%;
+    max-width: 90px;
+    
 }
