@@ -16,8 +16,12 @@ html[data-theme="dark"] {
     --title2: #464646;
 
     --bg1: #efefef;
-    --bg2: #E3E8F4;
+    --bg2: #E3E8F4; /* 0c0d0c*/
     --bg-accent: #d2ebe4;
+
+    --test1: #0B0D0C;
+    --test2: #111312;
+    --test3: #181A19;
 
     --nav-link-text: #dedede;
     --nav-link-text-hover: #ffffff;
@@ -72,6 +76,7 @@ html[data-theme="dark"] {
     --dis-text: #8e8e8e; 
     --dis-bg: #A4B7B6; 
     --dis-border: #A4B7B6;
+
 
 }
 

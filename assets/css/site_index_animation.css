@@ -19,13 +19,12 @@ html[data-theme] .ai-demo {
     --ai-border: #72e7c03d;
     --ai-surface: #0d202d;
     width: 100%;
-    max-width: 640px;
-    margin-inline: auto;
+    max-width: 840px;
+    padding:0;
 }
 
 html[data-theme] .ai-demo__stage {
     width: 100%;
-    aspect-ratio: 4 / 3;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: minmax(0, 1fr);
