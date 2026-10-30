@@ -1,0 +1,211 @@
+{
+    "languageCode": "de",
+    "langNameShort": "DE",
+
+
+	"tCompanyNameShort":		"SEGUVA",
+	"tComanyNameLong":			"SEGUVA GmbH",
+	"tAINameShort":				"VIA",
+	"tAINameLong":				"VIA [long]",
+	"tProduct1Name":			"Product 1",
+
+    "tNavHome":                 "Home",
+    "tNavTeam":                 "Team",
+    "tNavProduct":              "Produkt",
+    "tNavApps":                 "Anwendungen",
+    "tNavAppsMenu":             "Übersicht",
+    "tNavContact":              "Kontakt",
+    "tNavBtnContact":           "Demo buchen",
+
+    "tCTATitle":	 			"Jetzt starten",
+    "tCTASubTitle":	 			"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo:",
+    "tCTABtnContact":	 		"Demo buchen",
+
+    "tFooterCol1Title":         "Seiten",
+    "tFooterCol2Title":         "Rechtliches",
+    "tFooterCol3Title":         "Kontakt",
+    "tFooterImprint":           "Impressum",
+    "tFooterPrivacy":           "Datenschutz",
+    "tFooterCol3Email":         "info@seguva.com",
+    "tFooterCopyright":         "© 2026 Seguva. Alle Rechte vorbehalten",
+
+    "tHomeHeadingEyebrow": 		"Enterprise-KI-Plattform",
+    "tHomeHeadingTitle": 		"Skalierbare & zuverlässige Automatisierung",
+    "tHomeHeadingSubTitle1": 	"Mit GenAI",
+    "tHomeHeadingSubTitle2": 	"Validiert durch unsere Engine",
+    "tHomeHeadingText": 		"Verwandeln Sie jedes Bild in ein produktionsreifes kommerzielles Asset. Jede Ausgabe wird von unserer eigenen KI-Validierungs-Engine bewertet, bevor sie Sie erreicht, und für 97 % aller eingereichten Inputs garantieren wir eine direkt einsetzbare Ausgabe.",
+    "tHomeHeadingBtnContact": 	"Demo buchen",
+    "tHomeHeadingBtnProduct": 	"Produkte ansehen",
+    "tHomeHeadingImageCaption": "Jede Ausgabe durchläuft automatisch unseren Validator, bevor sie Sie erreicht.",
+
+    "tHomeGoalEyebrow": 		"Unser Hauptziel",
+    "tHomeGoalTitle": 			"Kunden dabei unterstützen, die Falle manueller Verifizierung zu überwinden",
+    "tHomeGoalText": 			"Foundation Models arbeiten probabilistisch. Daher sind ganze Teams erforderlich, um die Qualitätsstandards von Unternehmen sicherzustellen.",
+    "tHomeGoalQuote": 			"Mit unserem automatisierten, hochpräzisen Gatekeeper gelangen KI-Implementierungen schneller in den Produktivbetrieb und erzielen dadurch schneller einen Return on Investment.",
+
+    "tHomeInsightsTitle": 		"3 Insights, die zwei Minuten wert sind",
+    "tHomeInsights1Title": 		"Wer wir sind",
+    "tHomeInsights1Text": 		"Angewandte neuronale Netze und akademische KI-Forschung bereits mehr als 15 Jahre vor dem Hype – kombiniert mit Erfahrung in Finanzen und kommerzieller Umsetzung.",
+    "tHomeInsights1Link": 		"Unser Team kennenlernen →",
+
+    "tHomeInsights2Title": 		"Unsere Strategie",
+    "tHomeInsights2Text": 		"Eine maßgeschneiderte Plattform, die Ihr eigenes Team unabhängig betreibt, mit dynamischem Modell-Routing und unserem proprietären Validator, der jede einzelne Ausgabe bewertet.",
+    "tHomeInsights2Link": 		"Mehr über unsere Strategie →",
+
+    "tHomeInsights3Title": 		"Produkte",
+    "tHomeInsights3Text": 		"Branchenlösungen für Medizin, Mode und E-Commerce – und für jedes Unternehmen, das auf Bildqualität und Bildverarbeitung angewiesen ist.",
+    "tHomeInsights3Link": 		"Unsere Produkte entdecken →",
+
+
+    "tAppsHeadingEyebrow":      "Unsere Branchenlösung:",
+    "tAppsHeadingTitle":        "Überall dort, wo Asset-Qualität nicht dem Zufall überlassen werden darf",
+    "tAppsHeadingLead":         "Dieselbe Kernplattform, individuell angepasst zur Erstellung produktionsreifer Assets für jede Branche",
+    "tAppsTargetTitle":         "Zielbranchen",
+    "tAppsTarget1Title":        "Mode",
+    "tAppsTarget1Text":         "Packshots, Lookbooks und Kampagnenvarianten für jede Farbe und Größe – ohne ein Studio buchen zu müssen.",
+    "tAppsTarget2Title":        "Medizin",
+    "tAppsTarget2Text":         "Bildgebungs- und Dokumentationsprozesse, bei denen Konsistenz, Nachvollziehbarkeit und überprüfbare Qualität Pflicht statt Kür sind.",
+    "tAppsTarget3Title":        "E-Commerce",
+    "tAppsTarget3Text":         "Katalogbilder in großem Maßstab: jedes Produkt, jede Variante und jeder Kanal nach einem einheitlichen Qualitätsstandard.",
+    "tAppsTarget4Title":        "... und darüber hinaus",
+    "tAppsTarget4Text":         "Finanzprognosen, Rechnungsverarbeitung und weitere Anwendungen, die die operative Effizienz branchenübergreifend steigern.",
+
+    "tAppsDemoEyebrow":         "Eine kurze Demonstration: Bilder als Asset",
+    "tAppsDemoTitle":           "Input rein. Marktreif raus.",
+    "tAppsDemoLead":            "Jedes <b>Showcase</b> wurde auf der Plattform erstellt und durch den Validator freigegeben. Ohne manuelle Nachbearbeitung.",
+
+    "tAppsShowcasesLabelInput": "Input",
+    "tAppsShowcasesLabelOutput":"Generierte Outputs",
+    "tAppsShowcasesLabelSwipe": "Wischen zum Entdecken",
+
+    "tAppsDemo1Title":          "Möbel in Szene",
+    "tAppsDemo1Text":           "Ein freigestelltes Katalogprodukt wird in eine gestaltete Innenraumszene integriert.",
+    "tAppsDemo1CTA":            "Beispiel ansehen",
+    "tAppsShowcase1Eyebrow":    "Showcase",
+    "tAppsShowcase1Title":      "Möbel in Szene",
+    "tAppsShowcase1Sub":        "Ein freigestelltes Katalogprodukt wird in eine gestaltete Innenraumszene integriert.",
+
+    "tAppsDemo2Title":          "Röntgenaufnahme der Lunge",
+    "tAppsDemo2Text":           "Eine leistungsstarke Unterstützung bei der Diagnostik",
+    "tAppsDemo2CTA":            "Beispiel ansehen",
+    "tAppsShowcase2Eyebrow":    "Showcase: Medizin/Diagnostik",
+    "tAppsShowcase2Title":      "Röntgenaufnahme der Lunge",
+    "tAppsShowcase2Sub":        "",
+
+    "tAppsDemo3Title":          "Solarenergie",
+    "tAppsDemo3Text":           "Eine umfassende Analyse der Energieeffizienz zur Unterstützung umweltbezogener Entscheidungen",
+    "tAppsDemo3CTA":            "Beispiel ansehen",
+    "tAppsShowcase3Eyebrow":    "Showcase: Solarenergie",
+    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Sub":        "",
+
+    "tAppsRunEyebrow":          "Bereitstellung",
+    "tAppsRunTitle":            "2 Möglichkeiten für den Betrieb",
+    "tAppsRun1Title":           "Cloud API",
+    "tAppsRun1Text":            "In Ihre bestehende Systemlandschaft integriert und vom ersten Tag an einsatzbereit. Wir hosten und überwachen die Plattform und halten die Modelle aktuell.",
+    "tAppsRun2Title":           "Sicheres On-Premise",
+    "tAppsRun2Text":            "Die vollständige Plattform wird innerhalb Ihrer eigenen Infrastruktur installiert. Ihre Daten verlassen diese Umgebung nicht - die passende Lösung, wenn Compliance-Anforderungen die Architektur bestimmen.",
+    "tAppsRunInfo":             "Beide Optionen nutzen dieselbe Validierungsschicht. Bei der On-Premise-Installation gibt es keinerlei funktionale Abstriche.",
+
+
+    "tContactNextEyebrow":      "Nächster Schritt",
+    "tContactNextTitle":        "Lassen Sie uns ins Gespräch kommen",
+    "tContactNextLead":         "Entdecken Sie gemeinsam mit uns eine individuell zugeschnittene Sandbox-Umgebung und testen Sie unsere KI-Funktionen frei und in Ihrem eigenen Tempo.",
+
+    "tContactNameFirst":        "Vorname",
+    "tContactNameLast":         "Nachname",
+    "tContactEmail":            "E-Mail",
+    "tContactPhone":            "Telefonnummer (optional)",
+    "tContactIndustry":         "Branche (optional)",
+    "tContactIndustryChoose":   "Bitte wählen...",
+    "tContactIndustryFashion":  "Mode",
+    "tContactIndustryMedicine": "Medizin",
+    "tContactIndustryEcommerce":"E-Commerce",
+    "tContactIndustryFinance":  "Finanzen",
+    "tContactIndustryOther":    "Sonstige",
+    "tContactMsgTitle":         "Titel",
+    "tContactMsgDescr":         "Beschreibung (max. 1200 Zeichen)",
+    "tContactPrivacyTitle":     "Datenschutz:",
+    "tContactPrivacyText":      "Wir verwenden diese Angaben ausschließlich zur Bearbeitung Ihrer Anfrage. E-Mails werden über EmailJS versendet. Weitere Informationen finden Sie in unserer Datenschutzerklärung.",
+    "tContactSubmit":           "Nachricht senden",
+
+
+    "tProdHeadingEyebrow":      "Was wir bieten:",
+    "tProdHeadingTitle":        "Individuelle KI-Automatisierung für Unternehmen",
+    "tProdHeadingLead":         "Wir überführen Content-Produktion konsequent in ein autonomes, skalierbares und qualitätsgesichertes System und ermöglichen Ihrem Unternehmen damit, hochwertige KI-generierte Assets effizient zu skalieren.",
+
+    "tProdGraphicEyebrow":      "Automatisierung für E-Commerce",
+    "tProdGraphicTitle":        "Ein Beispielprojekt",
+    "tProdGraphicP1Title":      "Initialphase",
+    "tProdGraphicP1Descr":      "Wir beginnen damit, von Ihren Experten zu lernen, um den bestehenden Prozess präzise zu definieren und zu verstehen. Repräsentative Produkte, validierte Bilder und vorhandene Assets werden für die interne Validierung ausgewählt.",
+    "tProdGraphicP2Title":      "Plattformverarbeitung",
+    "tProdGraphicP2Descr":      "Produkte, Ausgangsbilder und relevante Daten werden von der Plattform verarbeitet. Der Workflow wird konfiguriert und für eine konsistente KI-gestützte Output-Generierung vorbereitet.",
+    "tProdGraphicP3Title":      "Automatisierung",
+    "tProdGraphicP3Descr":      "Sobald der Workflow das erforderliche Qualitätsniveau erreicht, werden Generierung und Verarbeitung automatisiert. Plattformverarbeitung und Automatisierung können iterativ durchlaufen werden, bis das gewünschte Ergebnis erreicht ist.",
+    "tProdGraphicP4Title":      "Optimierung & Skalierung",
+    "tProdGraphicP4Descr":      "Der automatisierte Prozess wird überwacht, optimiert und skaliert. Weitere Produkte, Märkte und Output-Mengen können ergänzt werden, während der Workflow kontinuierlich verbessert wird.",
+
+    "tProdKeySelling1Fig":      "97%",
+    "tProdKeySelling1Descr":    "aller übergebenen Inputs erhalten garantiert einen direkt nutzbaren Output",
+    "tProdKeySelling2Fig":      "80%",
+    "tProdKeySelling2Descr":    "potenzielles Einsparpotenzial gegenüber traditioneller Content-Produktion",
+    "tProdKeySellingInfo":      "Unser Validator ersetzt den Human-in-the-Loop. Genau das macht die Wirtschaftlichkeit möglich.",
+
+    "tProdRunEyebrow":          "Der Mehrwert",
+    "tProdRunTitle":            "Einsparungen, die sich summieren",
+    "tProdRunSubTitle":         "Beispiel aus der Modebranche",
+    "tProdRun1Title":           "Kosteneffizienz",
+    "tProdRun1Descr":           "Reduziert einen Großteil der Produktionskosten: Studios, Shootings, Reisen, Logistik und Postproduktion. Nach der Einrichtung liegen die Grenzkosten pro Asset nahe null, sodass neue Varianten nahezu ohne zusätzliche Kosten getestet werden können.",
+    "tProdRun2Title":           "Geringerer Fußabdruck",
+    "tProdRun2Descr":           "Weniger Reisen, weniger physische Muster und kein Abfall am Set. Ein geringerer Fußabdruck pro Asset und belastbare Kennzahlen für das ESG-Reporting.",
+    "tProdRun3Title":           "Schneller am Markt",
+    "tProdRun3Descr":           "Assets in Stunden statt Wochen. Kampagnen starten früher und können dennoch flexibel auf sich verändernde Nachfrage reagieren.",
+    "tProdRun4Title":           "Skalierung nach Bedarf",
+    "tProdRun4Descr":           "Tausende Varianten unterschiedlicher Szenen, Lichtstimmungen, Hintergründe und Formate. Große Kataloge und Performance-Marketing mit hohem Volumen lassen sich bewältigen, ohne zusätzliches Personal aufzubauen.",
+
+    "tProdCTATitle":            "Unkompliziertes Onboarding",
+    "tProdCTAText":             "Verzichten Sie auf langwierige Vertriebszyklen und endlose Präsentationen. Buchen Sie eine Demo, testen Sie einen Prototyp und erleben Sie den konkreten Mehrwert mit Ihren eigenen Inhalten.",
+    "tProdCTABtn":              "Demo buchen",
+
+
+    "tTeamHeadingEyebrow":      "Wer wir sind",
+    "tTeamHeadingTitle":        "Fundierte KI-Experten, angetrieben von echter Leidenschaft für Automatisierung",
+
+    "tTeamQualiMainTitle":      "Solide akademische Grundlage",
+    "tTeamQualiMainSubT":       "15+ Jahre",
+    "tTeamQualiMainText":       "angewandte Arbeit mit neuronalen Netzen und KI, gestützt durch peer-reviewte Forschung an führenden deutschen Hochschulen – lange vor dem Hype-Zyklus ab 2022 und nicht erst durch ihn.",
+    "tTeamQualiMainLink":       "Publikationen und akademischen Werdegang ansehen",
+
+    "tTeamQualiOther1Title":    "Kommerzielle Umsetzung",
+    "tTeamQualiOther1Text":     "Operative und Skalierungserfahrung in europäischen und lateinamerikanischen Enterprise-Märkten – parallel zur technischen Expertise aufgebaut und nicht erst nachträglich ergänzt.",
+
+    "tTeamQualiOther2Title":    "Made in Germany",
+    "tTeamQualiOther2Text":     "Fortschrittliche KI mit der Zuverlässigkeit und Datendisziplin, die globale Unternehmen als Grundvoraussetzung und nicht als Zusatz betrachten.",
+
+    "tTeamMeetTitle":           "Lernen Sie unser Team kennen",
+    "tTeamMeetCoreTitle":       "Unser Kernteam",
+    "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
+    "tTeamMeetCore1Descr":      "Technische Leitung: Expertise in neuronalen Netzen für die Validierungsengine sowie Konzeptentwicklung",
+    "tTeamMeetCore2Name":       "Juan Herrera Cano",
+    "tTeamMeetCore2Descr":      "Kommerzielle Leitung: Enterprise Management",
+
+    "tTeamMeetExpertsTitle":    "Unsere technischen Experten",
+    "tTeamMeetExperts1Name":    "Timo",
+    "tTeamMeetExperts1Descr":   "KI- und Cloud-Architektur: Entwicklung und Wartung der Plattform",
+    "tTeamMeetExperts2Name":    "Pablo",
+    "tTeamMeetExperts2Descr":   " ",
+
+    "tTeamCTATitle":            "Erleben Sie es in Aktion",
+    "tTeamCTASubTitle":         "Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demonstration:",
+    "tTeamCTABtnContact":       "Demo buchen",
+
+
+	"tImprintHeader":			"Impressum",
+	"tPrivacyHeader":			"Datenschutz",
+
+    "t404Title":                "404",
+    "t404Subtitle":             "Oops. Diese Seite wurde nicht gefunden",
+    "t404Text":                 "Der aufgerufene Link ist fehlerhaft oder die Seite wurde entfernt.",
+    "t404HomeBtn":              "Zur Startseite"
+
+}

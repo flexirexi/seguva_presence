@@ -1,0 +1,213 @@
+{
+    "languageCode": "en",
+    "langNameShort": "EN",
+
+
+	"tCompanyNameShort":		"SEGUVA",
+	"tCompanyNameLong":			"SEGUVA GmbH",
+	"tAINameShort":				"VIA",
+	"tAINameLong":				"VIA [long]",
+
+
+    "tNavHome": 				"Home",
+    "tNavTeam": 				"Team",
+    "tNavProduct":   			"Product",
+    "tNavApps": 	        	"Applications",
+    "tNavAppsMenu":             "Overview",
+    "tNavContact": 				"Contact",
+    "tNavBtnContact": 			"Book a demo",
+
+    "tCTATitle":	 			"See it in action",
+    "tCTASubTitle":	 			"Explore our platform's capabilities with a personalized walkthrough:",
+    "tCTABtnContact":	 		"Book a demo",
+
+    "tFooterCol1Title": 		"Site",
+    "tFooterCol2Title": 		"Legal",
+    "tFooterCol3Title": 		"Contact",
+    "tFooterImprint": 			"Imprint",
+    "tFooterPrivacy": 			"Privacy",
+    "tFooterCol3Email":         "info@seguva.com",
+    "tFooterCopyright":         "© 2026 Seguva. All rights reserved",
+
+
+    "tHomeHeadingEyebrow": 		"Enterprise AI platform",
+    "tHomeHeadingTitle": 		"Scalable & Reliable Automation",
+    "tHomeHeadingSubTitle1": 	"Powered by GenAI",
+    "tHomeHeadingSubTitle2": 	"Validated by our Engine",
+    "tHomeHeadingText": 		"Turn any image into a production-ready commercial asset. Every output is scored by our own AI validation engine before it reaches you, and 97% of all input passed is guaranteed to get a ready-to-use output.",
+    "tHomeHeadingBtnContact": 	"Book a demo",
+    "tHomeHeadingBtnProduct": 	"View Product",
+    "tHomeHeadingImageCaption": "Every output passes our validator automatically before it reaches you.",
+
+    "tHomeGoalEyebrow": 		"Our main goal",
+    "tHomeGoalTitle": 			"Enabling clients to overcome the manual verification trap",
+    "tHomeGoalText": 			"Foundational models are probabilistic, hence, entire teams are required to ensure enterprise quality standards are met.",
+    "tHomeGoalQuote": 			"With our automated high-accuracy gatekeeper, AI implementations move swiftly to production, delivering a faster return on investment.",
+
+    "tHomeInsightsTitle": 		"3 insights worth two minutes",
+    "tHomeInsights1Title": 		"Who we are",
+    "tHomeInsights1Text": 		"Applied neural-network an AI academic research 15+ years before the hype, paired with financial and commercial execution experience.",
+    "tHomeInsights1Link": 		"Meet the team →",
+
+    "tHomeInsights2Title": 		"Our Product",
+    "tHomeInsights2Text": 		"A tailored platform your own team runs independently, with dynamic model routing and our proprietary validator scoring every single output.",
+    "tHomeInsights2Link": 		"Learn about our product →",
+
+    "tHomeInsights3Title": 		"Applications",
+    "tHomeInsights3Text": 		"Industry configurations for medicine, fashion and e-commerce - and for every business that depends on image quality and processing.",
+    "tHomeInsights3Link": 		"Explore Apps →",
+
+
+    "tAppsHeadingEyebrow":      "Our industry solution:",
+    "tAppsHeadingTitle":        "Wherever asset quality cannot be left to chance",
+    "tAppsHeadingLead":         "The same core platform, customized to generate production-ready assets for any industry",
+    "tAppsTargetTitle":         "Target industries",
+    "tAppsTarget1Title":        "Fashion",
+    "tAppsTarget1Text":         "Packshots, lookbooks and campaign variations across every colorway and size, without booking a studio",
+    "tAppsTarget2Title":        "Medicine",
+    "tAppsTarget2Text":         "Imaging and documentation workflows where consistency, traceability and verifiable quality are mandatory rather than desirable.",
+    "tAppsTarget3Title":        "E-commerce",
+    "tAppsTarget3Text":         "Catalogue imagery at scale: every product, every variant, every channel, held to one consistent standard",
+    "tAppsTarget4Title":        "... and beyond",
+    "tAppsTarget4Text":         "Financial forecasting, invoice processing and other applications that enhance operation efficiency across industries",
+
+    "tAppsDemoEyebrow":         "A short demonstration: images as an asset",
+    "tAppsDemoTitle":           "Input in. Market-ready out.",
+    "tAppsDemoLead":            "Each <b>showcase</b> was produced on the platform and cleared by the validator. No manual retouching.",
+
+    "tAppsShowcasesLabelInput": "Input",
+    "tAppsShowcasesLabelOutput":"Generated outputs",
+    "tAppsShowcasesLabelSwipe": "Swipe to explore",
+
+    "tAppsDemo1Title":          "Furniture in scene",
+    "tAppsDemo1Text":           "Catalogue cut-out placed into a styled interior scene",
+    "tAppsDemo1CTA":            "View sample",
+    "tAppsShowcase1Eyebrow":    "Showcase",
+    "tAppsShowcase1Title":      "Furniture in scene",
+    "tAppsShowcase1Sub":        "Catalogue cut-out placed into a styled interior scene",
+
+    "tAppsDemo2Title":          "X-Ray of lungs",
+    "tAppsDemo2Text":           "A strong support in diagnostics",
+    "tAppsDemo2CTA":            "View sample",
+    "tAppsShowcase2Eyebrow":    "Showcase: medicine/diagnostics",
+    "tAppsShowcase2Title":      "X-Ray of lungs",
+    "tAppsShowcase2Sub":        "",
+
+    "tAppsDemo3Title":          "Solar Energy",
+    "tAppsDemo3Text":           "A full analysis about energy efficiency to support environmental decisions",
+    "tAppsDemo3CTA":            "View sample",
+    "tAppsShowcase3Eyebrow":    "Showcase: Solar Energy",
+    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Sub":        "",
+
+    "tAppsRunEyebrow":          "Deployment",
+    "tAppsRunTitle":            "2 ways to run it",
+    "tAppsRun1Title":           "Cloud API",
+    "tAppsRun1Text":            "Integrated into your existing stack, processing from day one. We host it, monitor it and keep the models current",
+    "tAppsRun2Title":           "Secure on-premise",
+    "tAppsRun2Text":            "The full platform installed inside your own infrastructure. Your data never leaves it - the answer when compliance decide the architecture.",
+    "tAppsRunInfo":             "Both options run the identical validation layer. Nothing is downgraded for the on-premise installation.",
+
+
+    "tContactNextEyebrow":      "next step",
+    "tContactNextTitle":        "Let's start a conversation",
+    "tContactNextLead":         "Explore a tailored sandbox environment with us, and test our AI capabilities freely at your own pace.",
+
+    "tContactNameFirst":        "First name",
+    "tContactNameLast":         "Last name",
+    "tContactEmail":            "Email",
+    "tContactPhone":            "Phone number (optional)",
+    "tContactIndustry":         "Industry (optional)",
+    "tContactIndustryChoose":   "choose..",
+    "tContactIndustryFashion":  "Fashion",
+    "tContactIndustryMedicine": "Medicine",
+    "tContactIndustryEcommerce":"E-commerce",
+    "tContactIndustryFinance":  "Finance",
+    "tContactIndustryOther":    "Other",
+    "tContactMsgTitle":         "Title",
+    "tContactMsgDescr":         "Description (max. 1200 characters)",
+    "tContactPrivacyTitle":     "Data privacy:",
+    "tContactPrivacyText":      "We use this information solely to respond to your inquiry. Emails are sent via EmailJS. For more details, please refer to our Privacy Policy.",
+    "tContactSubmit":           "Send message",
+
+
+    "tProdHeadingEyebrow":      "What we offer:",
+    "tProdHeadingTitle":        "Enterprise-ready custom AI automation",
+    "tProdHeadingLead":         "We decisively transform content production into an autonomous, scalable, and quality-assured system, empowering your company to effectively scale high-quality AI asset generation.",
+
+    "tProdGraphicEyebrow":      "Automation for e-commerce",
+    "tProdGraphicTitle":        "A sample project",
+    "tProdGraphicP1Title":      "Initial phase",
+    "tProdGraphicP1Descr":      "We start by learning from your experts to properly define and understand the current process. Representative products, validated images and existing assets are selected for internal validation.",
+    "tProdGraphicP2Title":      "Platform processing",
+    "tProdGraphicP2Descr":      "Products, source images and relevant data are processed by the platform. The workflow is configured and prepared for consistent AI-supported output generation.",
+    "tProdGraphicP3Title":      "Automation",
+    "tProdGraphicP3Descr":      "Once the workflow reaches the required quality level, generation and processing are automated. Platform processing and automation can iterate until the desired output is reached.",
+    "tProdGraphicP4Title":      "Optimization & Scaling",
+    "tProdGraphicP4Descr":      "The automated process is monitored, optimized and scaled. Additional products, markets and output volumes can be added while the workflow continues to improve.",
+
+    "tProdKeySelling1Fig":      "97%",
+    "tProdKeySelling1Descr":    "of all input passed is guaranteed to get a ready-to-use output",
+    "tProdKeySelling2Fig":      "80%",
+    "tProdKeySelling2Descr":    "cost savings potential against traditional content production",
+    "tProdKeySellingInfo":      "Our validator replaces the human-in-the-loop. That is what makes the economics work.",
+
+
+    "tProdRunEyebrow":          "The value",
+    "tProdRunTitle":            "Savings that compound",
+    "tProdRunSubTitle":         "Fashion industry example",
+    "tProdRun1Title":           "Cost efficiency",
+    "tProdRun1Descr":           "Eliminates most production spend: studios, shoots, travel, logistics, post-production. Once you are set up the marginal cost per asset is close to zero, so testing a new variation costs almost nothing.",
+    "tProdRun2Title":           "Lower footprint",
+    "tProdRun2Descr":           "Less travel, fewer physical samples, no on-set waste. A smaller footprint per asset, an defensible numbers for ESG reporting.",
+    "tProdRun3Title":           "Speed to market",
+    "tProdRun3Descr":           "ASset in hours instead of weeks. Campaigns launch sooner and can still react to demand while it is moving.",
+    "tProdRun4Title":           "Scale on demand",
+    "tProdRun4Descr":           "Thousands of variations across scenes, lighting, backgrounds and formats. Large catalogues and high-volume performance marketing handled without adding headcount.",
+
+    "tProdCTATitle":            "Low-friction onboarding",
+    "tProdCTAText":             "Skip the lengthy sales cycles and endless slide decks. Book a demo, test a prototype, and see real value with your own content.",
+    "tProdCTABtn":              "Book a demo",
+
+
+	"tTeamHeadingEyebrow":		"Who we are",
+	"tTeamHeadingTitle":		"Deep AI expertise, driven by a genuine passion for automation",
+	
+	"tTeamQualiMainTitle":		"Solid academic foundation",
+	"tTeamQualiMainSubT":		"15+ years",
+	"tTeamQualiMainText":		"of applied neural-network and AI work, backed by peer-reviewed research in top-tier German academia. Well before the 2022 hype cycle, rather than because of it",
+	"tTeamQualiMainLink":		"View publications and academic record",
+
+	"tTeamQualiOther1Title":	"Commercial execution",
+	"tTeamQualiOther1Text":		"Operational and scaling experience across European and LATAM enterprise markets, built alongside the technical side rather than bolted on afterwards.",
+
+	"tTeamQualiOther2Title":	"Made in Germany",
+	"tTeamQualiOther2Text":		"Advanced AI held to the reliability and data discipline that global enterprises treat as a baseline, not a bonus.",
+
+	"tTeamMeetTitle":			"Meet our team",
+
+	"tTeamMeetCoreTitle":		"Our Core team",
+    "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
+    "tTeamMeetCore1Descr":      "Technical leadership: neural-network know-how for the validation engine, and concept development",
+    "tTeamMeetCore2Name":       "Juan Herrera Cano",
+    "tTeamMeetCore2Descr":      "Commercial leadership: enterprise management",
+
+	"tTeamMeetExpertsTitle":	"Our technical experts",
+    "tTeamMeetExperts1Name":    "Timo",
+    "tTeamMeetExperts1Descr":   "AI and cloud architecture: platform development and maintenance",
+    "tTeamMeetExperts2Name":    "Pablo",
+    "tTeamMeetExperts2Descr":   "",
+
+	"tTeamCTATitle":			"See it in action",
+	"tTeamCTASubTitle":			"Explore our platform's capabilities with a personalized walkthrough:",
+	"tTeamCTABtnContact":		"Book a demo",
+
+
+	"tImprintHeader":			"Imprint",
+	"tPrivacyHeader":			"Privacy",
+
+    "t404Title":                "404",
+    "t404Subtitle":             "Oops. This page was not found",
+    "t404Text":                 "The link you clicked is corrupted or the pages was removed.",
+    "t404HomeBtn":              "Home"
+}
