@@ -43,6 +43,12 @@ html[data-theme] {
     --icon-container-large-padding-y:   3px;
 }
 
+html[data-theme] html,
+html[data-theme] body {
+    max-width: 100%;
+    overflow-x: clip;
+}
+
 html[data-theme] .mb-6-custom {
     margin-bottom: 60px;
 }
