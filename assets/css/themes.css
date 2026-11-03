@@ -197,8 +197,24 @@ html[data-theme] h6 {
     color: var(--title2);
 }
 
+html[data-theme] .h3-privacy {
+    color: var(--main);
+}
+
+html[data-theme] .h4-privacy {
+    color: var(--title2);
+}
+
+html[data-theme] .h5-privacy {
+    color: var(--title2);
+}
+
+html[data-theme] .h6-privacy {
+    color: var(--title2);
+}
+
 html[data-theme] .t-muted {
-    color: var(--dis-text);
+    color: var(--title2);
 }
 
 html[data-theme] nav,
