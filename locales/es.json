@@ -90,11 +90,11 @@
     "tAppsShowcase1Title":      "Muebles en escena",
     "tAppsShowcase1Sub":        "Un recorte de catálogo es integrado a un diseño interior.",
 
-    "tAppsDemo2Title":          "Radiografía pulmonar",
+    "tAppsDemo2Title":          "Resonancia magnética pulmonar",
     "tAppsDemo2Text":           "Un apoyo sólido para el diagnóstico",
     "tAppsDemo2CTA":            "Ver ejemplo",
     "tAppsShowcase2Eyebrow":    "Showcase: medicina/diagnóstico",
-    "tAppsShowcase2Title":      "Radiografía pulmonar",
+    "tAppsShowcase2Title":      "Resonancia magnética pulmonar",
     "tAppsShowcase2Sub":        "",
 
     "tAppsDemo3Title":          "Energía solar",
@@ -180,7 +180,8 @@
     "tTeamQualiMainSubT":       "18+ años",
     "tTeamQualiMainText":       "años de experiencia en IA aplicada, transformando desafíos empresariales en soluciones de IA fiables y escalables. Desde la estrategia y la infraestructura hasta la producción, convertimos la tecnología avanzada en valor empresarial medible.",
 
-    "tTeamQualiOther1Title":    "Escalamos la IA empresarial en Europa y Latinoamérica, desde el desarrollo hasta la puesta en producción y la generación de un impacto empresarial medible.",
+    "tTeamQualiOther1Title":   "Ejecución comercial",
+    "tTeamQualiOther1Text":    "Escalamos la IA empresarial en Europa y Latinoamérica, desde el desarrollo hasta la puesta en producción y la generación de un impacto empresarial medible.",
 
     "tTeamQualiOther2Title":    "Hecho en Alemania",
     "tTeamQualiOther2Text":     "IA de nivel empresarial, diseñada para garantizar la fiabilidad, la integridad de los datos y la operación en producción a gran escala.",

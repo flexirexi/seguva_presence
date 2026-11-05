@@ -18,8 +18,8 @@
     "tNavBtnContact": 		"Book a demo",
 
 
-    "tCTATitle":	 		"See it in action",
-    "tCTASubTitle":	 		"Explore our platform's capabilities with a personalized walkthrough",
+    "tCTATitle":	 		    "See it in action",
+    "tCTASubTitle":	 		    "Explore our platform's capabilities with a personalized walkthrough",
     "tCTABtnContact":	 		"Book a demo",
 
     "tFooterCol1Title": 		"Site",
@@ -89,11 +89,11 @@
     "tAppsShowcase1Title":      "Furniture in scene",
     "tAppsShowcase1Sub":        "Catalogue cut-out placed into a styled interior scene",
 
-    "tAppsDemo2Title":          "MRT of lungs",
+    "tAppsDemo2Title":          "MRI of lungs",
     "tAppsDemo2Text":           "A strong support in diagnostics",
     "tAppsDemo2CTA":            "View sample",
     "tAppsShowcase2Eyebrow":    "Showcase: medicine/diagnostics",
-    "tAppsShowcase2Title":      "X-Ray of lungs",
+    "tAppsShowcase2Title":      "MRI of lungs",
     "tAppsShowcase2Sub":        "",
 
     "tAppsDemo3Title":          "Solar Energy",
