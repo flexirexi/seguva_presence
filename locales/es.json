@@ -30,13 +30,14 @@
     "tFooterImprint":           "Condiciones legales",
     "tFooterPrivacy":           "Políticas de privacidad",
     "tFooterCol3Email":         "info@seguva.com",
+    "tFooterAGB":               " ",
     "tFooterCopyright":         "© 2026 Seguva. Todos los derechos reservados",
 
 
     "tHomeHeadingEyebrow": 		"Plataforma de IA empresarial",
     "tHomeHeadingTitle": 		"Automatización escalable y confiable",
-    "tHomeHeadingSubTitle1": 		"Impulsada por IA generativa",
-    "tHomeHeadingSubTitle2": 		"Validada por nuestro motor de IA",
+    "tHomeHeadingSubTitle1": 	"Impulsada por IA generativa",
+    "tHomeHeadingSubTitle2": 	"Validada por nuestro motor de IA",
     "tHomeHeadingText": 		"De resultados de IA a resultados listos para el negocio. Nuestra AI Engine evalúa y valida cada resultado según un umbral de calidad predefinido, garantizando que esté listo para su uso comercial y la toma de decisiones.",
     "tHomeHeadingBtnContact": 	"Solicitar una demo",
     "tHomeHeadingBtnProduct": 	"Ver productos",
@@ -199,6 +200,7 @@
 
 	"tImprintHeader":			"Condiciones legales",
 	"tPrivacyHeader":			"Políticas de privacidad",
+    "tAGBHeader":               "Terms & Conditions",
 
     "t404Title":                "404",
     "t404Subtitle":             "Ups. No se encontró esta página",

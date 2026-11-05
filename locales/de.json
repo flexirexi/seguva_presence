@@ -30,6 +30,7 @@
     "tFooterImprint":           "Impressum",
     "tFooterPrivacy":           "Datenschutz",
     "tFooterCol3Email":         "info@seguva.com",
+    "tFooterAGB":               " ",
     "tFooterCopyright":         "© 2026 Seguva. Alle Rechte vorbehalten",
 
 
@@ -199,6 +200,7 @@
 
 	"tImprintHeader":			"Impressum",
 	"tPrivacyHeader":			"Datenschutz",
+    "tAGBHeader":               "AGBs",
 
     "t404Title":                "404",
     "t404Subtitle":             "Oops. Diese Seite wurde nicht gefunden",
