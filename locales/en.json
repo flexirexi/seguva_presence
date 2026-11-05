@@ -3,22 +3,23 @@
     "langNameShort": "EN",
 
 
-	"tCompanyNameShort":		"SEGUVA",
-	"tCompanyNameLong":			"SEGUVA GmbH",
-	"tAINameShort":				"VIA",
-	"tAINameLong":				"VIA [long]",
+	"tCompanyNameShort":	"SEGUVA",
+	"tCompanyNameLong":		"SEGUVA GmbH",
+	"tAINameShort":			"VIA",
+	"tAINameLong":			"VIA [long]",
 
 
-    "tNavHome": 				"Home",
-    "tNavTeam": 				"Team",
-    "tNavProduct":   			"Products",
-    "tNavApps": 	        	"Applications",
-    "tNavAppsMenu":         	"Overview",
-    "tNavContact": 				"Contact",
-    "tNavBtnContact": 			"Book a demo",
+    "tNavHome": 			"Home",
+    "tNavTeam": 			"Team",
+    "tNavProduct":   		"Products",
+    "tNavApps": 	        "Applications",
+    "tNavAppsMenu":         "Overview",
+    "tNavContact": 			"Contact",
+    "tNavBtnContact": 		"Book a demo",
 
-    "tCTATitle":	 			"See it in action",
-    "tCTASubTitle":	 			"Explore our platform's capabilities with a personalized walkthrough",
+
+    "tCTATitle":	 		"See it in action",
+    "tCTASubTitle":	 		"Explore our platform's capabilities with a personalized walkthrough",
     "tCTABtnContact":	 		"Book a demo",
 
     "tFooterCol1Title": 		"Site",
@@ -26,7 +27,6 @@
     "tFooterCol3Title": 		"Contact",
     "tFooterImprint": 			"Imprint",
     "tFooterPrivacy": 			"Privacy",
-    "tFooterAGB":               "Terms & Conditions",
     "tFooterCol3Email":         "info@seguva.com",
     "tFooterCopyright":         "© 2026 Seguva. All rights reserved",
 
@@ -35,10 +35,11 @@
     "tHomeHeadingTitle": 		"Scalable & Reliable Automation",
     "tHomeHeadingSubTitle1": 	"Powered by GenAI",
     "tHomeHeadingSubTitle2": 	"Validated by our Engine",
-    "tHomeHeadingText": 		"Turn any image into a production-ready commercial asset. Every output is scored and validated by our AI Engine before delivery. Once an output meets our predefined quality threshold, it is guaranteed to be ready for commercial use.",
+    "tHomeHeadingText": 		"From AI output to business-ready results. Every output is scored and validated by our AI Engine against a predefined quality threshold ensuring it is ready for commercial use and decision-making.",
     "tHomeHeadingBtnContact": 	"Book a demo",
     "tHomeHeadingBtnProduct": 	"View Products",
     "tHomeHeadingImageCaption": "Every output passes our validator automatically before it reaches you.",
+
 
     "tHomeGoalEyebrow": 		"Our main goal",
     "tHomeGoalTitle": 			"Empowering businesses to move beyond manual verification",
@@ -55,7 +56,7 @@
     "tHomeInsights2Link": 		"Learn more about our products →",
 
     "tHomeInsights3Title": 		"Applications",
-    "tHomeInsights3Text": 		"Purpose-built for healthcare, fashion, and e-commerce. Adaptable to any industry where image quality, data processing, and forecasting drive business value.",
+    "tHomeInsights3Text": 		"Purpose-built for healthcare and e-commerce. Adaptable to any industry where image quality, data processing, and forecasting drive business value.",
     "tHomeInsights3Link": 		"Explore our products →",
 
 
@@ -63,8 +64,8 @@
     "tAppsHeadingTitle":        "Wherever asset quality cannot be left to chance",
     "tAppsHeadingLead":         "The same core platform, customized to generate production-ready assets for any industry",
     "tAppsTargetTitle":         "Target industries",
-    "tAppsTarget1Title":        "Fashion",
-    "tAppsTarget1Text":         "Studio-quality visuals at a fraction of the cost. Generate product photos, lookbooks, and campaign variations across every colorway and size eliminating expensive studio shoots and external photography costs while dramatically reducing production time.",
+    "tAppsTarget1Title":        "Solar energy",
+    "tAppsTarget1Text":         "From solar imagery to energy forecasts, Seguva automates the complete process end-to-end. Advanced image processing and Deep Learning models transform visual inputs into actionable energy predictions, streamlining operations, reducing manual effort, and enabling scalable, data-driven decision-making.",
     "tAppsTarget2Title":        "Medicine",
     "tAppsTarget2Text":         "Imaging and documentation workflows where consistency, traceability, and verifiable quality are mandatory. Perform deep-learning-based organ segmentation, retrain neural networks to meet your specific requirements, and run your entire workflow from one integrated platform.",
     "tAppsTarget3Title":        "E-commerce",
@@ -151,7 +152,7 @@
     "tProdKeySelling1Descr":    "of all input passed is guaranteed to get a ready-to-use output",
     "tProdKeySelling2Fig":      "80%",
     "tProdKeySelling2Descr":    "cost savings potential against traditional content production",
-    "tProdKeySellingInfo":      "Our proprietary validator minimizes human intervention through automated, high-accuracy verification — making AI scalable, cost-efficient, and economically viable at enterprise scale.",
+    "tProdKeySellingInfo":      "Our proprietary validator minimizes human intervention through automated, high-accuracy verification making AI scalable, cost-efficient, and economically viable at enterprise scale.",
 
     "tProdRunEyebrow":          "The value",
     "tProdRunTitle":            "Savings that compound",
@@ -175,11 +176,10 @@
 	
 	"tTeamQualiMainTitle":		"Solid academic and business foundation",
 	"tTeamQualiMainSubT":		"18+ years",
-	"tTeamQualiMainText":		"18+ years of applied AI expertise, backed by 12+ peer-reviewed research papers across multiple AI domains and a strong track record in business execution. Long before the 2022 AI hype cycle, we were already building and applying AI to real-world problems. Beyond academic research, we have led AI departments, built platforms, developed algorithms, and engineered the infrastructure that powers AI in everyday business operations turning advanced technology into reliable, automated products deployed in production.",
-
+	"tTeamQualiMainText":		"of applied AI expertise, transforming business challenges into reliable, scalable AI solutions. From strategy and infrastructure to production, we turn advanced technology into measurable business value.",
 
 	"tTeamQualiOther1Title":	"Commercial execution",
-	"tTeamQualiOther1Text":		"Operational and scaling experience across European and LATAM enterprise markets, combining deep technical expertise with proven business execution to bring AI solutions from development to production at scale.",
+	"tTeamQualiOther1Text":		"Scaling enterprise AI across Europe and LATAM from development to production and measurable business impact.",
 
 	"tTeamQualiOther2Title":	"Made in Germany",
 	"tTeamQualiOther2Text":		"Enterprise-grade AI, engineered for reliability, data integrity, and production at scale.",
@@ -192,12 +192,6 @@
     "tTeamMeetCore2Name":       "Juan Herrera Cano",
     "tTeamMeetCore2Descr":      "Commercial leadership: enterprise management",
 
-	"tTeamMeetExpertsTitle":	"Our technical experts",
-    "tTeamMeetExperts1Name":    " ",
-    "tTeamMeetExperts1Descr":   " ",
-    "tTeamMeetExperts2Name":    " ",
-    "tTeamMeetExperts2Descr":   " ",
-	
 	"tTeamCTATitle":			"See it in action",
 	"tTeamCTASubTitle":			"Experience Seguva. Built around your needs",
 	"tTeamCTABtnContact":		"Book a demo",

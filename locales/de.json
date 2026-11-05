@@ -4,10 +4,11 @@
 
 
 	"tCompanyNameShort":		"SEGUVA",
-	"tCompanyNameLong":			"SEGUVA GmbH",
-	"tAINameShort":				"VIA",
-	"tAINameLong":				"VIA [long]",
-	"tProduct1Name":			"Product 1",
+	"tCompanyNameLong":		    "SEGUVA GmbH",
+	"tAINameShort":			    "VIA",
+	"tAINameLong":			    "VIA [long]",
+	"tProduct1Name":		    "Product 1",
+
 
     "tNavHome":                	"Home",
     "tNavTeam":                 "Team",
@@ -17,16 +18,17 @@
     "tNavContact":              "Kontakt",
     "tNavBtnContact":           "Demo buchen",
 
-    "tCTATitle":	 			"Jetzt starten",
-    "tCTASubTitle":	 			"Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo",
+
+    "tCTATitle":	 		    "Jetzt starten",
+    "tCTASubTitle":	 		    "Entdecken Sie die Möglichkeiten unserer Plattform in einer persönlichen Demo",
     "tCTABtnContact":	 		"Demo buchen",
+
 
     "tFooterCol1Title":         "Seiten",
     "tFooterCol2Title":         "Rechtliches",
     "tFooterCol3Title":         "Kontakt",
     "tFooterImprint":           "Impressum",
     "tFooterPrivacy":           "Datenschutz",
-    "tFooterAGB":               "AGBs",
     "tFooterCol3Email":         "info@seguva.com",
     "tFooterCopyright":         "© 2026 Seguva. Alle Rechte vorbehalten",
 
@@ -35,7 +37,7 @@
     "tHomeHeadingTitle": 		"Skalierbare & zuverlässige Automatisierung",
     "tHomeHeadingSubTitle1": 	"Mit GenAI",
     "tHomeHeadingSubTitle2": 	"Validiert durch unsere Engine",
-    "tHomeHeadingText": 		"Verwandle jedes Bild in ein produktionsreifes kommerzielles Asset. Jedes Ergebnis wird vor der Auslieferung von unserer KI-Engine bewertet und validiert. Sobald ein Ergebnis unseren vordefinierten Qualitätsschwellenwert erreicht, ist garantiert, dass es für den kommerziellen Einsatz bereit ist.",
+    "tHomeHeadingText": 		"Von KI-Ergebnissen zu geschäftlich nutzbaren Resultaten. Jedes Ergebnis wird von unserer AI Engine anhand eines vordefinierten Qualitätsschwellenwerts bewertet und validiert, damit es für den kommerziellen Einsatz und fundierte Geschäftsentscheidungen bereit ist.",
     "tHomeHeadingBtnContact": 	"Demo buchen",
     "tHomeHeadingBtnProduct": 	"Produkte ansehen",
     "tHomeHeadingImageCaption": "Jede Ausgabe durchläuft automatisch unseren Validator, bevor sie Sie erreicht.",
@@ -55,7 +57,7 @@
     "tHomeInsights2Link": 		"Erfahre mehr über unsere Produkte →",
 
     "tHomeInsights3Title": 		"Produkte",
-    "tHomeInsights3Text": 		"Speziell entwickelt für das Gesundheitswesen, die Modebranche und den E-Commerce. Anpassbar an jede Branche, in der Bildqualität, Datenverarbeitung und Prognosen einen geschäftlichen Mehrwert schaffen.",
+    "tHomeInsights3Text": 		"Speziell entwickelt für das Gesundheitswesen und den E-Commerce. Anpassbar an jede Branche, in der Bildqualität, Datenverarbeitung und Prognosen einen geschäftlichen Mehrwert schaffen.",
     "tHomeInsights3Link": 		"Unsere Produkte entdecken →",
 
 
@@ -63,8 +65,8 @@
     "tAppsHeadingTitle":        "Überall dort, wo Asset-Qualität nicht dem Zufall überlassen werden darf",
     "tAppsHeadingLead":         "Dieselbe Kernplattform, individuell angepasst zur Erstellung produktionsreifer Assets für jede Branche",
     "tAppsTargetTitle":         "Zielbranchen",
-    "tAppsTarget1Title":        "Mode",
-    "tAppsTarget1Text":         "Studioqualität bei einem Bruchteil der Kosten. Erstelle Produktfotos, Lookbooks und Kampagnenvarianten für jede Farbvariante und Größe ohne teure Fotoshootings im Studio und externe Fotografie Dienstleistungen. Gleichzeitig reduzierst du die Produktionszeit erheblich.",
+    "tAppsTarget1Title":        "Solare Energie",
+    "tAppsTarget1Text":         "Von der Solarbildanalyse bis zur Energieprognose automatisiert Seguva den gesamten Prozess durchgängig. Fortschrittliche Bildverarbeitung und Deep-Learning-Modelle wandeln visuelle Eingangsdaten in konkrete Energieprognosen um. Das optimiert Abläufe, reduziert manuellen Aufwand und ermöglicht skalierbare, datengestützte Entscheidungen.",
     "tAppsTarget2Title":        "Medizin",
     "tAppsTarget2Text":         "Workflows für Bildgebung und Dokumentation, bei denen Konsistenz, Rückverfolgbarkeit und nachweisbare Qualität unerlässlich sind. Führe Deep-Learning-basierte Org segmentierungen durch, trainiere neuronale Netze entsprechend deinen spezifischen Anforderungen neu und steuere deinen gesamten Workflow über eine einzige integrierte Plattform.",
     "tAppsTarget3Title":        "E-Commerce",
@@ -83,7 +85,6 @@
     "tAppsDemo1Title":          "Möbel in Szene",
     "tAppsDemo1Text":           "Ein freigestelltes Katalogprodukt wird in eine gestaltete Innenraumszene integriert.",
     "tAppsDemo1CTA":            "Beispiel ansehen",
-
     "tAppsShowcase1Eyebrow":    "Showcase",
     "tAppsShowcase1Title":      "Möbel in Szene",
     "tAppsShowcase1Sub":        "Ein freigestelltes Katalogprodukt wird in eine gestaltete Innenraumszene integriert.",
@@ -100,7 +101,7 @@
     "tAppsDemo3CTA":            "Beispiel ansehen",
     "tAppsShowcase3Eyebrow":    "Showcase: Solarenergie",
     "tAppsShowcase3Title":      "Solar",
-    "tAppsShowcase3Sub":        "",
+    "tAppsShowcase3Sub":        " ",
 
     "tAppsRunEyebrow":          "Bereitstellung",
     "tAppsRunTitle":            "2 Möglichkeiten für den Betrieb",
@@ -137,7 +138,7 @@
     "tProdHeadingTitle":        "Individuelle KI-Automatisierung für Unternehmen",
     "tProdHeadingLead":         "Wir überführen Content-Produktion konsequent in ein autonomes, skalierbares und qualitätsgesichertes System und ermöglichen Ihrem Unternehmen damit, hochwertige KI-generierte Assets effizient zu skalieren.",
 
-    "tProdGraphicEyebrow":      "Automatisierung für E-Commerce",		
+    "tProdGraphicEyebrow":      "Automatisierung für E-Commerce",
     "tProdGraphicTitle":        "Ein Beispielprojekt",
     "tProdGraphicP1Title":      "Initialphase",
     "tProdGraphicP1Descr":      "Wir beginnen damit, von Ihren Experten zu lernen, um den bestehenden Prozess präzise zu definieren und zu verstehen. Repräsentative Produkte, validierte Bilder und vorhandene Assets werden für die interne Validierung ausgewählt.",
@@ -176,27 +177,20 @@
 
     "tTeamQualiMainTitle":      "Solides akademisches und wirtschaftliches Fundament",
     "tTeamQualiMainSubT":       "18+ Jahre",
-    "tTeamQualiMainText":       "Über 18 Jahre Erfahrung in der angewandten KI, belegt durch mehr als 12 begutachtete wissenschaftliche Publikationen in verschiedenen KI-Bereichen und eine überzeugende Erfolgsbilanz in der praktischen Umsetzung im Geschäftsumfeld. Über die akademische Forschung hinaus haben wir KI-Abteilungen geleitet, Plattformen aufgebaut, Algorithmen entwickelt und die Infrastruktur geschaffen, die KI in den täglichen Geschäftsprozessen ermöglicht. So verwandeln wir fortschrittliche Technologien in zuverlässige, automatisierte Produkte, die produktiv eingesetzt werden.",
-
+    "tTeamQualiMainText":       "Erfahrung in der angewandten KI mit dem Ziel, geschäftliche Herausforderungen in zuverlässige, skalierbare KI-Lösungen zu verwandeln. Von der Strategie und Infrastruktur bis zum produktiven Einsatz machen wir aus fortschrittlicher Technologie messbaren Geschäftswert.",
 
     "tTeamQualiOther1Title":    "Kommerzielle Umsetzung",
-    "tTeamQualiOther1Text":     "Operative Erfahrung und Skalierungskompetenz in europäischen und lateinamerikanischen Unternehmensmärkten. Wir verbinden fundierte technische Expertise mit nachgewiesener Umsetzungskompetenz, um KI-Lösungen von der Entwicklung in den produktiven Einsatz zu überführen und unternehmensweit zu skalieren.",
+    "tTeamQualiOther1Text":     "Skalierung von Enterprise-KI in Europa und Lateinamerika von der Entwicklung über den produktiven Einsatz bis hin zu messbarem Geschäftserfolg.",
 
     "tTeamQualiOther2Title":    "Made in Germany",
-    "tTeamQualiOther2Text":     "KI auf Enterprise-Niveau – entwickelt für Zuverlässigkeit, Datenintegrität und den produktiven Einsatz in großem Maßstab.",
+    "tTeamQualiOther2Text":     "KI auf Enterprise-Niveau entwickelt für Zuverlässigkeit, Datenintegrität und den produktiven Einsatz in großem Maßstab.",
 
     "tTeamMeetTitle":           "Lernen Sie unser Team kennen",
     "tTeamMeetCoreTitle":       "Unser Kernteam",
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
-    "tTeamMeetCore1Descr":      "Technische Führung und KI-Architektur: Leitung der Entwicklung von Seguvas proprietärer KI-Validierungs-Engine, Gestaltung der technischen Vision und Überführung innovativer KI-Konzepte in robuste, produktionsreife Lösungen.",
+    "tTeamMeetCore1Descr":      "Technische Führung und KI-Architektur:Leitung der Entwicklung von Seguvas proprietärer KI-Validierungs-Engine, Gestaltung der technischen Vision und Überführung innovativer KI-Konzepte in robuste, produktionsreife Lösungen.",
     "tTeamMeetCore2Name":       "Juan Herrera Cano",
     "tTeamMeetCore2Descr":      "Kommerzielle Leitung: Enterprise Management",
-
-	"tTeamMeetExpertsTitle":    "Unsere technischen Experten",
-    "tTeamMeetExperts1Name":    " ",
-    "tTeamMeetExperts1Descr":   " ",
-    "tTeamMeetExperts2Name":    " ",
-    "tTeamMeetExperts2Descr":   " ",
 
     "tTeamCTATitle":            "Erleben Sie es in Aktion",
     "tTeamCTASubTitle":         "Erlebe Seguva. Entwickelt für deine Anforderungen.",
@@ -210,5 +204,4 @@
     "t404Subtitle":             "Oops. Diese Seite wurde nicht gefunden",
     "t404Text":                 "Der aufgerufene Link ist fehlerhaft oder die Seite wurde entfernt.",
     "t404HomeBtn":              "Zur Startseite"
-
 }

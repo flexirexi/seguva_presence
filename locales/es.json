@@ -4,13 +4,13 @@
 
 
 	"tCompanyNameShort":		"SEGUVA",
-	"tCompanyNameLong":			"SEGUVA GmbH",
-	"tAINameShort":				"VIA",
-	"tAINameLong":				"VIA [long]",
-	"tProduct1Name":			"Product 1",
+	"tComanyNameLong":		    "SEGUVA GmbH",
+	"tAINameShort":			    "VIA",
+	"tAINameLong":			    "VIA [long]",
+	"tProduct1Name":		    "Product 1",
 
 
-    "tNavHome": 				"Home",
+    "tNavHome": 		        "Inicio",
     "tNavTeam":                 "Equipo",
     "tNavProduct":              "Productos",
     "tNavApps":                 "Aplicaciones",
@@ -18,7 +18,8 @@
     "tNavContact":              "Contacto",
     "tNavBtnContact":           "Reservar demo",
 
-    "tCTATitle":                "Verlo en acción",
+
+    "tCTATitle":                "Véelo en acción",
     "tCTASubTitle":             "Descubra las capacidades de nuestra plataforma con un demo personalizado",
     "tCTABtnContact":           "Reservar una demo",
 
@@ -28,16 +29,15 @@
     "tFooterCol3Title":         "Contacto",
     "tFooterImprint":           "Condiciones legales",
     "tFooterPrivacy":           "Políticas de privacidad",
-    "tFooterAGB":               "Términos y Condiciones",
     "tFooterCol3Email":         "info@seguva.com",
     "tFooterCopyright":         "© 2026 Seguva. Todos los derechos reservados",
 
 
     "tHomeHeadingEyebrow": 		"Plataforma de IA empresarial",
     "tHomeHeadingTitle": 		"Automatización escalable y confiable",
-    "tHomeHeadingSubTitle1": 	"Impulsada por IA generativa",
-    "tHomeHeadingSubTitle2": 	"Validada por nuestro motor de IA",
-    "tHomeHeadingText": 		"**Convierte cualquier imagen en un recurso comercial listo para producción.** Cada resultado es evaluado y validado por nuestro motor de IA antes de su entrega. Una vez que un resultado alcanza nuestro umbral de calidad predefinido, se garantiza que estará listo para su uso comercial.",
+    "tHomeHeadingSubTitle1": 		"Impulsada por IA generativa",
+    "tHomeHeadingSubTitle2": 		"Validada por nuestro motor de IA",
+    "tHomeHeadingText": 		"De resultados de IA a resultados listos para el negocio. Nuestra AI Engine evalúa y valida cada resultado según un umbral de calidad predefinido, garantizando que esté listo para su uso comercial y la toma de decisiones.",
     "tHomeHeadingBtnContact": 	"Solicitar una demo",
     "tHomeHeadingBtnProduct": 	"Ver productos",
     "tHomeHeadingImageCaption": "Cada resultado pasa automáticamente por nuestro validador antes de llegar a ti.",
@@ -45,7 +45,7 @@
     "tHomeGoalEyebrow": 		"Nuestro objetivo principal",
     "tHomeGoalTitle": 			"Ayudamos a las empresas a superar la verificación manual",
     "tHomeGoalText": 			"Los modelos fundacionales conllevan una incertidumbre inherente. Para cumplir con los estándares de calidad empresariales, se requiere una validación continua, verificación y supervisión humana.",
-    "tHomeGoalQuote": 			"CNuestro sistema automatizado de validación de alta precisión acelera la puesta en producción de soluciones de IA, generando valor en menos tiempo y acelerando el retorno de la inversión (ROI).",
+    "tHomeGoalQuote": 			"Nuestro sistema automatizado de validación de alta precisión acelera la puesta en producción de soluciones de IA, generando valor en menos tiempo y acelerando el retorno de la inversión (ROI).",
 
     "tHomeInsightsTitle": 		"Estas 3 ideas merecen dos minutos de tu tiempo",
     "tHomeInsights1Title": 		"Quiénes somos",
@@ -57,7 +57,7 @@
     "tHomeInsights2Link": 		"Descubre más sobre nuestros productos →",
 
     "tHomeInsights3Title": 		"Productos",
-    "tHomeInsights3Text": 		"Diseñado específicamente para el sector sanitario, la moda y el comercio electrónico, y adaptable a cualquier industria en la que la calidad de imagen, el procesamiento de datos y las predicciones generen valor empresarial.",
+    "tHomeInsights3Text": 		"Diseñado específicamente para el sector salud y el comercio electrónico. Adaptable a cualquier industria en la que la calidad de imagen, el procesamiento de datos y las predicciones generen valor empresarial.",
     "tHomeInsights3Link": 		"Explora nuestros productos →",
 
 
@@ -65,8 +65,8 @@
     "tAppsHeadingTitle":        "Donde la calidad de los recursos no puede dejarse al azar",
     "tAppsHeadingLead":         "La misma plataforma central, adaptada para generar recursos listos para producción en cualquier industria",
     "tAppsTargetTitle":         "Áreas de aplicación",
-    "tAppsTarget1Title":        "Moda",
-    "tAppsTarget1Text":         "Imágenes con calidad de estudio a una fracción del coste. Genera fotografías de producto, lookbooks y variantes de campañas para cada color y talla, eliminando las costosas sesiones fotográficas en estudio y los servicios de fotografía externos, mientras reduces drásticamente el tiempo de producción.",
+    "tAppsTarget1Title":        "Energía solar",
+    "tAppsTarget1Text":         "Desde el análisis de imágenes solares hasta la generación de pronósticos energéticos, Seguva automatiza todo el proceso de principio a fin. El procesamiento avanzado de imágenes y los modelos de Deep Learning transforman datos visuales en predicciones energéticas accionables. Así, se optimizan las operaciones, se reduce el trabajo manual y se facilita la toma de decisiones escalable y basada en datos.",
     "tAppsTarget2Title":        "Medicina",
     "tAppsTarget2Text":         "Flujos de trabajo de procesamiento de imágenes y documentación en los que la consistencia, la trazabilidad y la calidad verificable son imprescindibles. Realiza segmentación de órganos basada en Deep Learning, vuelve a entrenar redes neuronales para satisfacer tus requisitos específicos y gestiona todo tu flujo de trabajo desde una única plataforma integrada.",
     "tAppsTarget3Title":        "Comercio electrónico",
@@ -110,6 +110,7 @@
     "tAppsRun2Title":           "On-premise seguro",
     "tAppsRun2Text":            "Toda la plataforma se implementa dentro de tu propia infraestructura, manteniendo tus datos bajo tu control y dentro de tu entorno. Ideal para organizaciones en las que los requisitos de cumplimiento normativo y la soberanía de los datos determinan la arquitectura.",
     "tAppsRunInfo":             "Ambas opciones utilizan la misma capa de validación. La instalación on-premise no implica ninguna reducción funcional.",
+
 
     "tContactNextEyebrow":      "Siguiente paso",
     "tContactNextTitle":        "Empecemos una conversación",
@@ -176,11 +177,9 @@
 
     "tTeamQualiMainTitle":      "Sólida formación académica y empresarial",
     "tTeamQualiMainSubT":       "18+ años",
-    "tTeamQualiMainText":       "Más de 18 años de experiencia en inteligencia artificial aplicada, respaldados por más de 12 publicaciones científicas revisadas por pares en múltiples áreas de la IA y una sólida trayectoria en la implementación de soluciones empresariales. Mucho antes del auge mediático de la IA en 2022, ya desarrollábamos y aplicábamos inteligencia artificial para resolver problemas del mundo real. Más allá de la investigación académica, hemos dirigido departamentos de IA, construido plataformas, desarrollado algoritmos y diseñado la infraestructura que impulsa la IA en las operaciones empresariales cotidianas. Transformamos tecnologías avanzadas en productos fiables y automatizados, desplegados en entornos de producción.",
+    "tTeamQualiMainText":       "años de experiencia en IA aplicada, transformando desafíos empresariales en soluciones de IA fiables y escalables. Desde la estrategia y la infraestructura hasta la producción, convertimos la tecnología avanzada en valor empresarial medible.",
 
-
-    "tTeamQualiOther1Title":    "Ejecución comercial",
-    "tTeamQualiOther1Text":     "Experiencia operativa y en escalado de soluciones en mercados empresariales de Europa y Latinoamérica, combinando una profunda experiencia técnica con una capacidad demostrada de ejecución empresarial para llevar soluciones de IA desde el desarrollo hasta la producción a gran escala.",
+    "tTeamQualiOther1Title":    "Escalamos la IA empresarial en Europa y Latinoamérica, desde el desarrollo hasta la puesta en producción y la generación de un impacto empresarial medible.",
 
     "tTeamQualiOther2Title":    "Hecho en Alemania",
     "tTeamQualiOther2Text":     "IA de nivel empresarial, diseñada para garantizar la fiabilidad, la integridad de los datos y la operación en producción a gran escala.",
@@ -193,13 +192,7 @@
     "tTeamMeetCore2Name":       "Juan Herrera Cano",
     "tTeamMeetCore2Descr":      "Liderazgo comercial: gestión empresarial",
 
-    "tTeamMeetExpertsTitle":    "Nuestros expertos técnicos",
-    "tTeamMeetExperts1Name":    " ",
-    "tTeamMeetExperts1Descr":   " ",
-    "tTeamMeetExperts2Name":    " ",
-    "tTeamMeetExperts2Descr":   " ",
-
-    "tTeamCTATitle":            "Véalo en acción",
+    "tTeamCTATitle":            "Véelo en acción",
     "tTeamCTASubTitle":         "Descubre Seguva. Diseñado para tus necesidades.",
     "tTeamCTABtnContact":       "Reservar una demo",
 
