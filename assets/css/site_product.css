@@ -639,6 +639,8 @@ html[data-theme] #prod-cta-section {
         z-index: 2;
         transition: none;
         
+        display: flex;
+        align-items: center;
     }
 }
 
