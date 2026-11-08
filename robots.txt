@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /agbs.html
+
+Sitemap: https://seguva.com/sitemap.xml
