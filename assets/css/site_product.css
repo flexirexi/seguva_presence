@@ -440,7 +440,7 @@ html[data-theme] #prod-savings .card-main .icon-container {
 
 html[data-theme] .prod-cta {
     margin: auto;
-    max-width: 900px;
+    max-width: 600px;
     padding: 50px 60px;
     background-color: var(--bg2);
     border-radius: 20px;
