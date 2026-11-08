@@ -12,9 +12,13 @@ html[data-theme] .team-section {
 
 html[data-theme] .team-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    padding: 2rem;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding: 0 2rem 2rem;
+
     box-shadow: 3px 3px 10px var(--card-shadow);
     border: none;
     border-radius: var(--card-border-radius);
@@ -61,11 +65,14 @@ html[data-theme] .expert-team-card:hover * {
 
 html[data-theme] .team-icon {
     display: flex;
-    flex: 0 0 5rem;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
+
     width: 5rem;
     height: 5rem;
+    margin-top: -2.5rem;
+
     border: 1px dashed rgba(var(--bs-primary-rgb), 0.35);
     border-radius: 50%;
     background-color: var(--icon-container-bg);
@@ -76,4 +83,20 @@ html[data-theme] .team-icon img {
     width: 100%;
     max-width: 90px;
     
+}
+
+/* desktop view: team cards show profile images on the right */
+@media (min-width: 768px) {
+    html[data-theme] .team-card {
+        flex-direction:row;
+        text-align: left;
+        gap: 1.5rem;
+        margin-top: 0;
+        padding: 2rem;
+    }
+
+    html[data-theme] .team-icon {
+        flex: 0 0 5rem;
+        margin-top: 0;
+    }
 }
