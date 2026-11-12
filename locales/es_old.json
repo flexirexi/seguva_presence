@@ -4,13 +4,13 @@
 
 
 	"tCompanyNameShort":		"SEGUVA",
-	"tCompanyNameLong":			"SEGUVA GmbH",
-	"tAINameShort":				"VIA",
-	"tAINameLong":				"VIA [long]",
-	"tProduct1Name":			"Product 1",
+	"tComanyNameLong":		    "SEGUVA GmbH",
+	"tAINameShort":			    "VIA",
+	"tAINameLong":			    "VIA [long]",
+	"tProduct1Name":		    "Product 1",
 
 
-    "tNavHome": 				"Home",
+    "tNavHome": 		        "Inicio",
     "tNavTeam":                 "Equipo",
     "tNavProduct":              "Productos",
     "tNavApps":                 "Aplicaciones",
@@ -19,7 +19,7 @@
     "tNavBtnContact":           "Reservar demo",
 
 
-    "tCTATitle":                "Verlo en acción",
+    "tCTATitle":                "Véelo en acción",
     "tCTASubTitle":             "Descubra las capacidades de nuestra plataforma con un demo personalizado",
     "tCTABtnContact":           "Reservar una demo",
 
@@ -29,8 +29,8 @@
     "tFooterCol3Title":         "Contacto",
     "tFooterImprint":           "Condiciones legales",
     "tFooterPrivacy":           "Políticas de privacidad",
-    "tFooterAGB":               "Términos y Condiciones",
     "tFooterCol3Email":         "info@seguva.com",
+    "tFooterAGB":               " ",
     "tFooterCopyright":         "© 2026 Seguva. Todos los derechos reservados",
 
 
@@ -38,7 +38,7 @@
     "tHomeHeadingTitle": 		"Automatización escalable y confiable",
     "tHomeHeadingSubTitle1": 	"Impulsada por IA generativa",
     "tHomeHeadingSubTitle2": 	"Validada por nuestro motor de IA",
-    "tHomeHeadingText": 		"**Convierte cualquier imagen en un recurso comercial listo para producción.** Cada resultado es evaluado y validado por nuestro motor de IA antes de su entrega. Una vez que un resultado alcanza nuestro umbral de calidad predefinido, se garantiza que estará listo para su uso comercial.",
+    "tHomeHeadingText": 		"De resultados de IA a resultados listos para el negocio. Nuestra AI Engine evalúa y valida cada resultado según un umbral de calidad predefinido, garantizando que esté listo para su uso comercial y la toma de decisiones.",
     "tHomeHeadingBtnContact": 	"Solicitar una demo",
     "tHomeHeadingBtnProduct": 	"Ver productos",
     "tHomeHeadingImageCaption": "Cada resultado pasa automáticamente por nuestro validador antes de llegar a ti.",
@@ -46,7 +46,7 @@
     "tHomeGoalEyebrow": 		"Nuestro objetivo principal",
     "tHomeGoalTitle": 			"Ayudamos a las empresas a superar la verificación manual",
     "tHomeGoalText": 			"Los modelos fundacionales conllevan una incertidumbre inherente. Para cumplir con los estándares de calidad empresariales, se requiere una validación continua, verificación y supervisión humana.",
-    "tHomeGoalQuote": 			"CNuestro sistema automatizado de validación de alta precisión acelera la puesta en producción de soluciones de IA, generando valor en menos tiempo y acelerando el retorno de la inversión (ROI).",
+    "tHomeGoalQuote": 			"Nuestro sistema automatizado de validación de alta precisión acelera la puesta en producción de soluciones de IA, generando valor en menos tiempo y acelerando el retorno de la inversión (ROI).",
 
     "tHomeInsightsTitle": 		"Estas 3 ideas merecen dos minutos de tu tiempo",
     "tHomeInsights1Title": 		"Quiénes somos",
@@ -57,19 +57,19 @@
     "tHomeInsights2Text": 		"Tu plataforma. Tu control. Cada resultado verificado.",
     "tHomeInsights2Link": 		"Descubre más sobre nuestros productos →",
 
-    "tHomeInsights3Title": 		"Productos",
-    "tHomeInsights3Text": 		"Diseñado específicamente para el sector sanitario, la moda y el comercio electrónico, y adaptable a cualquier industria en la que la calidad de imagen, el procesamiento de datos y las predicciones generen valor empresarial.",
-    "tHomeInsights3Link": 		"Explora nuestros productos →",
+    "tHomeInsights3Title": 		"Aplicaciones",
+    "tHomeInsights3Text": 		"Diseñado específicamente para el sector salud y el comercio electrónico. Adaptable a cualquier industria en la que la calidad de imagen, el procesamiento de datos y las predicciones generen valor empresarial.",
+    "tHomeInsights3Link": 		"Explora nuestros aplicaciones →",
 
 
     "tAppsHeadingEyebrow":      "Nuestra soluciones empresariales:",
     "tAppsHeadingTitle":        "Donde la calidad de los recursos no puede dejarse al azar",
     "tAppsHeadingLead":         "La misma plataforma central, adaptada para generar recursos listos para producción en cualquier industria",
     "tAppsTargetTitle":         "Áreas de aplicación",
-    "tAppsTarget1Title":        "Moda",
-    "tAppsTarget1Text":         "Imágenes con calidad de estudio a una fracción del coste. Genera fotografías de producto, lookbooks y variantes de campañas para cada color y talla, eliminando las costosas sesiones fotográficas en estudio y los servicios de fotografía externos, mientras reduces drásticamente el tiempo de producción.",
-    "tAppsTarget2Title":        "Medicina",
-    "tAppsTarget2Text":         "Flujos de trabajo de procesamiento de imágenes y documentación en los que la consistencia, la trazabilidad y la calidad verificable son imprescindibles. Realiza segmentación de órganos basada en Deep Learning, vuelve a entrenar redes neuronales para satisfacer tus requisitos específicos y gestiona todo tu flujo de trabajo desde una única plataforma integrada.",
+    "tAppsTarget1Title":        "Medicina",
+    "tAppsTarget1Text":         "Flujos de trabajo de procesamiento de imágenes y documentación en los que la consistencia, la trazabilidad y la calidad verificable son imprescindibles. Realiza segmentación de órganos basada en Deep Learning, vuelve a entrenar redes neuronales para satisfacer tus requisitos específicos y gestiona todo tu flujo de trabajo desde una única plataforma integrada.",
+    "tAppsTarget2Title":        "Energía solar",
+    "tAppsTarget2Text":         "Desde el análisis de imágenes solares hasta la generación de pronósticos energéticos, Seguva automatiza todo el proceso de principio a fin. El procesamiento avanzado de imágenes y los modelos de Deep Learning transforman datos visuales en predicciones energéticas accionables. Así, se optimizan las operaciones, se reduce el trabajo manual y se facilita la toma de decisiones escalable y basada en datos.",
     "tAppsTarget3Title":        "Comercio electrónico",
     "tAppsTarget3Text":         "Imágenes de catálogo consistentes y de alta calidad a gran escala: cada producto, cada variante y cada canal, todo creado y verificado conforme a los mismos estándares de calidad rigurosos.",
     "tAppsTarget4Title":        "... y mucho más",
@@ -90,11 +90,11 @@
     "tAppsShowcase1Title":      "Muebles en escena",
     "tAppsShowcase1Sub":        "Un recorte de catálogo es integrado a un diseño interior.",
 
-    "tAppsDemo2Title":          "Radiografía pulmonar",
+    "tAppsDemo2Title":          "Resonancia magnética pulmonar",
     "tAppsDemo2Text":           "Un apoyo sólido para el diagnóstico",
     "tAppsDemo2CTA":            "Ver ejemplo",
     "tAppsShowcase2Eyebrow":    "Showcase: medicina/diagnóstico",
-    "tAppsShowcase2Title":      "Radiografía pulmonar",
+    "tAppsShowcase2Title":      "Resonancia magnética pulmonar",
     "tAppsShowcase2Sub":        "",
 
     "tAppsDemo3Title":          "Energía solar",
@@ -127,6 +127,7 @@
     "tContactIndustryMedicine": "Medicina",
     "tContactIndustryEcommerce":"Comercio electrónico",
     "tContactIndustryFinance":  "Finanzas",
+    "tContactIndustrySolar":    "Energía solar",
     "tContactIndustryOther":    "Otro",
     "tContactMsgTitle":         "Título",
     "tContactMsgDescr":         "Descripción (máx. 1200 caracteres)",
@@ -154,7 +155,7 @@
     "tProdKeySelling1Descr":    "de todos los inputs procesados obtiene garantizadamente un resultado listo para usar",
     "tProdKeySelling2Fig":      "80%",
     "tProdKeySelling2Descr":    "potencial de ahorro frente a la producción tradicional de contenido",
-    "tProdKeySellingInfo":      "Nuestro validador propio minimiza la intervención humana mediante una verificación automatizada de alta precisión. Esto hace que la IA sea escalable, rentable y económicamente viable a escala empresarial.",
+    "tProdKeySellingInfo":      "Nuestro validador propio minimiza la intervención humana mediante una verificación automatizada de alta precisión. <br> Esto hace que la IA sea escalable, rentable y económicamente viable a escala empresarial.",
 
     "tProdRunEyebrow":          "El valor",
     "tProdRunTitle":            "Ahorros que se acumulan",
@@ -169,7 +170,7 @@
     "tProdRun4Descr":           "Miles de variaciones en escenas, iluminación, fondos y formatos. Grandes catálogos y marketing de rendimiento de alto volumen sin necesidad de aumentar la plantilla.",
 
     "tProdCTATitle":            "Onboarding sin fricción",
-    "tProdCTAText":             "Evite largos ciclos de ventas y presentaciones interminables. Reserve una demo, pruebe un prototipo y compruebe el valor real con su propio contenido.",
+    "tProdCTAText":             "Evite largos ciclos de ventas y presentaciones interminables. <br> Reserve una demo, pruebe un prototipo y compruebe el valor real con su propio contenido.",
     "tProdCTABtn":              "Reservar una demo",
 
 
@@ -178,11 +179,10 @@
 
     "tTeamQualiMainTitle":      "Sólida formación académica y empresarial",
     "tTeamQualiMainSubT":       "18+ años",
-    "tTeamQualiMainText":       "Más de 18 años de experiencia en inteligencia artificial aplicada, respaldados por más de 12 publicaciones científicas revisadas por pares en múltiples áreas de la IA y una sólida trayectoria en la implementación de soluciones empresariales. Mucho antes del auge mediático de la IA en 2022, ya desarrollábamos y aplicábamos inteligencia artificial para resolver problemas del mundo real. Más allá de la investigación académica, hemos dirigido departamentos de IA, construido plataformas, desarrollado algoritmos y diseñado la infraestructura que impulsa la IA en las operaciones empresariales cotidianas. Transformamos tecnologías avanzadas en productos fiables y automatizados, desplegados en entornos de producción.",
+    "tTeamQualiMainText":       "años de experiencia en IA aplicada, transformando desafíos empresariales en soluciones de IA fiables y escalables. Desde la estrategia y la infraestructura hasta la producción, convertimos la tecnología avanzada en valor empresarial medible.",
 
-
-    "tTeamQualiOther1Title":    "Ejecución comercial",
-    "tTeamQualiOther1Text":     "Experiencia operativa y en escalado de soluciones en mercados empresariales de Europa y Latinoamérica, combinando una profunda experiencia técnica con una capacidad demostrada de ejecución empresarial para llevar soluciones de IA desde el desarrollo hasta la producción a gran escala.",
+    "tTeamQualiOther1Title":   "Ejecución comercial",
+    "tTeamQualiOther1Text":    "Escalamos la IA empresarial en Europa y Latinoamérica, desde el desarrollo hasta la puesta en producción y la generación de un impacto empresarial medible.",
 
     "tTeamQualiOther2Title":    "Hecho en Alemania",
     "tTeamQualiOther2Text":     "IA de nivel empresarial, diseñada para garantizar la fiabilidad, la integridad de los datos y la operación en producción a gran escala.",
@@ -192,22 +192,17 @@
     "tTeamMeetCoreTitle":       "Nuestro equipo principal",
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
     "tTeamMeetCore1Descr":      "Liderazgo técnico y arquitectura de IA: Liderar el desarrollo del motor propietario de validación de IA de Seguva, definir la visión técnica y transformar conceptos innovadores de IA en soluciones robustas y listas para producción.",
-    "tTeamMeetCore2Name":       "Juan Herrera Cano",
-    "tTeamMeetCore2Descr":      "Liderazgo comercial: gestión empresarial",
+    "tTeamMeetCore2Name":       "Juan Sebastian Herrera",
+    "tTeamMeetCore2Descr":      "Finanzas, Operaciones y Gobernanza: Lidera las finanzas, los asuntos fiscales, la estructura societaria y la operación diaria de Seguva, construyendo una base comercial y normativa sólida que permite a los clientes confiar en Seguva y a la empresa crecer de forma sostenible.",
 
-    "tTeamMeetExpertsTitle":    "Nuestros expertos técnicos",
-    "tTeamMeetExperts1Name":    " ",
-    "tTeamMeetExperts1Descr":   " ",
-    "tTeamMeetExperts2Name":    " ",
-    "tTeamMeetExperts2Descr":   " ",
-
-    "tTeamCTATitle":            "Véalo en acción",
+    "tTeamCTATitle":            "Véelo en acción",
     "tTeamCTASubTitle":         "Descubre Seguva. Diseñado para tus necesidades.",
     "tTeamCTABtnContact":       "Reservar una demo",
 
 
 	"tImprintHeader":			"Condiciones legales",
 	"tPrivacyHeader":			"Políticas de privacidad",
+    "tAGBHeader":               "Terms & Conditions",
 
     "t404Title":                "404",
     "t404Subtitle":             "Ups. No se encontró esta página",
