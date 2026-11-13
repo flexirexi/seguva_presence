@@ -6,7 +6,7 @@ Bootstrap is used here -> in order to overwrite, use:
     html[data-theme=light"] <selector>   for elements only in light mode
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700');
+@import url("fonts.css");
 @import url("themes.css");
 @import url("layout.css");
 @import url("animation.css");
@@ -27,9 +27,9 @@ html:not(.lang-ready) [data-lang] {
 
 /* 01 Generic STYLES that apply for all html pages --------------------------- */
 html[data-theme] * {
-    font-family: "Ubuntu", sans-serif;
     color: var(--text);
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
 }
 
 html[data-theme] .eyebrow {
