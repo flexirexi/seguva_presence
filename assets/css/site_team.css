@@ -42,7 +42,8 @@ html[data-theme] .core-team-card:hover {
     background-color: var(--card-bg-hover);
 }
 
-html[data-theme] .core-team-card p {
+html[data-theme] .core-team-card p,
+html[data-theme] .core-team-card p * {
     color: var(--card-dark-text);
 }
 
