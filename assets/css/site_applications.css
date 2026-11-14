@@ -148,11 +148,9 @@ html[data-theme] .showcase-output-scroll {
     overscroll-behavior-inline: contain;
     padding: 10px;
     scroll-snap-type: x mandatory;
-    scroll-padding-inline: 10px;
+    scroll-padding-inline: 40px;
     scrollbar-width: thin;
-    border: 1px solid var(--main);
     height: calc(var(--vh-outputScroll-max992) * var(--vh-scale-max992));
-    background-color: var(--bg2);
 }
 
 html[data-theme] .showcase-output-scroll img {
@@ -170,6 +168,8 @@ html[data-theme] .showcase-output-scroll img {
 
 html[data-theme] .gallery-wrapper {
     position: relative;
+    border: 1px solid var(--main);
+    background-color: var(--bg2);
 }
 
 html[data-theme] .gallery-arrow {
@@ -190,7 +190,7 @@ html[data-theme] .gallery-arrow {
 
 html[data-theme] .gallery-arrow-left {
     left: 0;
-    background: linear-gradient(to left, transparent 10%, #020407f4);
+    background: linear-gradient(to left, transparent , #020407f7);
 }
 
 html[data-theme] .gallery-arrow-left:hover {
@@ -200,7 +200,7 @@ html[data-theme] .gallery-arrow-left:hover {
 
 html[data-theme] .gallery-arrow-right {
     right: 0;
-    background: linear-gradient(to left, #020407f4 10%, transparent);
+    background: linear-gradient(to left, #020407f7, transparent);
 }
 
 html[data-theme] .gallery-arrow-right:hover {
