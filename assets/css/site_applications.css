@@ -336,6 +336,10 @@ html[data-theme] #appsSectionShowcases .showcase-trigger img {
         width: 31%;
     }
 
+    html[data-theme] .gallery-arrow {
+        width: 50px;
+    }
+
     html[data-theme] .showcase-control-prev {
         left: -4rem;
     }
