@@ -216,7 +216,7 @@ html[data-theme] .gallery-arrow[hidden] {
 html[data-theme] .showcase-control {
     width: 2.75rem;
     height: 2.75rem;
-    top: 50%;
+    top: 40%;
     border-radius: 50%;
     background: var(--bs-dark);
     opacity: 1;
