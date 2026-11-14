@@ -7,10 +7,10 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
-    --vh-scale-max992: 0.88;
+    --vh-scale-max992: 0.84;
     --vh-scale-min992: 0.84;
 
-    --vh-introTotal-max992: 54vh;
+    --vh-introTotal-max992: 52vh;
     --vh-introTotal-min992: 45vh;
 
     --vh-intro1-max992: 20vh;
@@ -19,7 +19,7 @@ html[data-theme] {
     --vh-outputHeader-max992: 6vh;
     --vh-outputHeader-min992: 6vh;
     
-    --vh-outputScroll-max992: 40vh;
+    --vh-outputScroll-max992: 38vh;
     --vh-outputScroll-min992: 49vh;
 
     --appsSectionShowcasesW: 100%;
