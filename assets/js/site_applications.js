@@ -48,4 +48,37 @@ document.addEventListener("DOMContentLoaded", () => {
             imageLightbox.close();
         }
     });
+
+    document.querySelectorAll(".gallery-wrapper").forEach(wrapper => {
+        const scroller = wrapper.querySelector(".showcase-output-scroll");
+        const left = wrapper.querySelector(".gallery-arrow-left");
+        const right = wrapper.querySelector(".gallery-arrow-right");
+
+        function updateArrows() {
+            left.hidden = scroller.scrollLeft <= 1;
+
+            right.hidden =
+                scroller.scrollLeft + scroller.clientWidth >=
+                scroller.scrollWidth - 1;
+        }
+
+        function scrollGallery(direction) {
+            const item = scroller.firstElementChild;
+            if (!item) return;
+            const gap = parseFloat(getComputedStyle(scroller).columnGap) || 0;
+            const distance = item.getBoundingClientRect().width + gap;
+
+            scroller.scrollBy({
+                left: direction * distance,
+                behavior: "smooth"
+            });
+        }
+
+        left.addEventListener("click", () => scrollGallery(-1));
+        right.addEventListener("click", () => scrollGallery(1));
+        scroller.addEventListener("scroll", updateArrows, { passive: true });
+        new ResizeObserver(updateArrows).observe(scroller);
+
+        updateArrows();
+    });
 });

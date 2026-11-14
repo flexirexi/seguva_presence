@@ -163,6 +163,56 @@ html[data-theme] .showcase-output-scroll img {
     box-shadow: 1px 1px 7px #696868;
 }
 
+
+
+
+html[data-theme] .gallery-wrapper {
+    position: relative;
+}
+
+html[data-theme] .gallery-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+
+    width: 75px;
+    border: none;
+    background: rgba(15, 25, 45, 0.45);
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+
+html[data-theme] .gallery-arrow-left {
+    left: 0;
+    background: linear-gradient(to left, transparent 10%, #020407f4);
+}
+
+html[data-theme] .gallery-arrow-left:hover {
+    background: linear-gradient(to left, transparent, #090f1bc0 65%, #010204fa);
+    font-weight: bold;
+}
+
+html[data-theme] .gallery-arrow-right {
+    right: 0;
+    background: linear-gradient(to left, #020407f4 10%, transparent);
+}
+
+html[data-theme] .gallery-arrow-right:hover {
+    background: linear-gradient(to left, #010204fa, #090f1bc0 40%, transparent);
+    font-weight: bold;
+}
+
+html[data-theme] .gallery-arrow[hidden] {
+    display: none;
+}
+
+
+
+
 html[data-theme] .showcase-control {
     width: 2.75rem;
     height: 2.75rem;
