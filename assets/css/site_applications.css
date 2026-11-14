@@ -190,21 +190,21 @@ html[data-theme] .gallery-arrow {
 
 html[data-theme] .gallery-arrow-left {
     left: 0;
-    background: linear-gradient(to left, #090f1b41 , #020407f3 );
+    background: linear-gradient(to left, #090f1b28 , #020407eb );
 }
 
 html[data-theme] .gallery-arrow-left:hover {
-    background: linear-gradient(to left, #090f1b4a, #090f1be1 60%, #010204fa 85%);
+    background: linear-gradient(to left, #090f1b4a, #090f1bc6 60%, #010204e9 );
     font-weight: bold;
 }
 
 html[data-theme] .gallery-arrow-right {
     right: 0;
-    background: linear-gradient(to right, #090f1b41, #020407f7);
+    background: linear-gradient(to right, #090f1b28, #020407eb);
 }
 
 html[data-theme] .gallery-arrow-right:hover {
-    background: linear-gradient(to right, #090f1b4a, #090f1bc0 40%, #010204fa);
+    background: linear-gradient(to right, #090f1b4a, #090f1bc6 60%, #010204e9);
     font-weight: bold;
 }
 
