@@ -48,14 +48,14 @@
     "tHomeGoalText": 			"Los modelos fundacionales conllevan una incertidumbre inherente. Para cumplir con los estándares de calidad empresariales, hasta ahora se ha requerido una validación continua, verificación y supervisión humana.",
     "tHomeGoalQuote": 			"Nuestro validador automatizado de alta precisión acelera la puesta en producción de soluciones de IA, lo que genera valor en menos tiempo y adelanta el retorno de la inversión (ROI).",
 
-    "tHomeInsightsTitle": 		"Estos tres puntos merecen dos minutos de tu tiempo",
+    "tHomeInsightsTitle": 		"Tres puntos que merecen dos minutos",
     "tHomeInsights1Title": 		"Quiénes somos",
     "tHomeInsights1Text": 		"Más de 18 años de experiencia en IA aplicada, desde mucho antes del auge de la IA, respaldados por más de 10 años de ejecución financiera y comercial.",
     "tHomeInsights1Link": 		"Conoce al equipo →",
 
     "tHomeInsights2Title": 		"Nuestros productos",
-    "tHomeInsights2Text": 		"Tu plataforma. Tu control. Cada resultado verificado.",
-    "tHomeInsights2Link": 		"Descubre más sobre nuestros productos →",
+    "tHomeInsights2Text": 		"Infraestructura confiable. Tu plataforma o la nuestra. Tu control. Cada resultado verificado.",
+    "tHomeInsights2Link": 		"Descubre nuestros productos →",
 
     "tHomeInsights3Title": 		"Aplicaciones",
     "tHomeInsights3Text": 		"Adaptable a cualquier industria en la que la calidad de imagen, el procesamiento de datos y las predicciones generen valor empresarial.",
@@ -77,7 +77,7 @@
 
     "tAppsDemoEyebrow":         "Una breve demostración: imágenes como activo",
     "tAppsDemoTitle":           "Entran datos. Salen resultados listos para el mercado.",
-    "tAppsDemoLead":            "Cada <b>galería</b> se generó en la plataforma y fue aprobada por el validador. Sin retoques manuales.",
+    "tAppsDemoLead":            "Cada <b>galería</b> se generó en la plataforma y fue aprobada por el validador.<br> Sin retoques manuales.",
 
     "tAppsShowcasesLabelInput": "Entrada",
     "tAppsShowcasesLabelOutput":"Resultados generados",
@@ -95,14 +95,14 @@
     "tAppsDemo2CTA":            "Ver ejemplo",
     "tAppsShowcase2Eyebrow":    "Galería: medicina/diagnóstico",
     "tAppsShowcase2Title":      "Resonancia magnética pulmonar",
-    "tAppsShowcase2Sub":        "",
+    "tAppsShowcase2Sub":        "Segmentación automática más precisa de imágenes de resonancia magnética 2D y 3D mediante una red neuronal convolucional.",
 
     "tAppsDemo3Title":          "Energía solar",
-    "tAppsDemo3Text":           "Un análisis integral de la eficiencia energética para respaldar decisiones ambientales y empresariales",
+    "tAppsDemo3Text":           "Un análisis integral de la eficiencia energética para respaldar decisiones ambientales y empresariales.",
     "tAppsDemo3CTA":            "Ver ejemplo",
     "tAppsShowcase3Eyebrow":    "Galería: energía solar",
     "tAppsShowcase3Title":      "Solar",
-    "tAppsShowcase3Sub":        "",
+    "tAppsShowcase3Sub":        "Pronóstico de la irradiancia global horizontal con redes neuronales artificiales.",
 
     "tAppsRunEyebrow":          "Implementación",
     "tAppsRunTitle":            "Dos formas de ponerlo en marcha",
@@ -137,7 +137,7 @@
 
 
     "tProdHeadingEyebrow":      "Lo que ofrecemos:",
-    "tProdHeadingTitle":        "Automatización de IA personalizada y preparada para empresas",
+    "tProdHeadingTitle":        "Automatización de IA a medida para empresas",
     "tProdHeadingLead":         "Transformamos la producción de contenido en un sistema autónomo, escalable y con calidad asegurada, permitiendo a tu empresa escalar la generación de recursos de alta calidad mediante IA.",
 
     "tProdGraphicEyebrow":      "Automatización para comercio electrónico",
@@ -152,9 +152,9 @@
     "tProdGraphicP4Descr":      "El proceso automatizado se supervisa, se optimiza y se escala. Pueden incorporarse productos, mercados y volúmenes adicionales mientras el flujo de trabajo continúa mejorando.",
 
     "tProdKeySelling1Fig":      "97%",
-    "tProdKeySelling1Descr":    "de las entradas procesadas genera un resultado listo para usar",
+    "tProdKeySelling1Descr":    "de las entradas procesadas <br> genera un resultado listo para usar",
     "tProdKeySelling2Fig":      "80%",
-    "tProdKeySelling2Descr":    "de ahorro potencial en costos frente a la producción tradicional de contenido",
+    "tProdKeySelling2Descr":    "de ahorro potencial en costos frente a <br> la producción tradicional de contenido",
     "tProdKeySellingInfo":      "Nuestro validador propio minimiza la intervención humana mediante una verificación automatizada de alta precisión. <br> Esto hace que la IA sea escalable, rentable y económicamente viable a escala empresarial.",
 
     "tProdRunEyebrow":          "El valor",
@@ -189,12 +189,12 @@
 
     "tTeamMeetTitle":           "Conoce a nuestro equipo",
 
-    "tTeamMeetCoreTitle":       "Nuestro equipo principal",
+    "tTeamMeetCoreTitle":       "",
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
     "tTeamMeetCore1Descr":      "<b>Liderazgo técnico y arquitectura de IA:</b> <br> Lidera el desarrollo del motor de IA propio de Seguva, define la visión técnica y transforma conceptos innovadores de IA en soluciones robustas y listas para producción.",
     "tTeamMeetCore2Name":       "Juan Sebastian Herrera",
     "tTeamMeetCore2Descr":      "<b>Finanzas, operaciones y gobernanza:</b> <br> Lidera las finanzas, los asuntos fiscales, la estructura societaria y la operación diaria de Seguva, construyendo la base comercial y normativa sólida que permite a los clientes confiar en Seguva.",
-    "tTeamMeetCoreInfo":        "Respaldado por una red de expertos y consultores externos.",
+    "tTeamMeetCoreInfo":        "Con el respaldo de una selecta red de expertos técnicos externos",
 
     "tTeamCTATitle":            "Míralo en acción",
     "tTeamCTASubTitle":         "Descubre Seguva. Diseñado para tus necesidades.",

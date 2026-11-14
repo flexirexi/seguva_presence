@@ -133,10 +133,12 @@ html[data-theme] .showcase-output-header {
 
 html[data-theme] .showcase-output-header strong {
     color: var(--card-dark-title);
+    font-size: 14px;
 }
 
 html[data-theme] .showcase-output-header small {
     color: var(--card-dark-text);
+    font-size: 13px;
 }
 
 html[data-theme] .showcase-output-scroll {
@@ -216,7 +218,7 @@ html[data-theme] .gallery-arrow[hidden] {
 html[data-theme] .showcase-control {
     width: 2.75rem;
     height: 2.75rem;
-    top: 40%;
+    top: 43%;
     border-radius: 50%;
     background: var(--bs-dark);
     opacity: 1;
