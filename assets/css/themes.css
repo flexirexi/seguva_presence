@@ -182,7 +182,7 @@ html[data-theme] body {
 html[data-theme] h1 {
     color: var(--title);
     text-shadow: 1px 1px 1px var(--title-shadow);
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
