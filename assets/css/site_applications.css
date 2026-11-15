@@ -7,6 +7,9 @@ Bootstrap is used here -> in order to overwrite, use:
 */
 
 html[data-theme] {
+    --bs-dark-transparent: #18181896;
+    --bs-dark: #181818fa;
+
     --vh-scale-max992: 0.84;
     --vh-scale-min992: 0.84;
 
@@ -222,7 +225,7 @@ html[data-theme] .showcase-control {
     height: 2.75rem;
     top: 43%;
     border-radius: 50%;
-    background: var(--bs-dark);
+    background: var(--bs-dark-transparent);
     opacity: 1;
     transform: translateY(-50%);
     pointer-events: auto;
@@ -235,6 +238,11 @@ html[data-theme] .showcase-control-prev {
 
 html[data-theme] .showcase-control-next {
     right: 0.5rem;
+}
+
+html[data-theme] .showcase-control .carousel-control-prev-icon,
+html[data-theme] .showcase-control .carousel-control-next-icon {
+    filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white);
 }
 
 /* MAKE IMAGES CLICKABLE */
@@ -350,12 +358,20 @@ html[data-theme] #appsSectionShowcases .showcase-trigger img {
         scroll-padding-inline: 62px;
     }
 
+    html[data-theme] .showcase-control {
+        width: 4rem;
+        height: 4rem;
+        top: 25%;
+        background: var(--bs-dark);
+        border: 2px solid #919191f7;
+    }
+
     html[data-theme] .showcase-control-prev {
-        left: -4rem;
+        left: -5rem;
     }
 
     html[data-theme] .showcase-control-next {
-        right: -4rem;
+        right: -5rem;
     }
 
     html[data-theme] #appsSectionShowcases .showcase-trigger img {
@@ -363,6 +379,26 @@ html[data-theme] #appsSectionShowcases .showcase-trigger img {
         height: 250px;
         overflow: hidden;
         object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    html[data-theme] .showcase-control-prev {
+        left: -2.5rem;
+    }
+
+    html[data-theme] .showcase-control-next {
+        right: -2.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    html[data-theme] .showcase-control-prev {
+        left: -5rem;
+    }
+
+    html[data-theme] .showcase-control-next {
+        right: -5rem;
     }
 }
 
