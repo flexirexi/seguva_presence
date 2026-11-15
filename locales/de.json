@@ -140,6 +140,8 @@
     "tProdHeadingTitle":        "Individuelle KI-Automatisierung für Unternehmen",
     "tProdHeadingLead":         "Wir verwandeln Ihre Content-Produktion in ein autonomes, skalierbares und qualitätsgesichertes System. So ermöglichen wir Ihrem Unternehmen, hochwertige KI-Inhalte gezielt zu skalieren.",
 
+    "tProdDemoHeader":          "Funktionsweise",
+
     "tProdGraphicEyebrow":      "Automatisierung für E-Commerce",
     "tProdGraphicTitle":        "Ein Beispielprojekt",
     "tProdGraphicP1Title":      "Initialphase",
@@ -188,7 +190,7 @@
     "tTeamQualiOther2Text":     "KI auf Enterprise-Niveau, entwickelt für Zuverlässigkeit, Datenintegrität und Produktivbetrieb in großem Maßstab.",
 
     "tTeamMeetTitle":           "Lernen Sie unser Team kennen",
-    "tTeamMeetCoreTitle":       "",
+
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
     "tTeamMeetCore1Descr":      "<b>Technische Leitung & KI-Architektur:</b> <br>Leitung der Entwicklung von Seguvas proprietärer AI Engine, Gestaltung der technischen Vision und Überführung innovativer KI-Konzepte in robuste, produktionsreife Lösungen.",
     "tTeamMeetCore2Name":       "Juan Sebastian Herrera",

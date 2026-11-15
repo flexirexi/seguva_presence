@@ -3,23 +3,23 @@
     "langNameShort": "EN",
 
 
-	"tCompanyNameShort":	"SEGUVA",
-	"tCompanyNameLong":		"SEGUVA GmbH",
-	"tAINameShort":			"VIA",
-	"tAINameLong":			"VIA [long]",
+	"tCompanyNameShort":	    "SEGUVA",
+	"tCompanyNameLong":		    "SEGUVA GmbH",
+	"tAINameShort":			    "VIA",
+	"tAINameLong":			    "VIA [long]",
 
 
-    "tNavHome": 			"Home",
-    "tNavTeam": 			"Team",
-    "tNavProduct":   		"Products",
-    "tNavApps": 	        "Applications",
-    "tNavAppsMenu":         "Overview",
-    "tNavContact": 			"Contact",
-    "tNavBtnContact": 		"Book a demo",
+    "tNavHome": 			    "Home",
+    "tNavTeam": 			    "Team",
+    "tNavProduct":   		    "Products",
+    "tNavApps": 	            "Applications",
+    "tNavAppsMenu":             "Overview",
+    "tNavContact": 			    "Contact",
+    "tNavBtnContact": 		    "Book a demo",
 
 
     "tCTATitle":	 		    "See it in action",
-    "tCTASubTitle":	 		    "Explore our platform's capabilities with a personalized walkthrough",
+    "tCTASubTitle":	 		    "Explore our platform's capabilities with a personalized walkthrough.",
     "tCTABtnContact":	 		"Book a demo",
 
     "tFooterCol1Title": 		"Site",
@@ -63,7 +63,7 @@
 
     "tAppsHeadingEyebrow":      "Our industry solutions:",
     "tAppsHeadingTitle":        "Wherever asset quality cannot be left to chance",
-    "tAppsHeadingLead":         "The same core platform, customized to generate production-ready assets for any industry",
+    "tAppsHeadingLead":         "The same core platform, customized to generate production-ready assets for any industry.",
     "tAppsTargetTitle":         "Target industries",
     "tAppsTarget1Title":        "Medicine",
     "tAppsTarget1Text":         "Imaging and documentation workflows where consistency, traceability, and verifiable quality are mandatory. Perform deep-learning-based organ segmentation, retrain neural networks to meet your specific requirements, and run your entire workflow from one integrated platform.",
@@ -76,31 +76,31 @@
 
     "tAppsDemoEyebrow":         "A short demonstration: images as an asset",
     "tAppsDemoTitle":           "Input in. Market-ready out.",
-    "tAppsDemoLead":            "Each <b>showcase</b> was produced on the platform and cleared by the validator. <br> No manual retouching.",
+    "tAppsDemoLead":            "Each <b>showcase</b> was produced on the platform and cleared by the validator. No manual retouching.",
 
     "tAppsShowcasesLabelInput": "Input",
     "tAppsShowcasesLabelOutput":"Generated outputs",
     "tAppsShowcasesLabelSwipe": "Swipe to explore",
 
     "tAppsDemo1Title":          "Furniture in scene",
-    "tAppsDemo1Text":           "Catalog cut-out placed into a styled interior scene",
+    "tAppsDemo1Text":           "Catalog cut-out placed into a styled interior scene.",
     "tAppsDemo1CTA":            "View sample",
     "tAppsShowcase1Eyebrow":    "Showcase",
     "tAppsShowcase1Title":      "Furniture in scene",
-    "tAppsShowcase1Sub":        "Catalog cut-out placed into a styled interior scene",
+    "tAppsShowcase1Sub":        "Catalog cut-out placed into a styled interior scene.",
 
     "tAppsDemo2Title":          "MRI of lungs",
-    "tAppsDemo2Text":           "Strong support for diagnostics",
+    "tAppsDemo2Text":           "Strong support for diagnostics.",
     "tAppsDemo2CTA":            "View sample",
-    "tAppsShowcase2Eyebrow":    "Showcase: medicine/diagnostics",
+    "tAppsShowcase2Eyebrow":    "Showcase",
     "tAppsShowcase2Title":      "MRI of lungs",
-    "tAppsShowcase2Sub":        "Improving automated segmentation on 2D and 3D MR Images using a convolutional neural network.",
+    "tAppsShowcase2Sub":        "Improving automated segmentation of 2D and 3D MR images using a CNN.",
 
     "tAppsDemo3Title":          "Solar energy",
     "tAppsDemo3Text":           "A full analysis of energy efficiency to support environmental and business decisions.",
     "tAppsDemo3CTA":            "View sample",
-    "tAppsShowcase3Eyebrow":    "Showcase: solar energy",
-    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Eyebrow":    "Showcase",
+    "tAppsShowcase3Title":      "Solar Energy",
     "tAppsShowcase3Sub":        "Prediction of the global horizontal irradiance using an Artificial Neural Networks.",
 
     "tAppsRunEyebrow":          "Deployment",
@@ -139,6 +139,8 @@
     "tProdHeadingTitle":        "Enterprise-ready custom AI automation",
     "tProdHeadingLead":         "We transform content production into an autonomous, scalable, and quality-assured system, empowering your company to scale high-quality AI asset generation.",
 
+    "tProdDemoHeader":          "How it works",
+
     "tProdGraphicEyebrow":      "Automation for e-commerce",
     "tProdGraphicTitle":        "A sample project",
     "tProdGraphicP1Title":      "Initial phase",
@@ -151,9 +153,9 @@
     "tProdGraphicP4Descr":      "The automated process is monitored, optimized and scaled. Additional products, markets and output volumes can be added while the workflow continues to improve.",
 
     "tProdKeySelling1Fig":      "97%",
-    "tProdKeySelling1Descr":    "of all inputs produce a <br> ready-to-use output",
+    "tProdKeySelling1Descr":    "of all inputs produce a <br> ready-to-use output.",
     "tProdKeySelling2Fig":      "80%",
-    "tProdKeySelling2Descr":    "potential cost savings compared with <br> traditional content production",
+    "tProdKeySelling2Descr":    "potential cost savings compared with <br> traditional content production.",
     "tProdKeySellingInfo":      "Our proprietary validator minimizes human intervention through automated, high-accuracy verification, making AI scalable, cost-efficient, and economically viable at enterprise scale.",
 
     "tProdRunEyebrow":          "The value",
@@ -188,12 +190,11 @@
 
 	"tTeamMeetTitle":			"Meet our team",
 
-	"tTeamMeetCoreTitle":		"",
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
     "tTeamMeetCore1Descr":      "<b>Technical Leadership & AI Architecture:</b> <br>Leading the development of Seguva’s proprietary AI Engine, defining the technical vision, and translating innovative AI concepts into robust, production-ready solutions.",
     "tTeamMeetCore2Name":       "Juan Sebastian Herrera",
     "tTeamMeetCore2Descr":      "<b>Finance, Operations & Governance:</b> <br>Leading Seguva’s finances, tax matters, corporate structure and day-to-day operations, building the solid commercial and compliance foundation that allows clients to rely on Seguva.",
-    "tTeamMeetCoreInfo":        "Supported by a select network of external technical experts.",
+    "tTeamMeetCoreInfo":        "Supported by a select network of external technical experts",
 
 	"tTeamCTATitle":			"See it in action",
 	"tTeamCTASubTitle":			"Experience Seguva. Built around your needs.",

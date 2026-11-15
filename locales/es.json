@@ -20,7 +20,7 @@
 
 
     "tCTATitle":                "Míralo en acción",
-    "tCTASubTitle":             "Descubre las capacidades de nuestra plataforma con una demo personalizada",
+    "tCTASubTitle":             "Descubre las capacidades de nuestra plataforma con una demo personalizada.",
     "tCTABtnContact":           "Reservar una demo",
 
 
@@ -64,7 +64,7 @@
 
     "tAppsHeadingEyebrow":      "Nuestras soluciones por industria:",
     "tAppsHeadingTitle":        "Donde la calidad de los recursos no puede dejarse al azar",
-    "tAppsHeadingLead":         "La misma plataforma central, adaptada para generar recursos listos para producción en cualquier industria",
+    "tAppsHeadingLead":         "La misma plataforma central, adaptada para generar recursos listos para producción en cualquier industria.",
     "tAppsTargetTitle":         "Áreas de aplicación",
     "tAppsTarget1Title":        "Medicina",
     "tAppsTarget1Text":         "Flujos de trabajo de procesamiento de imágenes y documentación en los que la consistencia, la trazabilidad y la calidad verificable son imprescindibles. Realiza segmentación de órganos basada en Deep Learning, vuelve a entrenar redes neuronales para satisfacer tus requisitos específicos y gestiona todo tu flujo de trabajo desde una única plataforma integrada.",
@@ -77,7 +77,7 @@
 
     "tAppsDemoEyebrow":         "Una breve demostración: imágenes como activo",
     "tAppsDemoTitle":           "Entran datos. Salen resultados listos para el mercado.",
-    "tAppsDemoLead":            "Cada <b>galería</b> se generó en la plataforma y fue aprobada por el validador.<br> Sin retoques manuales.",
+    "tAppsDemoLead":            "Cada <b>galería</b> se generó en la plataforma y fue aprobada por el validador. Sin retoques manuales.",
 
     "tAppsShowcasesLabelInput": "Entrada",
     "tAppsShowcasesLabelOutput":"Resultados generados",
@@ -90,18 +90,18 @@
     "tAppsShowcase1Title":      "Muebles en escena",
     "tAppsShowcase1Sub":        "Un producto de catálogo recortado, integrado en una escena de interior ambientada.",
 
-    "tAppsDemo2Title":          "Resonancia magnética pulmonar",
-    "tAppsDemo2Text":           "Un apoyo sólido para el diagnóstico",
+    "tAppsDemo2Title":          "Resonancia pulmonar",
+    "tAppsDemo2Text":           "Un apoyo sólido para el diagnóstico.",
     "tAppsDemo2CTA":            "Ver ejemplo",
-    "tAppsShowcase2Eyebrow":    "Galería: medicina/diagnóstico",
-    "tAppsShowcase2Title":      "Resonancia magnética pulmonar",
-    "tAppsShowcase2Sub":        "Segmentación automática más precisa de imágenes de resonancia magnética 2D y 3D mediante una red neuronal convolucional.",
+    "tAppsShowcase2Eyebrow":    "Galería",
+    "tAppsShowcase2Title":      "Resonancia pulmonar",
+    "tAppsShowcase2Sub":        "Segmentación automática más precisa de imágenes de RM 2D y 3D con una CNN.",
 
     "tAppsDemo3Title":          "Energía solar",
     "tAppsDemo3Text":           "Un análisis integral de la eficiencia energética para respaldar decisiones ambientales y empresariales.",
     "tAppsDemo3CTA":            "Ver ejemplo",
-    "tAppsShowcase3Eyebrow":    "Galería: energía solar",
-    "tAppsShowcase3Title":      "Solar",
+    "tAppsShowcase3Eyebrow":    "Galería",
+    "tAppsShowcase3Title":      "Energía solar",
     "tAppsShowcase3Sub":        "Pronóstico de la irradiancia global horizontal con redes neuronales artificiales.",
 
     "tAppsRunEyebrow":          "Implementación",
@@ -140,6 +140,8 @@
     "tProdHeadingTitle":        "Automatización de IA a medida para empresas",
     "tProdHeadingLead":         "Transformamos la producción de contenido en un sistema autónomo, escalable y con calidad asegurada, permitiendo a tu empresa escalar la generación de recursos de alta calidad mediante IA.",
 
+    "tProdDemoHeader":          "Cómo funciona",
+
     "tProdGraphicEyebrow":      "Automatización para comercio electrónico",
     "tProdGraphicTitle":        "Un proyecto de ejemplo",
     "tProdGraphicP1Title":      "Fase inicial",
@@ -152,9 +154,9 @@
     "tProdGraphicP4Descr":      "El proceso automatizado se supervisa, se optimiza y se escala. Pueden incorporarse productos, mercados y volúmenes adicionales mientras el flujo de trabajo continúa mejorando.",
 
     "tProdKeySelling1Fig":      "97%",
-    "tProdKeySelling1Descr":    "de las entradas procesadas <br> genera un resultado listo para usar",
+    "tProdKeySelling1Descr":    "de las entradas procesadas <br> genera un resultado listo para usar.",
     "tProdKeySelling2Fig":      "80%",
-    "tProdKeySelling2Descr":    "de ahorro potencial en costos frente a <br> la producción tradicional de contenido",
+    "tProdKeySelling2Descr":    "de ahorro potencial en costos frente a <br> la producción tradicional de contenido.",
     "tProdKeySellingInfo":      "Nuestro validador propio minimiza la intervención humana mediante una verificación automatizada de alta precisión. <br> Esto hace que la IA sea escalable, rentable y económicamente viable a escala empresarial.",
 
     "tProdRunEyebrow":          "El valor",
@@ -189,7 +191,6 @@
 
     "tTeamMeetTitle":           "Conoce a nuestro equipo",
 
-    "tTeamMeetCoreTitle":       "",
     "tTeamMeetCore1Name":       "Dr. Cristian Crisosto",
     "tTeamMeetCore1Descr":      "<b>Liderazgo técnico y arquitectura de IA:</b> <br> Lidera el desarrollo del motor de IA propio de Seguva, define la visión técnica y transforma conceptos innovadores de IA en soluciones robustas y listas para producción.",
     "tTeamMeetCore2Name":       "Juan Sebastian Herrera",
