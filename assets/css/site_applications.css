@@ -26,8 +26,8 @@ html[data-theme] {
 }
 
 html[data-theme] .btn-close {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid var(--main);
     box-sizing: content-box;
@@ -56,8 +56,10 @@ html[data-theme] .showcase-modal {
     overflow: hidden;
 }
 
-html[data-theme] .modal-header {
-    margin-bottom: -50px;
+html[data-theme] #showcaseModal .modal-header {
+    margin-top: 0px;
+    margin-bottom: -35px;
+    margin-right: -10px;
 }
 
 html[data-theme] .showcase-modal .modal-body {
@@ -303,6 +305,10 @@ html[data-theme] #appsSectionShowcases .showcase-trigger img {
     html[data-theme] .modal-header {
         padding: 0;
         margin-bottom: 0px;
+    }
+
+    html[data-theme] #showcaseModal .modal-header {
+        margin-right: 5px;
     }
 
     html[data-theme] .showcase-modal .modal-body {

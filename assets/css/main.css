@@ -44,7 +44,7 @@ html[data-theme] .eyebrow {
 html[data-theme] .lead {
     max-width: 46rem;
     margin-bottom: 2rem;
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-size: clamp(0.95rem, 2.5vw, 1.4rem);
 }
 
 
