@@ -75,6 +75,16 @@ The website follows a clean and timeless design to demonstrate seriousness for S
 # Load the project locally
 ---
 # Deployment
+
+Every push to `main` publishes the website: the workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml) uploads the repo content to the Cloud Storage bucket `seguva-via-hub-website`, which the load balancer serves at `seguva.com` and `www.seguva.com`.
+Files deleted from the repo are deleted from the bucket as well.
+
+- **Only `main` deploys.** Workflow runs of other branches, tags and pull requests cannot authenticate against Google Cloud.
+- **Everything in the repo is public**, except the files excluded in the workflow (`.github/`, `docs/`, `README.md`, `locales/*_old.json`, ...). Extend `--exclude` when adding files that are only needed for development.
+- **`index.html` and `404.html` must stay in the repo root:** the bucket serves `index.html` for `/` and `404.html` for missing pages.
+- **Changes are visible after at most 5 minutes**, as the CDN caches all files that long.
+- The bucket and the deploying identity are managed in [Seguva-GmbH/via-general](https://github.com/Seguva-GmbH/via-general) (module `iac/modules/static_website`, ADR-007); this repo contains no infrastructure code.
+
 ---
 # References and Credits
 
