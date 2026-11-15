@@ -20,7 +20,7 @@
 
 
     "tCTATitle":	 		    "Überzeugen Sie sich selbst",
-    "tCTASubTitle":	 		    "Entdecken Sie die Möglichkeiten unserer Plattform anhand einer persönlichen Demo",
+    "tCTASubTitle":	 		    "Entdecken Sie die Möglichkeiten unserer Plattform anhand einer persönlichen Demo.",
     "tCTABtnContact":	 		"Demo buchen",
 
 
@@ -64,7 +64,7 @@
 
     "tAppsHeadingEyebrow":      "Unsere Branchenlösungen:",
     "tAppsHeadingTitle":        "Überall dort, wo Asset-Qualität nicht dem Zufall überlassen werden darf",
-    "tAppsHeadingLead":         "Dieselbe Kernplattform, individuell angepasst zur Erstellung produktionsreifer Assets für jede Branche",
+    "tAppsHeadingLead":         "Dieselbe Kernplattform, individuell angepasst zur Erstellung produktionsreifer Assets für jede Branche.",
     "tAppsTargetTitle":         "Zielbranchen",
     "tAppsTarget1Title":        "Medizin",
     "tAppsTarget1Text":         "Workflows für Bildgebung und Dokumentation, bei denen Konsistenz, Rückverfolgbarkeit und nachweisbare Qualität unerlässlich sind. Führen Sie Deep-Learning-basierte Organsegmentierungen durch, trainieren Sie neuronale Netze entsprechend Ihren spezifischen Anforderungen neu und steuern Sie Ihren gesamten Workflow über eine einzige integrierte Plattform.",
@@ -91,18 +91,18 @@
     "tAppsShowcase1Sub":        "Ein freigestelltes Katalogprodukt wird in eine gestaltete Innenraumszene integriert.",
 
     "tAppsDemo2Title":          "MRT-Aufnahme der Lunge",
-    "tAppsDemo2Text":           "Starke Unterstützung für die Diagnostik",
+    "tAppsDemo2Text":           "Starke Unterstützung für die Diagnostik.",
     "tAppsDemo2CTA":            "Beispiel ansehen",
-    "tAppsShowcase2Eyebrow":    "Galerie: Medizin/Diagnostik",
+    "tAppsShowcase2Eyebrow":    "Galerie",
     "tAppsShowcase2Title":      "MRT-Aufnahme der Lunge",
-    "tAppsShowcase2Sub":        "Präzisere automatische Segmentierung von 2D- und 3D-MRT-Aufnahmen mithilfe eines Convolutional Neural Networks.",
+    "tAppsShowcase2Sub":        "Präzisere CNN-gestützte Segmentierung von 2D- und 3D-MRT-Aufnahmen.",
 
     "tAppsDemo3Title":          "Solarenergie",
-    "tAppsDemo3Text":           "Eine umfassende Energieeffizienzanalyse für Umwelt- und Geschäftsentscheidungen",
+    "tAppsDemo3Text":           "Eine umfassende Energieeffizienzanalyse für Umwelt- und Geschäftsentscheidungen.",
     "tAppsDemo3CTA":            "Beispiel ansehen",
-    "tAppsShowcase3Eyebrow":    "Galerie: Solarenergie",
-    "tAppsShowcase3Title":      "Solar",
-    "tAppsShowcase3Sub":        "Prognose der horizontalen Globalstrahlung mit künstlichen neuronalen Netzen",
+    "tAppsShowcase3Eyebrow":    "Galerie",
+    "tAppsShowcase3Title":      "Solarenergie",
+    "tAppsShowcase3Sub":        "Prognose der horizontalen Globalstrahlung mit künstlichen neuronalen Netzen.",
 
     "tAppsRunEyebrow":          "Bereitstellung",
     "tAppsRunTitle":            "Zwei Betriebsmodelle",
@@ -156,7 +156,7 @@
     "tProdKeySelling1Fig":      "97 %",
     "tProdKeySelling1Descr":    "aller Inputs erzeugen <br> einen sofort nutzbaren Output.",
     "tProdKeySelling2Fig":      "80 %",
-    "tProdKeySelling2Descr":    "Einsparpotenzial gegenüber <br> traditioneller Content-Produktion",
+    "tProdKeySelling2Descr":    "Einsparpotenzial gegenüber <br> traditioneller Content-Produktion.",
     "tProdKeySellingInfo":      "Unser eigens entwickelter Validator minimiert manuelle Eingriffe durch automatisierte, hochpräzise Prüfungen.<br> So wird KI für Unternehmen skalierbar, kosteneffizient und wirtschaftlich rentabel.",
 
     "tProdRunEyebrow":          "Der Mehrwert",
@@ -195,7 +195,7 @@
     "tTeamMeetCore1Descr":      "<b>Technische Leitung & KI-Architektur:</b> <br>Leitung der Entwicklung von Seguvas proprietärer AI Engine, Gestaltung der technischen Vision und Überführung innovativer KI-Konzepte in robuste, produktionsreife Lösungen.",
     "tTeamMeetCore2Name":       "Juan Sebastian Herrera",
     "tTeamMeetCore2Descr":      "<b>Finanzen, Operations & Governance:</b> <br>Leitung der Unternehmensfinanzen, Steuerangelegenheiten, Unternehmensstruktur sowie des operativen Tagesgeschäfts. Aufbau eines soliden kaufmännischen und regulatorischen Fundaments, auf das sich Kunden verlassen können.",
-    "tTeamMeetCoreInfo":        "Unterstützt durch ein Netzwerk ausgewählter externer technischer Experten.",
+    "tTeamMeetCoreInfo":        "Unterstützt durch ein Netzwerk ausgewählter externer technischer Experten",
 
     "tTeamCTATitle":            "Überzeugen Sie sich selbst",
     "tTeamCTASubTitle":         "Erleben Sie Seguva. Entwickelt für Ihre Anforderungen.",
